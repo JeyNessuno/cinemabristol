@@ -1,0 +1,312 @@
+/* =========================
+   GENERAL
+   ========================= */
+
+*{
+    box-sizing:border-box;
+}
+
+
+a{
+    color:inherit;
+    text-decoration:none;
+}
+
+img{
+    display:block;
+    max-width:100%;
+}
+
+/* =========================
+   HEADER
+   ========================= */
+
+.site-header{
+    background:white;
+    border-bottom:1px solid #ddd;
+    padding:24px;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:24px;
+}
+
+.header-left h1{
+    margin:0;
+    font-size:2.2rem;
+    color:#111;
+}
+
+.cinema-info{
+    margin-top:12px;
+    color:#666;
+    font-size:0.95rem;
+}
+
+.week-range{
+    margin-top:12px;
+    font-weight:bold;
+    color:#444;
+}
+
+.logo{
+    width:80px;
+    height:auto;
+    object-fit:contain;
+    border-radius:2px;
+    padding:1px;
+}
+
+.header-left{
+    display:flex;
+    align-items:center;
+    gap:16px;
+}
+/* =========================
+   NAVIGATION
+   ========================= */
+
+.header-nav{
+    display:flex;
+    gap:12px;
+}
+
+.header-nav a{
+    background:#222;
+    color:white;
+    padding:12px 18px;
+    border-radius:8px;
+    font-weight:600;
+    transition:0.2s;
+}
+
+.header-nav a:hover{
+    opacity:0.85;
+}
+
+/* =========================
+   MAIN CONTAINER
+   ========================= */
+
+main{
+    max-width:1200px;
+    margin:0 auto;
+    padding:20px;
+}
+
+/* =========================
+   MOVIE CARD
+   ========================= */
+
+.movie-card{
+    background:white;
+    border-radius:12px;
+    overflow-x:auto;
+    margin-bottom:24px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
+
+.movie-layout{
+    display:flex;
+    min-width:750px;
+}
+
+/* =========================
+   POSTER
+   ========================= */
+
+body {
+    margin: 0;
+    background: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.page {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    border-bottom: 1px solid #333;
+}
+
+.poster {
+    flex: 0 0 160px;
+}
+
+.poster img {
+    width: 160px;
+    display: block;
+    border-radius: 8px;
+}
+
+.sheet-container {
+    flex: 1;
+    overflow-x: auto;
+}
+
+.sheet {
+    min-width: 650px;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.actors {
+    opacity: .8;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+th {
+    background: #1c1c1c;
+}
+
+.loading {
+    padding: 30px;
+}
+
+@media (max-width: 700px) {
+
+    .card {
+        gap: 12px;
+    }
+
+    .poster {
+        flex: 0 0 120px;
+    }
+
+    .poster img {
+        width: 120px;
+    }
+}
+/* =========================
+   CONTENT
+   ========================= */
+
+.movie-content{
+    flex:1;
+    padding:20px;
+}
+
+.movie-title{
+    margin:0;
+    font-size:2rem;
+}
+
+.movie-director{
+    margin-top:6px;
+    color:#666;
+}
+
+.movie-actors{
+    margin-top:12px;
+    color:#444;
+}
+
+.movie-description{
+    margin-top:16px;
+    color:#555;
+}
+
+/* =========================
+   TIMETABLE
+   ========================= */
+
+.schedule-wrapper{
+    margin-top:20px;
+}
+
+.schedule{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.schedule th{
+    text-align:left;
+    background:#f7f7f7;
+    padding:10px;
+    border:1px solid #ddd;
+}
+
+.schedule td{
+    padding:10px;
+    border:1px solid #ddd;
+}
+
+.schedule tr:hover{
+    background:#fafafa;
+}
+
+/* =========================
+   FOOTER
+   ========================= */
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#777;
+    font-size:0.9rem;
+}
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width:768px){
+
+    .site-header{
+        flex-direction:column;
+        align-items:stretch;
+    }
+
+    .header-nav{
+        width:100%;
+    }
+
+    .header-nav a{
+        flex:1;
+        text-align:center;
+    }
+
+    /*
+        IMPORTANT:
+        We intentionally DO NOT stack
+        poster and schedule vertically.
+
+        The card remains horizontal and
+        users scroll sideways if needed.
+    */
+
+    .movie-layout{
+        min-width:700px;
+    }
+
+    .poster{
+        width:180px;
+    }
+
+    .movie-title{
+        font-size:1.6rem;
+    }
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema Bristol</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- =========================
+     HEADER
+========================= -->
+
+<header class="site-header">
+
+    <div class="header-left">
+
+        <!-- LOGO -->
+        <img src="http://cinemabristol.it/inproiezione_file/image2901.jpg" alt="Cinema Logo" class="logo">
+
+        <div class="cinema-details">
+
+            <h1>Cinema Bristol</h1>
+
+            <div class="cinema-info">
+                Via G. Tavoni, 952, Savignano sul Panaro (MO) - Fraz. Formica - Ponte di Vignola<br>
+                Segreteria automatica 059775510<br>
+                Prenotazioni (Whatsapp) +39 3806352988
+            </div>
+
+            <div class="week-range">
+                Programmazione settimanale
+            </div>
+
+        </div>
+    </div>
+
+    <nav class="header-nav">
+        <a href="prezzi.html">Prezzi</a>
+        <a href="contatti.html">Contatti</a>
+    </nav>
+
+</header>
+
+<!-- =========================
+     MAIN
+========================= -->
+
+<main>
+
+    <div class="page" id="movies">
+    <div class="loading">Caricamento programmazione...</div>
+
+</main>
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+    © Cinema Bristol
+</footer>
+
+<!-- =========================
+     SCRIPT
+========================= -->
+
+<script>
+
+const CSV_URL =
+"https://docs.google.com/spreadsheets/d/e/2PACX-1vQKq7qfwbh7LPr3dCfRm6ttHM6KQVkb7MKBWJIsoL1qVNC8kH_BmR8DGDA9r9MQX_4rGGhzfc_YlXTS/pub?output=csv";
+
+const DAYS = [
+    ["wed","Wed"],
+    ["thu","Thu"],
+    ["fri","Fri"],
+    ["sat","Sat"],
+    ["sun","Sun"],
+    ["mon","Mon"],
+    ["tue","Tue"]
+];
+
+function parseCSV(text) {
+
+    const rows = text.trim().split("\n");
+
+    const headers = rows[0]
+        .split(",")
+        .map(h => h.trim());
+
+    return rows.slice(1).map(row => {
+
+        const values = row.split(",");
+
+        const obj = {};
+
+        headers.forEach((header, index) => {
+            obj[header] = values[index]?.trim() || "";
+        });
+
+        return obj;
+
+    });
+
+}
+
+function createMovieCard(movie) {
+
+    const visibleDays = DAYS.filter(
+        ([key]) => movie[key]
+    );
+
+    const headers = visibleDays
+        .map(day => `<th>${day[1]}</th>`)
+        .join("");
+
+    const times = visibleDays
+        .map(day => `<td>${movie[day[0]]}</td>`)
+        .join("");
+
+    return `
+    <div class="card">
+
+        <div class="poster">
+            <img src="${movie.poster}" alt="">
+        </div>
+
+        <div class="sheet-container">
+
+            <div class="sheet">
+
+                <div class="title">
+                    ${movie.title}
+                </div>
+
+                <div class="actors">
+                    ${movie.actors || ""}
+                </div>
+
+                <table>
+                    <tr>
+                        ${headers}
+                    </tr>
+                    <tr>
+                        ${times}
+                    </tr>
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+    `;
+}
+
+async function loadMovies() {
+
+    const response = await fetch(CSV_URL);
+
+    const csv = await response.text();
+
+    const movies = parseCSV(csv)
+        .filter(movie => movie.movie_id);
+
+    document.getElementById("movies").innerHTML =
+        movies.map(createMovieCard).join("");
+}
+
+loadMovies();
+
+</script>
+
+</body>
+</html>
