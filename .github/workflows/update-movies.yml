@@ -25,6 +25,8 @@ jobs:
 
       - run: node scraper/enrich.js > scraper/movies.enriched.json
 
+      - run: mv scraper/movies.enriched.json movies.enriched.json
+
 
       - name: Commit and push updated data
         run: |

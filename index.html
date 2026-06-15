@@ -114,7 +114,7 @@ window.addEventListener("scroll", () => {
 });
 
 async function loadMovies() {
-    const res = await fetch("/scraper/movies.enriched.json");
+    const res = await fetch("movies.enriched.json");
     const movies = await res.json();
 
     const container = document.getElementById("movies");
