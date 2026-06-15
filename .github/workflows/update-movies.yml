@@ -1,11 +1,16 @@
 name: Update Movies
 
 on:
+  schedule:
+    - cron: "0 0 * * 3"
   workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
 
     steps:
       - uses: actions/checkout@v4
@@ -18,8 +23,20 @@ jobs:
 
       - run: node scraper/scraper3.js > scraper/movies.json
 
-      - run: cat scraper/movies.json
-
       - run: node scraper/enrich.js > scraper/movies.enriched.json
 
-      - run: cat scraper/movies.enriched.json
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add scraper/movies.json scraper/movies.enriched.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "update movies data"
+          git push
