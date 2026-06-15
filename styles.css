@@ -1,312 +1,609 @@
 /* =========================
-   GENERAL
+   MODERN DARK MODE - APPLE LIQUID DESIGN INSPIRED
+   Grayscale palette, glassmorphism, smooth gradients
    ========================= */
 
-*{
-    box-sizing:border-box;
+/* Import modern font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-
-a{
-    color:inherit;
-    text-decoration:none;
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #000000;
+    color: #ffffff;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
 }
 
-img{
-    display:block;
-    max-width:100%;
+/* Subtle background gradient for depth */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 
+        radial-gradient(ellipse at 20% 50%, rgba(255, 255, 255, 0.03) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 20%, rgba(255, 255, 255, 0.02) 0%, transparent 50%),
+        radial-gradient(ellipse at 50% 80%, rgba(255, 255, 255, 0.02) 0%, transparent 50%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+img {
+    display: block;
+    max-width: 100%;
 }
 
 /* =========================
-   HEADER
+   HEADER - GLASSMORPHISM
    ========================= */
 
-.site-header{
-    background:white;
-    border-bottom:1px solid #ddd;
-    padding:24px;
-    display:flex;
-    justify-content:space-between;
-    align-items:flex-start;
-    gap:24px;
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    animation: slideDown 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-left h1{
-    margin:0;
-    font-size:2.2rem;
-    color:#111;
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
-.cinema-info{
-    margin-top:12px;
-    color:#666;
-    font-size:0.95rem;
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
-.week-range{
-    margin-top:12px;
-    font-weight:bold;
-    color:#444;
+.logo {
+    width: 70px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 12px;
+    filter: grayscale(100%) brightness(1.2);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.logo{
-    width:80px;
-    height:auto;
-    object-fit:contain;
-    border-radius:2px;
-    padding:1px;
+.logo:hover {
+    filter: grayscale(0%) brightness(1);
+    transform: scale(1.05);
 }
 
-.header-left{
-    display:flex;
-    align-items:center;
-    gap:16px;
+.cinema-details h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #ffffff 0%, #a0a0a0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 0;
 }
+
+.cinema-info {
+    margin-top: 8px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.85rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.week-range {
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
 /* =========================
-   NAVIGATION
+   NAVIGATION - LIQUID BUTTONS
    ========================= */
 
-.header-nav{
-    display:flex;
-    gap:12px;
+.header-nav {
+    display: flex;
+    gap: 12px;
 }
 
-.header-nav a{
-    background:#222;
-    color:white;
-    padding:12px 18px;
-    border-radius:8px;
-    font-weight:600;
-    transition:0.2s;
+.header-nav a {
+    position: relative;
+    padding: 10px 24px;
+    border-radius: 980px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    background: rgba(159, 152, 152, 0.5);
+    border: 1px solid rgb(255, 255, 255);
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-nav a:hover{
-    opacity:0.85;
+.header-nav a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, transparent 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.header-nav a:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(255, 255, 255, 0.1);
+}
+
+.header-nav a:hover::before {
+    opacity: 1;
+}
+
+.header-nav a:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
 }
 
 /* =========================
    MAIN CONTAINER
    ========================= */
 
-main{
-    max-width:1200px;
-    margin:0 auto;
-    padding:20px;
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px 40px 80px;
+    position: relative;
+    z-index: 1;
+}
+
+.page {
+    animation: fadeIn 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* =========================
-   MOVIE CARD
+   HEADINGS
    ========================= */
 
-.movie-card{
-    background:white;
-    border-radius:12px;
-    overflow-x:auto;
-    margin-bottom:24px;
-    box-shadow:0 2px 8px rgba(0,0,0,0.08);
+h2 {
+    font-size: 2.0rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-bottom: 32px;
+    background: linear-gradient(135deg, #ffffff 0%, #808080 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
-.movie-layout{
-    display:flex;
-    min-width:750px;
+/* =========================
+   MOVIE CARD - GLASSMORPHISM
+   ========================= */
+
+.card {
+    display: flex;
+    gap: 32px;
+    padding: 32px;
+    margin-bottom: 32px;
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 24px;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    animation: cardFadeIn 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    animation-fill-mode: both;
+}
+
+.card:nth-child(1) { animation-delay: 0.1s; }
+.card:nth-child(2) { animation-delay: 0.2s; }
+.card:nth-child(3) { animation-delay: 0.3s; }
+.card:nth-child(4) { animation-delay: 0.4s; }
+.card:nth-child(5) { animation-delay: 0.5s; }
+
+@keyframes cardFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px) scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.card:hover {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(255, 255, 255, 0.15);
+    transform: translateY(-4px);
+    box-shadow: 
+        0 20px 60px rgba(0, 0, 0, 0.5),
+        0 0 40px rgba(255, 255, 255, 0.03);
 }
 
 /* =========================
    POSTER
    ========================= */
 
-body {
-    margin: 0;
-    background: #111;
-    color: white;
-    font-family: Arial, sans-serif;
-}
-
-.page {
-    max-width: 1200px;
-    margin: auto;
-}
-
-.card {
-    display: flex;
-    gap: 16px;
-    padding: 16px;
-    border-bottom: 1px solid #333;
-}
-
 .poster {
-    flex: 0 0 160px;
+    flex: 0 0 200px;
+    position: relative;
 }
 
 .poster img {
-    width: 160px;
+    width: 200px;
     display: block;
-    border-radius: 8px;
+    border-radius: 16px;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    filter: grayscale(20%);
 }
+
+.card:hover .poster img {
+    filter: grayscale(0%);
+    transform: scale(1.02);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
+}
+
+/* =========================
+   SHEET CONTAINER
+   ========================= */
 
 .sheet-container {
     flex: 1;
     overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+}
+
+.sheet-container::-webkit-scrollbar {
+    height: 6px;
+}
+
+.sheet-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.sheet-container::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+}
+
+.sheet-container::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.3);
 }
 
 .sheet {
-    min-width: 650px;
+    min-width: 700px;
 }
 
 .title {
-    font-size: 22px;
-    font-weight: bold;
-    margin-bottom: 6px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 8px;
+    color: #ffffff;
 }
 
 .actors {
-    opacity: .8;
-    font-size: 14px;
-    margin-bottom: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.9rem;
+    margin-bottom: 24px;
+    font-weight: 400;
 }
 
+/* =========================
+   TABLE - MODERN STYLE
+   ========================= */
+
 table {
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 0;
     width: 100%;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid rgb(255, 255, 255);
 }
 
 th,
 td {
-    border: 1px solid #333;
-    padding: 8px;
+    padding: 16px 20px;
     text-align: center;
     white-space: nowrap;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 th {
-    background: #1c1c1c;
+    background: rgba(159, 152, 152, 0.761);
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: rgba(255, 255, 255, 0.9);
 }
+
+td {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.95rem;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:hover td {
+    background: rgba(255, 255, 255, 0.03);
+}
+
+/* =========================
+   LOADING STATE
+   ========================= */
 
 .loading {
-    padding: 30px;
-}
-
-@media (max-width: 700px) {
-
-    .card {
-        gap: 12px;
-    }
-
-    .poster {
-        flex: 0 0 120px;
-    }
-
-    .poster img {
-        width: 120px;
-    }
-}
-/* =========================
-   CONTENT
-   ========================= */
-
-.movie-content{
-    flex:1;
-    padding:20px;
-}
-
-.movie-title{
-    margin:0;
-    font-size:2rem;
-}
-
-.movie-director{
-    margin-top:6px;
-    color:#666;
-}
-
-.movie-actors{
-    margin-top:12px;
-    color:#444;
-}
-
-.movie-description{
-    margin-top:16px;
-    color:#555;
+    padding: 60px 30px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
 }
 
 /* =========================
-   TIMETABLE
+   CONTENT PAGES (Prezzi, Contatti)
    ========================= */
 
-.schedule-wrapper{
-    margin-top:20px;
+.page h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-bottom: 32px;
+    margin-top: 48px;
+    background: linear-gradient(135deg, #ffffff 0%, #808080 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
-.schedule{
-    width:100%;
-    border-collapse:collapse;
+.page h2:first-child {
+    margin-top: 0;
 }
 
-.schedule th{
-    text-align:left;
-    background:#f7f7f7;
-    padding:10px;
-    border:1px solid #ddd;
+.page > table {
+    margin-top: 24px;
+    background: rgba(255, 255, 255, 0.03);
 }
 
-.schedule td{
-    padding:10px;
-    border:1px solid #ddd;
+.content-card {
+    display: block;
+    margin-top: 24px;
+    padding: 32px;
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.95rem;
+    line-height: 1.8;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.schedule tr:hover{
-    background:#fafafa;
+.content-card:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.12);
+}
+
+.content-card p {
+    margin-bottom: 12px;
+}
+
+.content-card p:last-child {
+    margin-bottom: 0;
+}
+
+.content-card .note {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.9rem;
 }
 
 /* =========================
    FOOTER
    ========================= */
 
-footer{
-    text-align:center;
-    padding:30px;
-    color:#777;
-    font-size:0.9rem;
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 0.85rem;
+    font-weight: 400;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 1;
 }
 
 /* =========================
-   MOBILE
+   RESPONSIVE DESIGN
    ========================= */
 
-@media (max-width:768px){
-
-    .site-header{
-        flex-direction:column;
-        align-items:stretch;
+@media (max-width: 1024px) {
+    .site-header {
+        padding: 16px 24px;
     }
-
-    .header-nav{
-        width:100%;
+    
+    main {
+        padding: 24px 24px 60px;
     }
-
-    .header-nav a{
-        flex:1;
-        text-align:center;
+    
+    .card {
+        flex-direction: column;
+        gap: 24px;
     }
-
-    /*
-        IMPORTANT:
-        We intentionally DO NOT stack
-        poster and schedule vertically.
-
-        The card remains horizontal and
-        users scroll sideways if needed.
-    */
-
-    .movie-layout{
-        min-width:700px;
+    
+    .poster {
+        flex: 0 0 auto;
+        width: 160px;
     }
-
-    .poster{
-        width:180px;
+    
+    .poster img {
+        width: 160px;
     }
+}
 
-    .movie-title{
-        font-size:1.6rem;
+@media (max-width: 768px) {
+    .site-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
     }
+    
+    .header-nav {
+        width: 100%;
+        flex-direction: row;
+    }
+    
+    .header-nav a {
+        flex: 1;
+        text-align: center;
+        padding: 12px 16px;
+    }
+    
+    .cinema-details h1 {
+        font-size: 1.5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    .title {
+        font-size: 1.4rem;
+    }
+    
+    .card {
+        padding: 20px;
+        border-radius: 16px;
+    }
+    
+    th,
+    td {
+        padding: 12px 14px;
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .site-header {
+        padding: 16px;
+    }
+    
+    main {
+        padding: 16px 16px 40px;
+    }
+    
+    .header-left {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+    
+    .logo {
+        width: 50px;
+    }
+    
+    h2 {
+        font-size: 1.6rem;
+    }
+    
+    .card {
+        padding: 16px;
+    }
+    
+    .poster {
+        width: 120px;
+    }
+    
+    .poster img {
+        width: 120px;
+    }
+}
+
+/* =========================
+   SMOOTH SCROLLBAR
+   ========================= */
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.02);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+/* =========================
+   SELECTION COLOR
+   ========================= */
+
+::selection {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
 }
