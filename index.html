@@ -4,7 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cinema Bristol</title>
+    <title>Programmazione Cinema Bristol — Savignano sul Panaro</title>
+    <meta name="description" content="Programmazione settimanale del Cinema Bristol a Savignano sul Panaro (MO). Orari, biglietti e informazioni per i film in proiezione.">
+    <meta name="keywords" content="Cinema Bristol, Savignano sul Panaro, programmazione film, orari cinema, Formica, Ponte di Vignola">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Programmazione Cinema Bristol">
+    <meta property="og:description" content="Programmazione settimanale del Cinema Bristol a Savignano sul Panaro.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cinemabristol.it">
+    <meta property="og:locale" content="it_IT">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -72,6 +88,31 @@
 
 <script>
 
+// Auto-hide header on scroll
+const header = document.querySelector(".site-header");
+const main = document.querySelector("main");
+let lastScroll = 0;
+const SCROLL_THRESHOLD = 80;
+
+function setMainPadding() {
+    main.style.paddingTop = (header.offsetHeight + 20) + "px";
+}
+
+setMainPadding();
+window.addEventListener("resize", setMainPadding);
+
+window.addEventListener("scroll", () => {
+    const currentScroll = window.pageYOffset;
+    if (Math.abs(currentScroll - lastScroll) < 10) return;
+
+    if (currentScroll > SCROLL_THRESHOLD && currentScroll > lastScroll) {
+        header.classList.add("hidden");
+    } else if (currentScroll < lastScroll) {
+        header.classList.remove("hidden");
+    }
+    lastScroll = currentScroll;
+});
+
 async function loadMovies() {
     const res = await fetch("/scraper/movies.enriched.json");
     const movies = await res.json();
@@ -106,8 +147,7 @@ async function loadMovies() {
 }
 
 function renderSchedule(schedule) {
-    const order = ["Dom", "Lun.", "Mar.", "Mer.", "Gio.", "Ven.", "Sab."];
-
+    const order = ["Gio.", "Ven.", "Sab.", "Dom", "Lun.", "Mar.", "Mer."];
     return order.map(day => `
         <div class="day">
             <div class="day-name">${day}</div>
@@ -116,7 +156,21 @@ function renderSchedule(schedule) {
     `).join("");
 }
 
-loadMovies();
+
+
+loadMovies().then(() => highlightToday());
+
+function highlightToday() {
+    const giorni = ["Dom", "Lun.", "Mar.", "Mer.", "Gio.", "Ven.", "Sab."];
+    const today = giorni[new Date().getDay()];
+    document.querySelectorAll(".day-name").forEach(el => {
+        if (el.textContent.trim() === today) {
+            el.closest(".day").classList.add("today");
+        }
+    });
+}
+
+
 
 </script>
 

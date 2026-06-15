@@ -4,7 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cinema Bristol</title>
+    <title>Prezzi — Cinema Bristol | Biglietti e abbonamenti</title>
+    <meta name="description" content="Listino prezzi del Cinema Bristol a Savignano sul Panaro. Biglietti interi, ridotti, carnet 10 ingressi e rassegna ASSOLUTAMENTE SÌ + V.O.">
+    <meta name="keywords" content="Cinema Bristol, prezzi cinema, biglietti, carnet, Savignano sul Panaro, ridotto">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Prezzi — Cinema Bristol">
+    <meta property="og:description" content="Listino prezzi del Cinema Bristol. Biglietti interi, ridotti e abbonamenti.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cinemabristol.it/prezzi">
+    <meta property="og:locale" content="it_IT">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -53,34 +69,40 @@
                 Listino prezzi
             </div>
     <div class="page">
-        <div class="sheet-container">
-            <div class="sheet">
-                <table>
-                    <tr>
-                        <th>Tipo di biglietto</th>
-                        <th>Biglietto</th>
-                        <th>Rassegna "ASSOLUTAMENTE SÌ + V.O."</th>
-                    </tr>
-                    <tr>
-                        <td>Intero</td>
-                        <td>7,50€</td>
-                        <td>6,00€</td>
-                    </tr>
-                    <tr>
-                        <td>Ridotto</td>
-                        <td>6,00€</td>
-                        <td>5,00€</td>
-                    </tr>
-                    <tr>
-                        <td>Carnet 10 ingressi / Stagione rassegna</td>
-                        <td>55,00€</td>
-                        <td>28,00€</td>
-                    </tr>
-                </table>
+        <div class="pricing">
+            <div class="pricing-card">
+                <div class="pricing-label">Intero</div>
+                <div class="pricing-amount">7,50€</div>
+                <div class="pricing-rassegna">
+                    <span class="pricing-rassegna-label">Rassegna</span>
+                    <span class="pricing-rassegna-amount">6,00€</span>
+                </div>
+            </div>
+            <div class="pricing-card">
+                <div class="pricing-label">Ridotto</div>
+                <div class="pricing-amount">6,00€</div>
+                <div class="pricing-rassegna">
+                    <span class="pricing-rassegna-label">Rassegna</span>
+                    <span class="pricing-rassegna-amount">5,00€</span>
+                </div>
+            </div>
+            <div class="pricing-card">
+                <div class="pricing-label">Carnet 10 ingressi</div>
+                <div class="pricing-amount">55,00€</div>
+                <div class="pricing-rassegna">
+                    <span class="pricing-rassegna-label">Stagione rassegna</span>
+                    <span class="pricing-rassegna-amount">28,00€</span>
+                </div>
             </div>
         </div>
 
-        <h2>Note</h2>
+        <a href="https://webtic.it" target="_blank" rel="noopener" class="booking-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            Prenota su Webtic
+            <span class="booking-surcharge">+0,50€</span>
+        </a>
+
+
         <div class="content-card">
             <p>Riduzioni accettate: Ragazzi 4-12 anni, Adulti over 65, Militari, Tessera AGIS (solo martedì), Associati AUSER, MEZALUNA, PONTEALTO GRAZIOSI, ARCHEO E ARTE.</p>
             <p>Per la rassegna "ASSOLUTAMENTE SÌ + V.O.": proiezioni in lingua originale con sottotitoli in italiano hanno accesso al biglietto ridotto studenti e possessori di tessera bibliotecaria.</p>
@@ -95,6 +117,10 @@
 <footer>
     © Cinema Bristol
 </footer>
+
+<script>
+    document.querySelector("main").style.paddingTop = (document.querySelector(".site-header").offsetHeight + 10) + "px";
+</script>
 
 </body>
 </html>
