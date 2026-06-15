@@ -166,9 +166,7 @@ async function main() {
     await new Promise((r) => setTimeout(r, 500));
   }
 
-  console.log(`\n✅ Done! Writing ${enriched.length} movies to movies.enriched.json...`);
   await writeFile(outputPath, JSON.stringify(enriched, null, 2), "utf-8");
-  console.log("🎉 All done!");
 }
 
 main().catch((err) => {
