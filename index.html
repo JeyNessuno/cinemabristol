@@ -72,104 +72,48 @@
 
 <script>
 
-const CSV_URL =
-"https://docs.google.com/spreadsheets/d/e/2PACX-1vQKq7qfwbh7LPr3dCfRm6ttHM6KQVkb7MKBWJIsoL1qVNC8kH_BmR8DGDA9r9MQX_4rGGhzfc_YlXTS/pub?output=csv";
+async function loadMovies() {
+    const res = await fetch("/scraper/movies.enriched.json");
+    const movies = await res.json();
 
-const DAYS = [
-    ["wed","Wed"],
-    ["thu","Thu"],
-    ["fri","Fri"],
-    ["sat","Sat"],
-    ["sun","Sun"],
-    ["mon","Mon"],
-    ["tue","Tue"]
-];
+    const container = document.getElementById("movies");
 
-function parseCSV(text) {
-
-    const rows = text.trim().split("\n");
-
-    const headers = rows[0]
-        .split(",")
-        .map(h => h.trim());
-
-    return rows.slice(1).map(row => {
-
-        const values = row.split(",");
-
-        const obj = {};
-
-        headers.forEach((header, index) => {
-            obj[header] = values[index]?.trim() || "";
-        });
-
-        return obj;
-
-    });
-
-}
-
-function createMovieCard(movie) {
-
-    const visibleDays = DAYS.filter(
-        ([key]) => movie[key]
-    );
-
-    const headers = visibleDays
-        .map(day => `<th>${day[1]}</th>`)
-        .join("");
-
-    const times = visibleDays
-        .map(day => `<td>${movie[day[0]]}</td>`)
-        .join("");
-
-    return `
-    <div class="card">
-
-        <div class="poster">
-            <img src="${movie.poster}" alt="">
-        </div>
-
-        <div class="sheet-container">
-
-            <div class="sheet">
-
-                <div class="title">
-                    ${movie.title}
-                </div>
-
-                <div class="actors">
-                    ${movie.actors || ""}
-                </div>
-
-                <table>
-                    <tr>
-                        ${headers}
-                    </tr>
-                    <tr>
-                        ${times}
-                    </tr>
-                </table>
-
+    container.innerHTML = movies.map(movie => `
+        <div class="card">
+            <div class="poster">
+                <img src="${movie.poster}" alt="${movie.title}">
             </div>
 
-        </div>
+            <div class="info">
+                <div class="title">${movie.title}</div>
+                <div class="director">di ${movie.director}</div>
 
-    </div>
-    `;
+                <div class="ratings">
+                    ${movie.imdbRating ? `<span class="badge imdb">IMDb: ${movie.imdbRating}</span>` : ""}
+                    ${movie.rottenTomatoes ? `<span class="badge rt">RT: ${movie.rottenTomatoes}</span>` : ""}
+                    ${movie.wikipedia ? `<a class="wiki-link" href="${movie.wikipedia}" target="_blank" rel="noopener">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><path d="M2 12h20"/></svg>
+                        Wikipedia
+                    </a>` : ""}
+                </div>
+
+                <div class="schedule">
+                    ${renderSchedule(movie.schedule)}
+                </div>
+            </div>
+        </div>
+    `).join("");
 }
 
-async function loadMovies() {
+function renderSchedule(schedule) {
+    const order = ["Dom", "Lun.", "Mar.", "Mer.", "Gio.", "Ven.", "Sab."];
 
-    const response = await fetch(CSV_URL);
-
-    const csv = await response.text();
-
-    const movies = parseCSV(csv)
-        .filter(movie => movie.movie_id);
-
-    document.getElementById("movies").innerHTML =
-        movies.map(createMovieCard).join("");
+    return order.map(day => `
+        <div class="day">
+            <div class="day-name">${day}</div>
+            ${(schedule[day] || []).map(t => `<span class="time">${t}</span>`).join("")}
+        </div>
+    `).join("");
 }
 
 loadMovies();
