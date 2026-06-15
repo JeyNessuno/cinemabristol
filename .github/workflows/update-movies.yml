@@ -16,10 +16,10 @@ jobs:
 
       - run: npm install
 
-      - run: node /scraper/scraper3.js > /scraper/movies.json
+      - run: node scraper/scraper3.js > /scraper/movies.json
 
-      - run: cat /scraper/movies.json
+      - run: cat scraper/movies.json
 
-      - run: node /scraper/enrich.js > /scraper/movies.enriched.json
+      - run: node scraper/enrich.js > /scraper/movies.enriched.json
 
-      - run: cat /scraper/movies.enriched.json
+      - run: cat scraper/movies.enriched.json
