@@ -16,6 +16,6 @@ jobs:
 
       - run: npm install
 
-      - run: node scraper3.js
+      - run: node scraper3.js > movies.json
 
-      - run: node enrich.js
+      - run: node enrich.js > movies.enriched.json
