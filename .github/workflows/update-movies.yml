@@ -12,10 +12,14 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: lts/*
 
       - run: npm install
 
       - run: node scraper3.js > movies.json
 
+      - run: cat movies.json
+
       - run: node enrich.js > movies.enriched.json
+
+      - run: cat movies.enriched.json
