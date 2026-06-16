@@ -1,5 +1,8 @@
 import axios from "axios";
 import { readFile, writeFile } from "fs/promises";
+import { createWriteStream } from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
 
 // ---------------------------------------------------------------------------
 // Config
@@ -7,6 +10,10 @@ import { readFile, writeFile } from "fs/promises";
 const OMDB_API_KEY = "be336499";
 const OMDB_BASE = "https://www.omdbapi.com";
 const WIKI_BASE = "https://it.wikipedia.org/w/api.php";
+
+// Project root (parent of the scraper/ folder)
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const PROJECT_ROOT = path.resolve(__dirname, "..");
 
 // ---------------------------------------------------------------------------
 // Simple in-memory cache
@@ -123,14 +130,53 @@ async function fetchOMDb(title) {
 }
 
 // ---------------------------------------------------------------------------
+// Download poster image to project root using its original filename
+// ---------------------------------------------------------------------------
+async function downloadPoster(posterUrl, movieId) {
+  if (!posterUrl) return posterUrl;
+
+  try {
+    // Extract original filename from URL
+    const urlPath = new URL(posterUrl).pathname;
+    const originalName = path.basename(urlPath);
+
+    // Save to project root
+    const localPath = path.join(PROJECT_ROOT, originalName);
+
+    console.log(`  📥 Downloading poster: ${originalName}`);
+
+    const response = await axios({
+      method: "GET",
+      url: posterUrl,
+      responseType: "stream",
+      timeout: 15000,
+    });
+
+    await new Promise((resolve, reject) => {
+      const writer = createWriteStream(localPath);
+      response.data.pipe(writer);
+      writer.on("finish", resolve);
+      writer.on("error", reject);
+    });
+
+    // Return the local relative path (just the filename, served from root)
+    return originalName;
+  } catch (err) {
+    console.warn(`  ⚠ Failed to download poster for "${movieId}": ${err.message}`);
+    return posterUrl; // fallback to original URL
+  }
+}
+
+// ---------------------------------------------------------------------------
 // Enrich a single movie
 // ---------------------------------------------------------------------------
 async function enrichMovie(movie) {
   console.log(`  Enriching: ${movie.title}`);
 
-  const [wikiUrl, omdb] = await Promise.all([
+  const [wikiUrl, omdb, localPoster] = await Promise.all([
     fetchWikipedia(movie.title),
     fetchOMDb(movie.title),
+    downloadPoster(movie.poster, movie.id),
   ]);
 
   return {
@@ -138,7 +184,7 @@ async function enrichMovie(movie) {
     title: movie.title,
     director: movie.director,
     schedule: movie.schedule,
-    poster: movie.poster,
+    poster: localPoster,
     wikipedia: wikiUrl,
     imdbRating: omdb.imdbRating,
     rottenTomatoes: omdb.rottenTomatoes,

@@ -23,7 +23,7 @@ jobs:
 
       - run: node scraper/scraper3.js > scraper/movies.json
 
-      - run: node scraper/enrich.js > scraper/movies.enriched.json
+      - run: node scraper/enrich.js
 
       - run: mv scraper/movies.enriched.json movies.enriched.json
 
@@ -33,7 +33,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add scraper/movies.json scraper/movies.enriched.json
+          git add scraper/movies.json movies.enriched.json *.png *.jpg *.jpeg *.gif *.webp
 
           if git diff --cached --quiet; then
             echo "No changes to commit"

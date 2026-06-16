@@ -388,13 +388,6 @@ main {
         grid-template-columns: repeat(2, 1fr);
     }
 }
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
 
 /* =========================
    HEADINGS
