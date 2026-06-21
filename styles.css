@@ -289,6 +289,7 @@ main {
     border-radius: 99px;
     font-size: 12px;
     font-weight: 600;
+    text-decoration: none;
 }
 
 .badge.imdb {
@@ -296,9 +297,22 @@ main {
     color: #000;
 }
 
+.badge.imdb:hover {
+    background: #e0b000;
+}
+
 .badge.rt {
     background: #fa320a;
     color: #fff;
+}
+
+.plot {
+    width: 100%;
+    font-size: 13px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 4px;
+    font-style: italic;
 }
 
 .wiki-link {
@@ -939,4 +953,41 @@ footer {
 ::selection {
     background: rgba(255, 255, 255, 0.2);
     color: #ffffff;
+}
+
+/* =========================
+   RASSEGNA SECTION
+   ========================= */
+
+.rassegna-section {
+    margin-top: 60px;
+    padding-top: 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.rassegna-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 24px;
+    background: linear-gradient(135deg, #ffffff 0%, #a0a0a0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.rassegna-poster {
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.rassegna-poster:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.6);
+    border-color: rgba(255, 255, 255, 0.2);
 }

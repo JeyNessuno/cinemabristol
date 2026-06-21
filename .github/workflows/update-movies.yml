@@ -1,8 +1,11 @@
 name: Update Movies
 
+env:
+          GCP_API_KEY: ${{ secrets.GCP_API_KEY }}
+
 on:
   schedule:
-    - cron: "0 0 * * 3"
+    - cron: "0 4 * * 4"
   workflow_dispatch:
 
 jobs:
@@ -33,7 +36,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add scraper/movies.json movies.enriched.json *.png *.jpg *.jpeg *.gif *.webp
+          git add scraper/movies.json movies.enriched.json *.png *.jpg
 
           if git diff --cached --quiet; then
             echo "No changes to commit"

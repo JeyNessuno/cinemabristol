@@ -10,6 +10,8 @@ import { fileURLToPath } from "url";
 const OMDB_API_KEY = "be336499";
 const OMDB_BASE = "https://www.omdbapi.com";
 const WIKI_BASE = "https://it.wikipedia.org/w/api.php";
+const GEMINI_API_KEY = process.env.GCP_API_KEY;
+const GEMINI_BASE = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent";
 
 // Project root (parent of the scraper/ folder)
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -29,18 +31,88 @@ function cacheSet(key, value) {
 }
 
 // ---------------------------------------------------------------------------
-// Normalize title: lowercase + remove punctuation
+// Translate English text to natural Italian using Gemini 2.5 Flash
 // ---------------------------------------------------------------------------
-function normalizeTitle(title) {
-  return title
-    .toLowerCase()
+async function translateToItalian(text) {
+  if (!text) return null;
+
+  const cacheKey = `translate:${text.slice(0, 80)}`;
+  const cached = cacheGet(cacheKey);
+  if (cached !== undefined) return cached;
+
+  try {
+    const { data } = await axios.post(
+      `${GEMINI_BASE}?key=${GEMINI_API_KEY}`,
+      {
+        contents: [
+          {
+            role: "user",
+            parts: [
+              {
+                text: `Traduci in italiano naturale (adatto a un pubblico italiano che legge la programmazione di un cinema). Restituisci SOLO la traduzione, senza prefissi o spiegazioni:\n\n${text}`,
+              },
+            ],
+          },
+        ],
+        generationConfig: {
+          temperature: 0.3,
+          maxOutputTokens: 2000,
+        },
+      },
+      {
+        timeout: 15000,
+      },
+    );
+
+    const translation =
+      data?.candidates?.[0]?.content?.parts?.[0]?.text?.trim() || null;
+    cacheSet(cacheKey, translation);
+    return translation;
+  } catch (err) {
+    console.warn(`  ⚠ Gemini translation failed: ${err.message}`);
+    cacheSet(cacheKey, null);
+    return null;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Normalize title: lowercase, remove punctuation, collapse spaces,
+// optionally strip subtitle after ":" or " - "
+// ---------------------------------------------------------------------------
+function normalizeTitle(title, stripSubtitle = true) {
+  let t = title.toLowerCase().trim();
+
+  if (stripSubtitle) {
+    // Strip everything after " — " (em dash), " - " (hyphen with spaces), or " :"
+    t = t.replace(/\s*[—–\-]\s.*/, "");
+    t = t.replace(/\s*:.*/, "");
+  }
+
+  return t
     .replace(/[^\w\s]/g, "")      // remove punctuation
     .replace(/\s+/g, " ")          // collapse whitespace
     .trim();
 }
 
 // ---------------------------------------------------------------------------
-// Wikipedia (Italian) — return URL of first search result
+// Word overlap ratio between two strings (0–1)
+// ---------------------------------------------------------------------------
+function computeWordOverlap(a, b) {
+  const wordsA = a.split(/\s+/).filter(Boolean);
+  const wordsB = b.split(/\s+/).filter(Boolean);
+  if (wordsA.length === 0 || wordsB.length === 0) return 0;
+
+  const setA = new Set(wordsA);
+  const setB = new Set(wordsB);
+  let common = 0;
+  for (const w of setA) {
+    if (setB.has(w)) common++;
+  }
+  return common / Math.max(setA.size, setB.size);
+}
+
+// ---------------------------------------------------------------------------
+// Wikipedia (Italian) — return { title, url } or null
 // ---------------------------------------------------------------------------
 async function fetchWikipedia(title) {
   const normal = normalizeTitle(title);
@@ -63,10 +135,11 @@ async function fetchWikipedia(title) {
 
     const pages = data?.query?.search;
     if (pages && pages.length > 0) {
-      const pageTitle = encodeURIComponent(pages[0].title);
-      const url = `https://it.wikipedia.org/wiki/${pageTitle}`;
-      cacheSet(cacheKey, url);
-      return url;
+      const pageTitle = pages[0].title;
+      const url = `https://it.wikipedia.org/wiki/${encodeURIComponent(pageTitle)}`;
+      const result = { title: pageTitle, url };
+      cacheSet(cacheKey, result);
+      return result;
     }
 
     cacheSet(cacheKey, null);
@@ -79,54 +152,143 @@ async function fetchWikipedia(title) {
 }
 
 // ---------------------------------------------------------------------------
-// OMDb API — return imdbRating + Rotten Tomatoes
+// OMDb search — find best candidate by word overlap
 // ---------------------------------------------------------------------------
-async function fetchOMDb(title) {
+async function searchOMDb(title) {
   const normal = normalizeTitle(title);
-  const cacheKey = `omdb:${normal}`;
+  const cacheKey = `omdb:search:${normal}`;
   const cached = cacheGet(cacheKey);
   if (cached !== undefined) return cached;
 
   if (!OMDB_API_KEY) {
-    console.warn("  ⚠ OMDB_API_KEY not set — skipping OMDb lookup");
-    cacheSet(cacheKey, { imdbRating: null, rottenTomatoes: null });
-    return { imdbRating: null, rottenTomatoes: null };
+    console.warn("  ⚠ OMDB_API_KEY not set — skipping OMDb search");
+    cacheSet(cacheKey, null);
+    return null;
   }
 
   try {
+    // Phase 1: search
     const { data } = await axios.get(OMDB_BASE, {
       params: {
         apikey: OMDB_API_KEY,
-        t: title,
+        s: title,
         type: "movie",
       },
       timeout: 10000,
     });
 
-    if (data.Response === "False") {
-      console.warn(`  ⚠ OMDb no result for "${title}"`);
-      cacheSet(cacheKey, { imdbRating: null, rottenTomatoes: null });
-      return { imdbRating: null, rottenTomatoes: null };
+    if (data.Response === "False" || !data.Search) {
+      console.warn(`  ⚠ OMDb search returned no results for "${title}"`);
+      cacheSet(cacheKey, null);
+      return null;
     }
 
-    let rottenTomatoes = null;
-    if (data.Ratings) {
-      const rt = data.Ratings.find((r) => r.Source === "Rotten Tomatoes");
-      if (rt) rottenTomatoes = rt.Value;
+    // Score each result by word overlap against normalized title
+    let bestCandidate = null;
+    let bestScore = 0;
+
+    for (const result of data.Search) {
+      const resultNormal = normalizeTitle(result.Title);
+      const overlap = computeWordOverlap(resultNormal, normal);
+
+      // Penalise non-movie types
+      const typePenalty = result.Type && result.Type !== "movie" ? 0.3 : 0;
+
+      const score = overlap - typePenalty;
+      if (score > bestScore) {
+        bestScore = score;
+        bestCandidate = { ...result, overlapScore: overlap };
+      }
+    }
+
+    if (!bestCandidate || bestScore < 0.3) {
+      console.warn(`  ⚠ No good OMDb candidate for "${title}" (best overlap: ${bestScore.toFixed(2)})`);
+      cacheSet(cacheKey, null);
+      return null;
+    }
+
+    // Phase 2: fetch full details by imdbID
+    const { data: full } = await axios.get(OMDB_BASE, {
+      params: {
+        apikey: OMDB_API_KEY,
+        i: bestCandidate.imdbID,
+      },
+      timeout: 10000,
+    });
+
+    if (full.Response === "False") {
+      console.warn(`  ⚠ OMDb detail fetch failed for "${bestCandidate.imdbID}"`);
+      cacheSet(cacheKey, null);
+      return null;
     }
 
     const result = {
-      imdbRating: data.imdbRating && data.imdbRating !== "N/A" ? data.imdbRating : null,
-      rottenTomatoes,
+      imdbID: full.imdbID || null,
+      title: full.Title || null,
+      year: full.Year && full.Year !== "N/A" ? full.Year : null,
+      imdbRating: full.imdbRating && full.imdbRating !== "N/A" ? full.imdbRating : null,
+      plot: full.Plot && full.Plot !== "N/A" ? full.Plot : null,
+      type: full.Type || null,
+      rawOverlapScore: bestCandidate.overlapScore,
     };
 
     cacheSet(cacheKey, result);
     return result;
   } catch (err) {
-    console.warn(`  ⚠ OMDb lookup failed for "${title}": ${err.message}`);
-    cacheSet(cacheKey, { imdbRating: null, rottenTomatoes: null });
-    return { imdbRating: null, rottenTomatoes: null };
+    console.warn(`  ⚠ OMDb search failed for "${title}": ${err.message}`);
+    cacheSet(cacheKey, null);
+    return null;
   }
+}
+
+// ---------------------------------------------------------------------------
+// Compute confidence score for OMDb match
+// ---------------------------------------------------------------------------
+function computeConfidenceScore(omdbTitle, inputTitle, wikipediaTitle, year, type) {
+  let score = 0;
+
+  const omdbNorm = normalizeTitle(omdbTitle || "");
+  const inputNorm = normalizeTitle(inputTitle);
+  const wikiNorm = wikipediaTitle ? normalizeTitle(wikipediaTitle) : null;
+
+  // +40 if exact match
+  if (omdbNorm === inputNorm) {
+    score += 40;
+  }
+
+  // +25 if high word overlap (>80%)
+  const overlap = computeWordOverlap(omdbNorm, inputNorm);
+  if (overlap > 0.8) {
+    score += 25;
+  }
+
+  // +15 if Wikipedia title matches OMDb title closely
+  if (wikiNorm) {
+    const wikiOverlap = computeWordOverlap(omdbNorm, wikiNorm);
+    if (wikiOverlap > 0.8) {
+      score += 15;
+    }
+  }
+
+  // +10 if year is plausible
+  if (year) {
+    const y = parseInt(year, 10);
+    if (!isNaN(y) && y >= 1900 && y <= 2030) {
+      score += 10;
+    }
+  }
+
+  // -30 if not a movie
+  if (type && type !== "movie") {
+    score -= 30;
+  }
+
+  // -20 if title mismatch is strong (low overlap)
+  if (overlap < 0.3) {
+    score -= 20;
+  }
+
+  return score;
 }
 
 // ---------------------------------------------------------------------------
@@ -168,26 +330,73 @@ async function downloadPoster(posterUrl, movieId) {
 }
 
 // ---------------------------------------------------------------------------
-// Enrich a single movie
+// Enrich a single movie using the consensus pipeline
 // ---------------------------------------------------------------------------
 async function enrichMovie(movie) {
   console.log(`  Enriching: ${movie.title}`);
 
-  const [wikiUrl, omdb, localPoster] = await Promise.all([
-    fetchWikipedia(movie.title),
-    fetchOMDb(movie.title),
-    downloadPoster(movie.poster, movie.id),
-  ]);
+  // Step 1 — Normalize title
+  const normalizedTitle = normalizeTitle(movie.title);
+
+  // Step 2 — Wikipedia (primary anchor, always included if found)
+  const wiki = await fetchWikipedia(movie.title);
+
+  // Step 5 note: Wikipedia is always included if found (no scoring needed)
+
+  // Step 3 — OMDb candidate (secondary signal)
+  const omdbCandidate = await searchOMDb(movie.title);
+
+  let omdbResult = null;
+  let omdbScore = 0;
+
+  if (omdbCandidate) {
+    // Step 4 — Cross-validation scoring
+    omdbScore = computeConfidenceScore(
+      omdbCandidate.title,
+      movie.title,
+      wiki ? wiki.title : null,
+      omdbCandidate.year,
+      omdbCandidate.type,
+    );
+
+    console.log(`    └ omdbScore=${omdbScore} (overlap=${(omdbCandidate.rawOverlapScore * 100).toFixed(0)}%)`);
+
+    // Only accept OMDb data if score >= 50
+    if (omdbScore >= 50) {
+      // Translate the English plot to Italian
+      const italianPlot = await translateToItalian(omdbCandidate.plot);
+
+      omdbResult = {
+        imdbID: omdbCandidate.imdbID,
+        imdbRating: omdbCandidate.imdbRating,
+        year: omdbCandidate.year,
+        plot: italianPlot || omdbCandidate.plot,
+      };
+    } else {
+      console.log(`    └ → OMDb discarded (score ${omdbScore} < 50)`);
+    }
+  }
+
+  // Download poster
+  const localPoster = await downloadPoster(movie.poster, movie.id);
+
+  // Step 6 — Final merged output
+  const description = omdbResult?.plot || null;
 
   return {
     id: movie.id,
+    url: movie.url,
     title: movie.title,
     director: movie.director,
     schedule: movie.schedule,
     poster: localPoster,
-    wikipedia: wikiUrl,
-    imdbRating: omdb.imdbRating,
-    rottenTomatoes: omdb.rottenTomatoes,
+    description,
+    wikipedia: wiki ? { title: wiki.title, url: wiki.url } : null,
+    omdb: omdbResult,
+    confidence: {
+      omdbScore,
+      wikipediaFound: wiki !== null,
+    },
   };
 }
 
@@ -213,6 +422,7 @@ async function main() {
   }
 
   await writeFile(outputPath, JSON.stringify(enriched, null, 2), "utf-8");
+  console.log(`\n✅ Done — wrote ${enriched.length} movies to movies.enriched.json`);
 }
 
 main().catch((err) => {

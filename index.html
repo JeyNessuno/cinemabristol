@@ -17,10 +17,10 @@
     <meta property="og:locale" content="it_IT">
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
 
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -79,7 +79,7 @@
 ========================= -->
 
 <footer>
-    © Cinema Bristol
+    
 </footer>
 
 <!-- =========================
@@ -115,14 +115,24 @@ window.addEventListener("scroll", () => {
 
 async function loadMovies() {
     const res = await fetch("movies.enriched.json");
-    const movies = await res.json();
+    const data = await res.json();
+
+    // Support both new { movies, rassegnaImage } and old array format
+    const movies = Array.isArray(data) ? data : data.movies;
+    const rassegnaImage = data.rassegnaImage || null;
 
     const container = document.getElementById("movies");
 
     container.innerHTML = movies.map(movie => `
         <div class="card">
             <div class="poster">
-                <img src="${movie.poster}" alt="${movie.title}">
+                ${movie.url ? `
+                    <a href="${movie.url}" target="_blank" rel="noopener">
+                        <img src="${movie.poster}" alt="${movie.title}">
+                    </a>
+                ` : `
+                    <img src="${movie.poster}" alt="${movie.title}">
+                `}
             </div>
 
             <div class="info">
@@ -130,9 +140,9 @@ async function loadMovies() {
                 <div class="director">di ${movie.director}</div>
 
                 <div class="ratings">
-                    ${movie.imdbRating ? `<span class="badge imdb">IMDb: ${movie.imdbRating}</span>` : ""}
-                    ${movie.rottenTomatoes ? `<span class="badge rt">RT: ${movie.rottenTomatoes}</span>` : ""}
-                    ${movie.wikipedia ? `<a class="wiki-link" href="${movie.wikipedia}" target="_blank" rel="noopener">
+                    ${movie.omdb?.imdbID ? `<a class="badge imdb" href="https://www.imdb.com/title/${movie.omdb.imdbID}" target="_blank" rel="noopener">IMDb: ${movie.omdb.imdbRating || '?'}</a>` : ""}
+                    ${movie.description ? `<div class="plot">${movie.description}</div>` : ""}
+                    ${movie.wikipedia?.url ? `<a class="wiki-link" href="${movie.wikipedia.url}" target="_blank" rel="noopener">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><path d="M2 12h20"/></svg>
                         Wikipedia
                     </a>` : ""}
@@ -144,6 +154,17 @@ async function loadMovies() {
             </div>
         </div>
     `).join("");
+
+    // Append rassegna image at the end
+    if (rassegnaImage) {
+        const rassegnaDiv = document.createElement("div");
+        rassegnaDiv.className = "rassegna-section";
+        rassegnaDiv.innerHTML = `
+            <h2 class="rassegna-title">Rassegna</h2>
+            <img src="${rassegnaImage}" alt="Rassegna" class="rassegna-poster">
+        `;
+        container.appendChild(rassegnaDiv);
+    }
 }
 
 function renderSchedule(schedule) {

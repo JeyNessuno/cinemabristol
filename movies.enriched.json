@@ -1,6 +1,7 @@
 [
   {
     "id": "fuze",
+    "url": "http://www.cinemabristol.it/fuze.htm",
     "title": "FUZE - CONTO ALLA ROVESCIA",
     "director": "David Mackenzie",
     "schedule": {
@@ -134,6 +135,7 @@
   },
   {
     "id": "disclosure",
+    "url": "http://www.cinemabristol.it/disclosure.htm",
     "title": "DISCLOSURE DAY",
     "director": "Steven Spielberg",
     "schedule": {
@@ -175,29 +177,10 @@
     "title": "TOY STORY 5",
     "director": "Andrew Stanton",
     "schedule": {
-      "Gio.": [
-        "18,40",
-        "21,00"
-      ],
       "Ven.": [
-        "18,40",
-        "21,00"
-      ],
-      "Sab.": [
-        "18,40",
-        "21,00"
-      ],
-      "Dom": [
-        "15,00",
-        "16,50",
-        "18,50",
-        "21,00"
-      ],
-      "Lun.": [
-        "21,00"
+        "18,30"
       ],
       "Mar.": [
-        "18,40",
         "21,00"
       ],
       "Mer.": [
