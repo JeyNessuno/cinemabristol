@@ -1,5 +1,44 @@
 [
   {
+    "id": "toystory",
+    "title": "TOY STORY 5",
+    "director": "Andrew Stanton",
+    "schedule": {
+      "Gio.": [
+        "18,40",
+        "21,00"
+      ],
+      "Ven.": [
+        "18,40",
+        "21,00"
+      ],
+      "Sab.": [
+        "18,40",
+        "21,00"
+      ],
+      "Dom": [
+        "15,00",
+        "16,50",
+        "18,50",
+        "21,00"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "18,40",
+        "21,00"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "image6991.png",
+    "wikipedia": "https://it.wikipedia.org/wiki/Toy%20Story%205",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  {
     "id": "fuze",
     "url": "http://www.cinemabristol.it/fuze.htm",
     "title": "FUZE - CONTO ALLA ROVESCIA",
@@ -30,108 +69,10 @@
         "closed"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image10961.png",
-    "wikipedia": null,
+    "poster": "image6961.png",
+    "wikipedia": "https://it.wikipedia.org/wiki/Theo%20James",
     "imdbRating": null,
     "rottenTomatoes": null
-  },
-  {
-    "id": "antartica",
-    "title": "ANTARTICA - QUASI UNA FIABA",
-    "director": "Lucia Calamaro",
-    "schedule": {
-      "Gio.": [
-        "18,50"
-      ],
-      "Ven.": [
-        "18,50"
-      ],
-      "Sab.": [
-        "18,50"
-      ],
-      "Dom": [
-        "15,30"
-      ],
-      "Lun.": [],
-      "Mar.": [
-        "18,50"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image10901.png",
-    "wikipedia": "https://it.wikipedia.org/wiki/Antartica%20-%20Quasi%20una%20fiaba",
-    "imdbRating": "7.1",
-    "rottenTomatoes": null
-  },
-  {
-    "id": "scary",
-    "title": "SCARY MOVIE",
-    "director": "Michael Tidden",
-    "schedule": {
-      "Gio.": [
-        "18,40"
-      ],
-      "Ven.": [
-        "18,40",
-        "21,15"
-      ],
-      "Sab.": [
-        "21,15"
-      ],
-      "Dom": [
-        "17,15",
-        "19,00"
-      ],
-      "Lun.": [
-        "21,15"
-      ],
-      "Mar.": [
-        "18,40",
-        "21,15"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image8551.png",
-    "wikipedia": "https://it.wikipedia.org/wiki/Scary%20Movie",
-    "imdbRating": "6.3",
-    "rottenTomatoes": "52%"
-  },
-  {
-    "id": "obsession",
-    "title": "OBSESSION",
-    "director": "Curry Barker",
-    "schedule": {
-      "Gio.": [
-        "21,15"
-      ],
-      "Ven.": [
-        "21,15"
-      ],
-      "Sab.": [
-        "21,15"
-      ],
-      "Dom": [
-        "18,40",
-        "21,15"
-      ],
-      "Lun.": [
-        "21,15"
-      ],
-      "Mar.": [
-        "21,15"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image9501.png",
-    "wikipedia": "https://it.wikipedia.org/wiki/Obsession%20(film%201998)",
-    "imdbRating": "8.2",
-    "rottenTomatoes": "95%"
   },
   {
     "id": "disclosure",
@@ -167,28 +108,25 @@
         "closed"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image9441.png",
+    "poster": "image6681.png",
     "wikipedia": "https://it.wikipedia.org/wiki/Disclosure%20Day",
     "imdbRating": null,
     "rottenTomatoes": null
   },
   {
-    "id": "toystory",
-    "title": "TOY STORY 5",
-    "director": "Andrew Stanton",
+    "id": "ladynazca",
+    "title": "LADY NAZCA - LA SIGNORA DELLE LINEE",
+    "director": "Damien Dorsaz",
     "schedule": {
       "Ven.": [
         "18,30"
       ],
       "Mar.": [
         "21,00"
-      ],
-      "Mer.": [
-        "closed"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image8731.png",
-    "wikipedia": "https://it.wikipedia.org/wiki/Toy%20Story%205",
+    "poster": "image6481.png",
+    "wikipedia": "https://it.wikipedia.org/wiki/Devrim%20Lingnau",
     "imdbRating": null,
     "rottenTomatoes": null
   }

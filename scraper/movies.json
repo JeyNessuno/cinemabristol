@@ -1,0 +1,194 @@
+[
+  {
+    "id": "fuze",
+    "title": "FUZE - CONTO ALLA ROVESCIA",
+    "director": "David Mackenzie",
+    "schedule": {
+      "Gio.": [
+        "18,40"
+      ],
+      "Ven.": [
+        "21,15"
+      ],
+      "Sab.": [
+        "18,40",
+        "21,15"
+      ],
+      "Dom": [
+        "15,00",
+        "16,40",
+        "21,15"
+      ],
+      "Lun.": [
+        "21,15"
+      ],
+      "Mar.": [
+        "18,40"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image10961.png"
+  },
+  {
+    "id": "antartica",
+    "title": "ANTARTICA - QUASI UNA FIABA",
+    "director": "Lucia Calamaro",
+    "schedule": {
+      "Gio.": [
+        "18,50"
+      ],
+      "Ven.": [
+        "18,50"
+      ],
+      "Sab.": [
+        "18,50"
+      ],
+      "Dom": [
+        "15,30"
+      ],
+      "Lun.": [],
+      "Mar.": [
+        "18,50"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image10901.png"
+  },
+  {
+    "id": "scary",
+    "title": "SCARY MOVIE",
+    "director": "Michael Tidden",
+    "schedule": {
+      "Gio.": [
+        "18,40"
+      ],
+      "Ven.": [
+        "18,40",
+        "21,15"
+      ],
+      "Sab.": [
+        "21,15"
+      ],
+      "Dom": [
+        "17,15",
+        "19,00"
+      ],
+      "Lun.": [
+        "21,15"
+      ],
+      "Mar.": [
+        "18,40",
+        "21,15"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image8551.png"
+  },
+  {
+    "id": "obsession",
+    "title": "OBSESSION",
+    "director": "Curry Barker",
+    "schedule": {
+      "Gio.": [
+        "21,15"
+      ],
+      "Ven.": [
+        "21,15"
+      ],
+      "Sab.": [
+        "21,15"
+      ],
+      "Dom": [
+        "18,40",
+        "21,15"
+      ],
+      "Lun.": [
+        "21,15"
+      ],
+      "Mar.": [
+        "21,15"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image9501.png"
+  },
+  {
+    "id": "disclosure",
+    "title": "DISCLOSURE DAY",
+    "director": "Steven Spielberg",
+    "schedule": {
+      "Gio.": [
+        "18,30",
+        "21,15"
+      ],
+      "Ven.": [
+        "18,30",
+        "21,15"
+      ],
+      "Sab.": [
+        "18,30",
+        "21,15"
+      ],
+      "Dom": [
+        "15,30",
+        "18,30",
+        "21,15"
+      ],
+      "Lun.": [
+        "21,15"
+      ],
+      "Mar.": [
+        "18,30",
+        "21,15"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image9441.png"
+  },
+  {
+    "id": "toystory",
+    "title": "TOY STORY 5",
+    "director": "Andrew Stanton",
+    "schedule": {
+      "Gio.": [
+        "18,40",
+        "21,00"
+      ],
+      "Ven.": [
+        "18,40",
+        "21,00"
+      ],
+      "Sab.": [
+        "18,40",
+        "21,00"
+      ],
+      "Dom": [
+        "15,00",
+        "16,50",
+        "18,50",
+        "21,00"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "18,40",
+        "21,00"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image8731.png"
+  }
+]
