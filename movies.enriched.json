@@ -1,6 +1,214 @@
 [
   {
+    "id": "obsession",
+    "url": "http://www.cinemabristol.it/obsession.htm",
+    "title": "OBSESSION",
+    "director": "Curry Barker",
+    "schedule": {
+      "Gio.": [
+        "18,40"
+      ],
+      "Sab.": [
+        "21,15"
+      ],
+      "Dom": [
+        "21,15"
+      ]
+    },
+    "poster": "image6891.png",
+    "description": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
+    "wikipedia": {
+      "title": "Obsession (film 2025)",
+      "url": "https://it.wikipedia.org/wiki/Obsession%20(film%202025)"
+    },
+    "omdb": {
+      "imdbID": "tt37287335",
+      "imdbRating": "8.2",
+      "year": "2026",
+      "plot": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price."
+    },
+    "confidence": {
+      "omdbScore": 75,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "disclosure",
+    "url": "http://www.cinemabristol.it/disclosure.htm",
+    "title": "DISCLOSURE DAY",
+    "director": "Steven Spielberg",
+    "schedule": {
+      "Gio.": [],
+      "Ven.": [
+        "21,00"
+      ],
+      "Sab.": [
+        "18,30"
+      ],
+      "Dom": [
+        "15,45"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "18,30"
+      ],
+      "Mer.": []
+    },
+    "poster": "image8931.png",
+    "description": "If you found out we weren't alone, if someone showed you, proved it to you, would that frighten you?",
+    "wikipedia": {
+      "title": "Disclosure Day",
+      "url": "https://it.wikipedia.org/wiki/Disclosure%20Day"
+    },
+    "omdb": {
+      "imdbID": "tt15047880",
+      "imdbRating": null,
+      "year": "2026",
+      "plot": "If you found out we weren't alone, if someone showed you, proved it to you, would that frighten you?"
+    },
+    "confidence": {
+      "omdbScore": 90,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "supergirl",
+    "url": "http://www.cinemabristol.it/supergirl.htm",
+    "title": "SUPERGIRL",
+    "director": "Craig Gillespie",
+    "schedule": {
+      "Gio.": [
+        "18,40",
+        "21,15"
+      ],
+      "Ven.": [
+        "18,40",
+        "21,15"
+      ],
+      "Sab.": [
+        "18,40",
+        "21,15"
+      ],
+      "Dom": [
+        "16,15",
+        "18,40",
+        "21,15"
+      ],
+      "Lun.": [
+        "21,15"
+      ],
+      "Mar.": [
+        "18,40",
+        "21,15"
+      ],
+      "Mer.": [
+        "18,40",
+        "21,15"
+      ]
+    },
+    "poster": "image8911.png",
+    "description": "After losing a powerful orb, Kara Zor-El, Superman's cousin, comes to Earth to retrieve it and instead finds herself up against a wicked witch.",
+    "wikipedia": {
+      "title": "Supergirl (film 2026)",
+      "url": "https://it.wikipedia.org/wiki/Supergirl%20(film%202026)"
+    },
+    "omdb": {
+      "imdbID": "tt0088206",
+      "imdbRating": "4.4",
+      "year": "1984",
+      "plot": "After losing a powerful orb, Kara Zor-El, Superman's cousin, comes to Earth to retrieve it and instead finds herself up against a wicked witch."
+    },
+    "confidence": {
+      "omdbScore": 75,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "minionsmonster",
+    "url": "http://www.cinemabristol.it/minionsmonster.htm",
+    "title": "MINIONS & MONSTERS",
+    "director": "Pierre Coffin",
+    "schedule": {
+      "Mer.": [
+        "closed"
+      ],
+      "Gio.": [
+        "18,40",
+        "21,00"
+      ],
+      "Ven.": [
+        "18,40",
+        "21,00"
+      ],
+      "Sab.": [
+        "18,40",
+        "21,00"
+      ],
+      "Dom": [
+        "16,40",
+        "18,40",
+        "21,00"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "18,40",
+        "21,00"
+      ]
+    },
+    "poster": "image8761.png",
+    "description": "Laundry day goes cosplay when a Minion noob gets a seat at the table of some pro-role-playing gamers. Starting as a punching bag for monsters and punchline for peers, his perseverance unlocks bardacious skills just in time to save...",
+    "wikipedia": {
+      "title": "Minions (film)",
+      "url": "https://it.wikipedia.org/wiki/Minions%20(film)"
+    },
+    "omdb": {
+      "imdbID": "tt14845172",
+      "imdbRating": "6.7",
+      "year": "2021",
+      "plot": "Laundry day goes cosplay when a Minion noob gets a seat at the table of some pro-role-playing gamers. Starting as a punching bag for monsters and punchline for peers, his perseverance unlocks bardacious skills just in time to save..."
+    },
+    "confidence": {
+      "omdbScore": 75,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "kneecap",
+    "url": "http://www.cinemabristol.it/kneecap.htm",
+    "title": "KNEECAP",
+    "director": "Rich Peppiatt",
+    "schedule": {
+      "Ven.": [
+        "18,30"
+      ],
+      "Mar.": [
+        "21,00"
+      ]
+    },
+    "poster": "image8701.png",
+    "description": "When fate brings Belfast teacher JJ into the orbit of self-confessed \"low life scum\" Naoise and Liam Óg, the needle drops on a hip hop act like no other. Rapping in their native Irish, they lead a movement to save their mother ton...",
+    "wikipedia": {
+      "title": "Kneecap (film)",
+      "url": "https://it.wikipedia.org/wiki/Kneecap%20(film)"
+    },
+    "omdb": {
+      "imdbID": "tt27367464",
+      "imdbRating": "7.6",
+      "year": "2024",
+      "plot": "When fate brings Belfast teacher JJ into the orbit of self-confessed \"low life scum\" Naoise and Liam Óg, the needle drops on a hip hop act like no other. Rapping in their native Irish, they lead a movement to save their mother ton..."
+    },
+    "confidence": {
+      "omdbScore": 75,
+      "wikipediaFound": true
+    }
+  },
+  {
     "id": "toystory",
+    "url": "http://www.cinemabristol.it/toystory.htm",
     "title": "TOY STORY 5",
     "director": "Andrew Stanton",
     "schedule": {
@@ -30,104 +238,25 @@
         "21,00"
       ],
       "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "image6991.png",
-    "wikipedia": "https://it.wikipedia.org/wiki/Toy%20Story%205",
-    "imdbRating": null,
-    "rottenTomatoes": null
-  },
-  {
-    "id": "fuze",
-    "url": "http://www.cinemabristol.it/fuze.htm",
-    "title": "FUZE - CONTO ALLA ROVESCIA",
-    "director": "David Mackenzie",
-    "schedule": {
-      "Gio.": [
-        "18,40"
-      ],
-      "Ven.": [
-        "21,15"
-      ],
-      "Sab.": [
         "18,40",
-        "21,15"
-      ],
-      "Dom": [
-        "15,00",
-        "16,40",
-        "21,15"
-      ],
-      "Lun.": [
-        "21,15"
-      ],
-      "Mar.": [
-        "18,40"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "image6961.png",
-    "wikipedia": "https://it.wikipedia.org/wiki/Theo%20James",
-    "imdbRating": null,
-    "rottenTomatoes": null
-  },
-  {
-    "id": "disclosure",
-    "url": "http://www.cinemabristol.it/disclosure.htm",
-    "title": "DISCLOSURE DAY",
-    "director": "Steven Spielberg",
-    "schedule": {
-      "Gio.": [
-        "18,30",
-        "21,15"
-      ],
-      "Ven.": [
-        "18,30",
-        "21,15"
-      ],
-      "Sab.": [
-        "18,30",
-        "21,15"
-      ],
-      "Dom": [
-        "15,30",
-        "18,30",
-        "21,15"
-      ],
-      "Lun.": [
-        "21,15"
-      ],
-      "Mar.": [
-        "18,30",
-        "21,15"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "image6681.png",
-    "wikipedia": "https://it.wikipedia.org/wiki/Disclosure%20Day",
-    "imdbRating": null,
-    "rottenTomatoes": null
-  },
-  {
-    "id": "ladynazca",
-    "title": "LADY NAZCA - LA SIGNORA DELLE LINEE",
-    "director": "Damien Dorsaz",
-    "schedule": {
-      "Ven.": [
-        "18,30"
-      ],
-      "Mar.": [
         "21,00"
       ]
     },
-    "poster": "image6481.png",
-    "wikipedia": "https://it.wikipedia.org/wiki/Devrim%20Lingnau",
-    "imdbRating": null,
-    "rottenTomatoes": null
+    "poster": "image8681.png",
+    "description": "Woody, Buzz, Jessie and the rest of the gang's jobs are challenged when they're introduced to electronics, a new threat to playtime.",
+    "wikipedia": {
+      "title": "Toy Story 5",
+      "url": "https://it.wikipedia.org/wiki/Toy%20Story%205"
+    },
+    "omdb": {
+      "imdbID": "tt29355505",
+      "imdbRating": null,
+      "year": "2026",
+      "plot": "Woody, Buzz, Jessie and the rest of the gang's jobs are challenged when they're introduced to electronics, a new threat to playtime."
+    },
+    "confidence": {
+      "omdbScore": 90,
+      "wikipediaFound": true
+    }
   }
 ]
