@@ -1,60 +1,15 @@
 [
   {
-    "id": "obsession",
-    "url": "http://www.cinemabristol.it/obsession.htm",
-    "title": "OBSESSION",
-    "director": "Curry Barker",
-    "schedule": {
-      "Gio.": [
-        "18,40"
-      ],
-      "Sab.": [
-        "21,15"
-      ],
-      "Dom": [
-        "21,15"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image6891.png"
-  },
-  {
-    "id": "disclosure",
-    "url": "http://www.cinemabristol.it/disclosure.htm",
-    "title": "DISCLOSURE DAY",
-    "director": "Steven Spielberg",
-    "schedule": {
-      "Gio.": [],
-      "Ven.": [
-        "21,00"
-      ],
-      "Sab.": [
-        "18,30"
-      ],
-      "Dom": [
-        "15,45"
-      ],
-      "Lun.": [
-        "21,00"
-      ],
-      "Mar.": [
-        "18,30"
-      ],
-      "Mer.": []
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image8931.png"
-  },
-  {
-    "id": "supergirl",
-    "url": "http://www.cinemabristol.it/supergirl.htm",
-    "title": "SUPERGIRL",
-    "director": "Craig Gillespie",
+    "id": "coseamore",
+    "url": "http://www.cinemabristol.it/coseamore.htm",
+    "title": "COS�E� L�AMORE",
+    "director": "Fabien Gorgeart",
     "schedule": {
       "Gio.": [
         "18,40",
         "21,15"
       ],
       "Ven.": [
-        "18,40",
         "21,15"
       ],
       "Sab.": [
@@ -63,73 +18,19 @@
       ],
       "Dom": [
         "16,15",
-        "18,40",
         "21,15"
       ],
       "Lun.": [
         "21,15"
       ],
       "Mar.": [
-        "18,40",
-        "21,15"
+        "18,40"
       ],
-      "Mer.": [
-        "18,40",
-        "21,15"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image8911.png"
-  },
-  {
-    "id": "minionsmonster",
-    "url": "http://www.cinemabristol.it/minionsmonster.htm",
-    "title": "MINIONS & MONSTERS",
-    "director": "Pierre Coffin",
-    "schedule": {
       "Mer.": [
         "closed"
-      ],
-      "Gio.": [
-        "18,40",
-        "21,00"
-      ],
-      "Ven.": [
-        "18,40",
-        "21,00"
-      ],
-      "Sab.": [
-        "18,40",
-        "21,00"
-      ],
-      "Dom": [
-        "16,40",
-        "18,40",
-        "21,00"
-      ],
-      "Lun.": [
-        "21,00"
-      ],
-      "Mar.": [
-        "18,40",
-        "21,00"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image8761.png"
-  },
-  {
-    "id": "kneecap",
-    "url": "http://www.cinemabristol.it/kneecap.htm",
-    "title": "KNEECAP",
-    "director": "Rich Peppiatt",
-    "schedule": {
-      "Ven.": [
-        "18,30"
-      ],
-      "Mar.": [
-        "21,00"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image8701.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image6431.png"
   },
   {
     "id": "toystory",
@@ -138,35 +39,43 @@
     "director": "Andrew Stanton",
     "schedule": {
       "Gio.": [
-        "18,40",
-        "21,00"
+        "18,40"
       ],
       "Ven.": [
-        "18,40",
-        "21,00"
+        "18,40"
       ],
       "Sab.": [
-        "18,40",
-        "21,00"
+        "18,40"
       ],
       "Dom": [
-        "15,00",
-        "16,50",
-        "18,50",
-        "21,00"
+        "16,30",
+        "18,40"
       ],
       "Lun.": [
         "21,00"
       ],
       "Mar.": [
-        "18,40",
-        "21,00"
+        "18,40"
       ],
       "Mer.": [
-        "18,40",
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image11091.png"
+  },
+  {
+    "id": "domingos",
+    "url": "http://www.cinemabristol.it/domingos.htm",
+    "title": "LOS DOMINGOS",
+    "director": "Alauda Ruiz De Az�a�",
+    "schedule": {
+      "Ven.": [
+        "18,30"
+      ],
+      "Mar.": [
         "21,00"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image8681.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image6571.png"
   }
 ]
