@@ -1,15 +1,16 @@
 [
   {
-    "id": "coseamore",
-    "url": "http://www.cinemabristol.it/coseamore.htm",
-    "title": "COS�E� L�AMORE",
-    "director": "Fabien Gorgeart",
+    "id": "casa",
+    "url": "http://www.cinemabristol.it/casa.htm",
+    "title": "LA CASA - IL ROGO DEL MALE",
+    "director": "S�bastien Vanicek",
     "schedule": {
       "Gio.": [
         "18,40",
         "21,15"
       ],
       "Ven.": [
+        "18,40",
         "21,15"
       ],
       "Sab.": [
@@ -17,20 +18,22 @@
         "21,15"
       ],
       "Dom": [
-        "16,15",
+        "16,30",
+        "18,40",
         "21,15"
       ],
       "Lun.": [
         "21,15"
       ],
       "Mar.": [
-        "18,40"
+        "18,40",
+        "21,15"
       ],
       "Mer.": [
-        "closed"
+        "21,40"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image6431.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image9121.png"
   },
   {
     "id": "toystory",
@@ -42,14 +45,15 @@
         "18,40"
       ],
       "Ven.": [
-        "18,40"
+        "21,00"
       ],
       "Sab.": [
-        "18,40"
+        "18,40",
+        "21,00"
       ],
       "Dom": [
         "16,30",
-        "18,40"
+        "21,00"
       ],
       "Lun.": [
         "21,00"
@@ -58,16 +62,53 @@
         "18,40"
       ],
       "Mer.": [
-        "closed"
+        "18,40"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image11091.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image9731.png"
   },
   {
-    "id": "domingos",
-    "url": "http://www.cinemabristol.it/domingos.htm",
-    "title": "LOS DOMINGOS",
-    "director": "Alauda Ruiz De Az�a�",
+    "id": "odissea",
+    "url": "http://www.cinemabristol.it/odissea.htm",
+    "title": "ODISSEA",
+    "director": "Christopher Nolan",
+    "schedule": {
+      "Mer.": [
+        "18,30",
+        "21,00"
+      ],
+      "Gio.": [
+        "18,30",
+        "21,00"
+      ],
+      "Ven.": [
+        "18,30",
+        "21,00"
+      ],
+      "Sab.": [
+        "18,30",
+        "21,00"
+      ],
+      "Dom": [
+        "16,00",
+        "18,30",
+        "21,00"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "18,30",
+        "21,00"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image5191.png"
+  },
+  {
+    "id": "annodiscuola",
+    "url": "http://www.cinemabristol.it/annodiscuola.htm",
+    "title": "UN ANNO DI SCUOLA",
+    "director": "Laura Samani�",
     "schedule": {
       "Ven.": [
         "18,30"
@@ -76,6 +117,6 @@
         "21,00"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image6571.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image5111.png"
   }
 ]

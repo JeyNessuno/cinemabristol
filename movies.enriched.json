@@ -1,15 +1,16 @@
 [
   {
-    "id": "coseamore",
-    "url": "http://www.cinemabristol.it/coseamore.htm",
-    "title": "COS�E� L�AMORE",
-    "director": "Fabien Gorgeart",
+    "id": "casa",
+    "url": "http://www.cinemabristol.it/casa.htm",
+    "title": "LA CASA - IL ROGO DEL MALE",
+    "director": "S�bastien Vanicek",
     "schedule": {
       "Gio.": [
         "18,40",
         "21,15"
       ],
       "Ven.": [
+        "18,40",
         "21,15"
       ],
       "Sab.": [
@@ -17,24 +18,26 @@
         "21,15"
       ],
       "Dom": [
-        "16,15",
+        "16,30",
+        "18,40",
         "21,15"
       ],
       "Lun.": [
         "21,15"
       ],
       "Mar.": [
-        "18,40"
+        "18,40",
+        "21,15"
       ],
       "Mer.": [
-        "closed"
+        "21,40"
       ]
     },
-    "poster": "image6431.png",
+    "poster": "image9121.png",
     "description": null,
     "wikipedia": {
-      "title": "Saga di Geralt di Rivia",
-      "url": "https://it.wikipedia.org/wiki/Saga%20di%20Geralt%20di%20Rivia"
+      "title": "La casa - Il risveglio del male",
+      "url": "https://it.wikipedia.org/wiki/La%20casa%20-%20Il%20risveglio%20del%20male"
     },
     "omdb": null,
     "confidence": {
@@ -52,14 +55,15 @@
         "18,40"
       ],
       "Ven.": [
-        "18,40"
+        "21,00"
       ],
       "Sab.": [
-        "18,40"
+        "18,40",
+        "21,00"
       ],
       "Dom": [
         "16,30",
-        "18,40"
+        "21,00"
       ],
       "Lun.": [
         "21,00"
@@ -68,10 +72,10 @@
         "18,40"
       ],
       "Mer.": [
-        "closed"
+        "18,40"
       ]
     },
-    "poster": "image11091.png",
+    "poster": "image9731.png",
     "description": "Woody, Buzz, Jessie and the rest of the gang's jobs are challenged when they're introduced to electronics, a new threat to playtime.",
     "wikipedia": {
       "title": "Toy Story 5",
@@ -79,7 +83,7 @@
     },
     "omdb": {
       "imdbID": "tt29355505",
-      "imdbRating": null,
+      "imdbRating": "7.5",
       "year": "2026",
       "plot": "Woody, Buzz, Jessie and the rest of the gang's jobs are challenged when they're introduced to electronics, a new threat to playtime."
     },
@@ -89,10 +93,57 @@
     }
   },
   {
-    "id": "domingos",
-    "url": "http://www.cinemabristol.it/domingos.htm",
-    "title": "LOS DOMINGOS",
-    "director": "Alauda Ruiz De Az�a�",
+    "id": "odissea",
+    "url": "http://www.cinemabristol.it/odissea.htm",
+    "title": "ODISSEA",
+    "director": "Christopher Nolan",
+    "schedule": {
+      "Mer.": [
+        "18,30",
+        "21,00"
+      ],
+      "Gio.": [
+        "18,30",
+        "21,00"
+      ],
+      "Ven.": [
+        "18,30",
+        "21,00"
+      ],
+      "Sab.": [
+        "18,30",
+        "21,00"
+      ],
+      "Dom": [
+        "16,00",
+        "18,30",
+        "21,00"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "18,30",
+        "21,00"
+      ]
+    },
+    "poster": "image5191.png",
+    "description": null,
+    "wikipedia": {
+      "title": "Odissea (film 2026)",
+      "url": "https://it.wikipedia.org/wiki/Odissea%20(film%202026)"
+    },
+    "omdb": null,
+    "confidence": {
+      "omdbScore": 10,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "annodiscuola",
+    "url": "http://www.cinemabristol.it/annodiscuola.htm",
+    "title": "UN ANNO DI SCUOLA",
+    "director": "Laura Samani�",
     "schedule": {
       "Ven.": [
         "18,30"
@@ -101,17 +152,17 @@
         "21,00"
       ]
     },
-    "poster": "image6571.png",
-    "description": "A young woman named Ainara faces personal crossroads while exploring career possibilities, much to her family's concern",
+    "poster": "image5111.png",
+    "description": "The story, released the first time in 1929, tells the story of a girl, Edda Marty, who enters (the only woman) to be part of a class of boys, to attend the last year of high school, 8th gymnasium in Trieste. Edda is a wild child, ...",
     "wikipedia": {
-      "title": "A cena con il dittatore",
-      "url": "https://it.wikipedia.org/wiki/A%20cena%20con%20il%20dittatore"
+      "title": "Un anno di scuola (film)",
+      "url": "https://it.wikipedia.org/wiki/Un%20anno%20di%20scuola%20(film)"
     },
     "omdb": {
-      "imdbID": "tt35513027",
-      "imdbRating": null,
-      "year": "2025",
-      "plot": "A young woman named Ainara faces personal crossroads while exploring career possibilities, much to her family's concern"
+      "imdbID": "tt0074145",
+      "imdbRating": "8.1",
+      "year": "1977",
+      "plot": "The story, released the first time in 1929, tells the story of a girl, Edda Marty, who enters (the only woman) to be part of a class of boys, to attend the last year of high school, 8th gymnasium in Trieste. Edda is a wild child, ..."
     },
     "confidence": {
       "omdbScore": 75,
