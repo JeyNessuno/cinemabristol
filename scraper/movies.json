@@ -1,71 +1,108 @@
 [
   {
+    "id": "minionsmonster",
+    "url": "http://www.cinemabristol.it/minionsmonster.htm",
+    "title": "MINIONS & MONSTERS",
+    "director": "Pierre Coffin",
+    "schedule": {
+      "Gio.": [
+        "18,40"
+      ],
+      "Ven.": [
+        "18,40",
+        "21,00"
+      ],
+      "Sab.": [
+        "18,40",
+        "21,00"
+      ],
+      "Dom": [
+        "16,30",
+        "19,00",
+        "21,00"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "18,40"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image9651.png"
+  },
+  {
     "id": "casa",
     "url": "http://www.cinemabristol.it/casa.htm",
     "title": "LA CASA - IL ROGO DEL MALE",
     "director": "S�bastien Vanicek",
     "schedule": {
       "Gio.": [
-        "18,40",
-        "21,15"
+        "21,40"
       ],
       "Ven.": [
-        "18,40",
-        "21,15"
+        "21,40"
       ],
       "Sab.": [
-        "18,40",
-        "21,15"
+        "18,40"
       ],
       "Dom": [
-        "16,30",
-        "18,40",
-        "21,15"
+        "21,40"
       ],
       "Lun.": [
         "21,15"
       ],
       "Mar.": [
-        "18,40",
-        "21,15"
+        "18,40"
       ],
       "Mer.": [
-        "21,40"
+        "closed"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image9121.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image5611.png"
   },
   {
-    "id": "toystory",
-    "url": "http://www.cinemabristol.it/toystory.htm",
-    "title": "TOY STORY 5",
-    "director": "Andrew Stanton",
+    "id": "obsession",
+    "url": "http://www.cinemabristol.it/obsession.htm",
+    "title": "OBSESSION",
+    "director": "Curry Barker",
     "schedule": {
       "Gio.": [
         "18,40"
       ],
-      "Ven.": [
-        "21,00"
-      ],
+      "Ven.": [],
       "Sab.": [
-        "18,40",
-        "21,00"
+        "21,40"
       ],
       "Dom": [
-        "16,30",
-        "21,00"
+        "16,15"
       ],
-      "Lun.": [
-        "21,00"
-      ],
+      "Lun.": [],
       "Mar.": [
-        "18,40"
+        "21,40"
       ],
       "Mer.": [
-        "18,40"
+        "closed"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image9731.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image4491.png"
+  },
+  {
+    "id": "straniero",
+    "url": "http://www.cinemabristol.it/straniero.htm",
+    "title": "LO STRANIERO",
+    "director": "Fran�ois Ozon�",
+    "schedule": {
+      "Ven.": [
+        "18,30"
+      ],
+      "Mar.": [
+        "21,00"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image6421.png"
   },
   {
     "id": "odissea",
@@ -73,10 +110,6 @@
     "title": "ODISSEA",
     "director": "Christopher Nolan",
     "schedule": {
-      "Mer.": [
-        "18,30",
-        "21,00"
-      ],
       "Gio.": [
         "18,30",
         "21,00"
@@ -102,21 +135,6 @@
         "21,00"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image5191.png"
-  },
-  {
-    "id": "annodiscuola",
-    "url": "http://www.cinemabristol.it/annodiscuola.htm",
-    "title": "UN ANNO DI SCUOLA",
-    "director": "Laura Samani�",
-    "schedule": {
-      "Ven.": [
-        "18,30"
-      ],
-      "Mar.": [
-        "21,00"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image5111.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image6621.png"
   }
 ]

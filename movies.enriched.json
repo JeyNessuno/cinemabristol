@@ -1,39 +1,82 @@
 [
   {
+    "id": "minionsmonster",
+    "url": "http://www.cinemabristol.it/minionsmonster.htm",
+    "title": "MINIONS & MONSTERS",
+    "director": "Pierre Coffin",
+    "schedule": {
+      "Gio.": [
+        "18,40"
+      ],
+      "Ven.": [
+        "18,40",
+        "21,00"
+      ],
+      "Sab.": [
+        "18,40",
+        "21,00"
+      ],
+      "Dom": [
+        "16,30",
+        "19,00",
+        "21,00"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "18,40"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "image9651.png",
+    "description": "Follows the Minions in 1920s Hollywood as they search for frightening creatures for their monster movie, partner with a green creature, and must save the planet after unleashing monsters.",
+    "wikipedia": {
+      "title": "Minions (film)",
+      "url": "https://it.wikipedia.org/wiki/Minions%20(film)"
+    },
+    "omdb": {
+      "imdbID": "tt32890033",
+      "imdbRating": "6.6",
+      "year": "2026",
+      "plot": "Follows the Minions in 1920s Hollywood as they search for frightening creatures for their monster movie, partner with a green creature, and must save the planet after unleashing monsters."
+    },
+    "confidence": {
+      "omdbScore": 75,
+      "wikipediaFound": true
+    }
+  },
+  {
     "id": "casa",
     "url": "http://www.cinemabristol.it/casa.htm",
     "title": "LA CASA - IL ROGO DEL MALE",
     "director": "S�bastien Vanicek",
     "schedule": {
       "Gio.": [
-        "18,40",
-        "21,15"
+        "21,40"
       ],
       "Ven.": [
-        "18,40",
-        "21,15"
+        "21,40"
       ],
       "Sab.": [
-        "18,40",
-        "21,15"
+        "18,40"
       ],
       "Dom": [
-        "16,30",
-        "18,40",
-        "21,15"
+        "21,40"
       ],
       "Lun.": [
         "21,15"
       ],
       "Mar.": [
-        "18,40",
-        "21,15"
+        "18,40"
       ],
       "Mer.": [
-        "21,40"
+        "closed"
       ]
     },
-    "poster": "image9121.png",
+    "poster": "image5611.png",
     "description": null,
     "wikipedia": {
       "title": "La casa - Il risveglio del male",
@@ -46,49 +89,73 @@
     }
   },
   {
-    "id": "toystory",
-    "url": "http://www.cinemabristol.it/toystory.htm",
-    "title": "TOY STORY 5",
-    "director": "Andrew Stanton",
+    "id": "obsession",
+    "url": "http://www.cinemabristol.it/obsession.htm",
+    "title": "OBSESSION",
+    "director": "Curry Barker",
     "schedule": {
       "Gio.": [
         "18,40"
       ],
-      "Ven.": [
-        "21,00"
-      ],
+      "Ven.": [],
       "Sab.": [
-        "18,40",
-        "21,00"
+        "21,40"
       ],
       "Dom": [
-        "16,30",
-        "21,00"
+        "16,15"
       ],
-      "Lun.": [
-        "21,00"
-      ],
+      "Lun.": [],
       "Mar.": [
-        "18,40"
+        "21,40"
       ],
       "Mer.": [
-        "18,40"
+        "closed"
       ]
     },
-    "poster": "image9731.png",
-    "description": "Woody, Buzz, Jessie and the rest of the gang's jobs are challenged when they're introduced to electronics, a new threat to playtime.",
+    "poster": "image4491.png",
+    "description": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
     "wikipedia": {
-      "title": "Toy Story 5",
-      "url": "https://it.wikipedia.org/wiki/Toy%20Story%205"
+      "title": "Obsession (film 2025)",
+      "url": "https://it.wikipedia.org/wiki/Obsession%20(film%202025)"
     },
     "omdb": {
-      "imdbID": "tt29355505",
-      "imdbRating": "7.5",
+      "imdbID": "tt37287335",
+      "imdbRating": "8.0",
       "year": "2026",
-      "plot": "Woody, Buzz, Jessie and the rest of the gang's jobs are challenged when they're introduced to electronics, a new threat to playtime."
+      "plot": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price."
     },
     "confidence": {
-      "omdbScore": 90,
+      "omdbScore": 75,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "straniero",
+    "url": "http://www.cinemabristol.it/straniero.htm",
+    "title": "LO STRANIERO",
+    "director": "Fran�ois Ozon�",
+    "schedule": {
+      "Ven.": [
+        "18,30"
+      ],
+      "Mar.": [
+        "21,00"
+      ]
+    },
+    "poster": "image6421.png",
+    "description": null,
+    "wikipedia": {
+      "title": "Lo straniero (film 1946)",
+      "url": "https://it.wikipedia.org/wiki/Lo%20straniero%20(film%201946)"
+    },
+    "omdb": {
+      "imdbID": "tt1178167",
+      "imdbRating": null,
+      "year": "1915",
+      "plot": null
+    },
+    "confidence": {
+      "omdbScore": 75,
       "wikipediaFound": true
     }
   },
@@ -98,10 +165,6 @@
     "title": "ODISSEA",
     "director": "Christopher Nolan",
     "schedule": {
-      "Mer.": [
-        "18,30",
-        "21,00"
-      ],
       "Gio.": [
         "18,30",
         "21,00"
@@ -127,45 +190,15 @@
         "21,00"
       ]
     },
-    "poster": "image5191.png",
+    "poster": "image6621.png",
     "description": null,
     "wikipedia": {
-      "title": "Odissea (film 2026)",
-      "url": "https://it.wikipedia.org/wiki/Odissea%20(film%202026)"
+      "title": "Odissea (film)",
+      "url": "https://it.wikipedia.org/wiki/Odissea%20(film)"
     },
     "omdb": null,
     "confidence": {
       "omdbScore": 10,
-      "wikipediaFound": true
-    }
-  },
-  {
-    "id": "annodiscuola",
-    "url": "http://www.cinemabristol.it/annodiscuola.htm",
-    "title": "UN ANNO DI SCUOLA",
-    "director": "Laura Samani�",
-    "schedule": {
-      "Ven.": [
-        "18,30"
-      ],
-      "Mar.": [
-        "21,00"
-      ]
-    },
-    "poster": "image5111.png",
-    "description": "The story, released the first time in 1929, tells the story of a girl, Edda Marty, who enters (the only woman) to be part of a class of boys, to attend the last year of high school, 8th gymnasium in Trieste. Edda is a wild child, ...",
-    "wikipedia": {
-      "title": "Un anno di scuola (film)",
-      "url": "https://it.wikipedia.org/wiki/Un%20anno%20di%20scuola%20(film)"
-    },
-    "omdb": {
-      "imdbID": "tt0074145",
-      "imdbRating": "8.1",
-      "year": "1977",
-      "plot": "The story, released the first time in 1929, tells the story of a girl, Edda Marty, who enters (the only woman) to be part of a class of boys, to attend the last year of high school, 8th gymnasium in Trieste. Edda is a wild child, ..."
-    },
-    "confidence": {
-      "omdbScore": 75,
       "wikipediaFound": true
     }
   }
