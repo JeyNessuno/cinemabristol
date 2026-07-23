@@ -1,5 +1,35 @@
 [
   {
+    "id": "blue",
+    "url": "http://www.cinemabristol.it/blue.htm",
+    "title": "BLUE",
+    "director": "Eleonora Puglia",
+    "schedule": {
+      "Gio.": [
+        "21,40"
+      ],
+      "Ven.": [
+        "21,40"
+      ],
+      "Sab.": [
+        "21,40"
+      ],
+      "Dom": [
+        "21,40"
+      ],
+      "Lun.": [
+        "21,15"
+      ],
+      "Mar.": [
+        "21,40"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image6571.png"
+  },
+  {
     "id": "minionsmonster",
     "url": "http://www.cinemabristol.it/minionsmonster.htm",
     "title": "MINIONS & MONSTERS",
@@ -9,8 +39,7 @@
         "18,40"
       ],
       "Ven.": [
-        "18,40",
-        "21,00"
+        "18,40"
       ],
       "Sab.": [
         "18,40",
@@ -18,91 +47,17 @@
       ],
       "Dom": [
         "16,30",
-        "19,00",
-        "21,00"
-      ],
-      "Lun.": [
-        "21,00"
-      ],
-      "Mar.": [
-        "18,40"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image9651.png"
-  },
-  {
-    "id": "casa",
-    "url": "http://www.cinemabristol.it/casa.htm",
-    "title": "LA CASA - IL ROGO DEL MALE",
-    "director": "S�bastien Vanicek",
-    "schedule": {
-      "Gio.": [
-        "21,40"
-      ],
-      "Ven.": [
-        "21,40"
-      ],
-      "Sab.": [
-        "18,40"
-      ],
-      "Dom": [
-        "21,40"
-      ],
-      "Lun.": [
-        "21,15"
-      ],
-      "Mar.": [
-        "18,40"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image5611.png"
-  },
-  {
-    "id": "obsession",
-    "url": "http://www.cinemabristol.it/obsession.htm",
-    "title": "OBSESSION",
-    "director": "Curry Barker",
-    "schedule": {
-      "Gio.": [
-        "18,40"
-      ],
-      "Ven.": [],
-      "Sab.": [
-        "21,40"
-      ],
-      "Dom": [
-        "16,15"
+        "19,00"
       ],
       "Lun.": [],
       "Mar.": [
-        "21,40"
+        "18,40"
       ],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image4491.png"
-  },
-  {
-    "id": "straniero",
-    "url": "http://www.cinemabristol.it/straniero.htm",
-    "title": "LO STRANIERO",
-    "director": "Fran�ois Ozon�",
-    "schedule": {
-      "Ven.": [
-        "18,30"
-      ],
-      "Mar.": [
-        "21,00"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image6421.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image5681.png"
   },
   {
     "id": "odissea",
@@ -135,6 +90,52 @@
         "21,00"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image6621.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image8941.png"
+  },
+  {
+    "id": "miofratellovichingo",
+    "url": "http://www.cinemabristol.it/miofratellovichingo.htm",
+    "title": "MIO FRATELLO E� UN VICHINGO",
+    "director": "Anders Thomas Jensen�",
+    "schedule": {
+      "Ven.": [
+        "18,30"
+      ],
+      "Mar.": [
+        "21,00"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image5801.png"
+  },
+  {
+    "id": "terapiafamiglia",
+    "url": "http://www.cinemabristol.it/terapiafamiglia.htm",
+    "title": "TERAPIA DI FAMIGLIA",
+    "director": "Arnaud Lemort",
+    "schedule": {
+      "Gio.": [
+        "18,40"
+      ],
+      "Ven.": [
+        "21,15"
+      ],
+      "Sab.": [
+        "18,40"
+      ],
+      "Dom": [
+        "16,30",
+        "21,15"
+      ],
+      "Lun.": [
+        "21,15"
+      ],
+      "Mar.": [
+        "18,40"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image10481.png"
   }
 ]

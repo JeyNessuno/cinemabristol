@@ -1,5 +1,45 @@
 [
   {
+    "id": "blue",
+    "url": "http://www.cinemabristol.it/blue.htm",
+    "title": "BLUE",
+    "director": "Eleonora Puglia",
+    "schedule": {
+      "Gio.": [
+        "21,40"
+      ],
+      "Ven.": [
+        "21,40"
+      ],
+      "Sab.": [
+        "21,40"
+      ],
+      "Dom": [
+        "21,40"
+      ],
+      "Lun.": [
+        "21,15"
+      ],
+      "Mar.": [
+        "21,40"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "image6571.png",
+    "description": null,
+    "wikipedia": {
+      "title": "Blue Film (film)",
+      "url": "https://it.wikipedia.org/wiki/Blue%20Film%20(film)"
+    },
+    "omdb": null,
+    "confidence": {
+      "omdbScore": 10,
+      "wikipediaFound": true
+    }
+  },
+  {
     "id": "minionsmonster",
     "url": "http://www.cinemabristol.it/minionsmonster.htm",
     "title": "MINIONS & MONSTERS",
@@ -9,8 +49,7 @@
         "18,40"
       ],
       "Ven.": [
-        "18,40",
-        "21,00"
+        "18,40"
       ],
       "Sab.": [
         "18,40",
@@ -18,12 +57,9 @@
       ],
       "Dom": [
         "16,30",
-        "19,00",
-        "21,00"
+        "19,00"
       ],
-      "Lun.": [
-        "21,00"
-      ],
+      "Lun.": [],
       "Mar.": [
         "18,40"
       ],
@@ -31,7 +67,7 @@
         "closed"
       ]
     },
-    "poster": "image9651.png",
+    "poster": "image5681.png",
     "description": "Follows the Minions in 1920s Hollywood as they search for frightening creatures for their monster movie, partner with a green creature, and must save the planet after unleashing monsters.",
     "wikipedia": {
       "title": "Minions (film)",
@@ -42,117 +78,6 @@
       "imdbRating": "6.6",
       "year": "2026",
       "plot": "Follows the Minions in 1920s Hollywood as they search for frightening creatures for their monster movie, partner with a green creature, and must save the planet after unleashing monsters."
-    },
-    "confidence": {
-      "omdbScore": 75,
-      "wikipediaFound": true
-    }
-  },
-  {
-    "id": "casa",
-    "url": "http://www.cinemabristol.it/casa.htm",
-    "title": "LA CASA - IL ROGO DEL MALE",
-    "director": "S�bastien Vanicek",
-    "schedule": {
-      "Gio.": [
-        "21,40"
-      ],
-      "Ven.": [
-        "21,40"
-      ],
-      "Sab.": [
-        "18,40"
-      ],
-      "Dom": [
-        "21,40"
-      ],
-      "Lun.": [
-        "21,15"
-      ],
-      "Mar.": [
-        "18,40"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "image5611.png",
-    "description": null,
-    "wikipedia": {
-      "title": "La casa - Il risveglio del male",
-      "url": "https://it.wikipedia.org/wiki/La%20casa%20-%20Il%20risveglio%20del%20male"
-    },
-    "omdb": null,
-    "confidence": {
-      "omdbScore": 0,
-      "wikipediaFound": true
-    }
-  },
-  {
-    "id": "obsession",
-    "url": "http://www.cinemabristol.it/obsession.htm",
-    "title": "OBSESSION",
-    "director": "Curry Barker",
-    "schedule": {
-      "Gio.": [
-        "18,40"
-      ],
-      "Ven.": [],
-      "Sab.": [
-        "21,40"
-      ],
-      "Dom": [
-        "16,15"
-      ],
-      "Lun.": [],
-      "Mar.": [
-        "21,40"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "image4491.png",
-    "description": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
-    "wikipedia": {
-      "title": "Obsession (film 2025)",
-      "url": "https://it.wikipedia.org/wiki/Obsession%20(film%202025)"
-    },
-    "omdb": {
-      "imdbID": "tt37287335",
-      "imdbRating": "8.0",
-      "year": "2026",
-      "plot": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price."
-    },
-    "confidence": {
-      "omdbScore": 75,
-      "wikipediaFound": true
-    }
-  },
-  {
-    "id": "straniero",
-    "url": "http://www.cinemabristol.it/straniero.htm",
-    "title": "LO STRANIERO",
-    "director": "Fran�ois Ozon�",
-    "schedule": {
-      "Ven.": [
-        "18,30"
-      ],
-      "Mar.": [
-        "21,00"
-      ]
-    },
-    "poster": "image6421.png",
-    "description": null,
-    "wikipedia": {
-      "title": "Lo straniero (film 1946)",
-      "url": "https://it.wikipedia.org/wiki/Lo%20straniero%20(film%201946)"
-    },
-    "omdb": {
-      "imdbID": "tt1178167",
-      "imdbRating": null,
-      "year": "1915",
-      "plot": null
     },
     "confidence": {
       "omdbScore": 75,
@@ -190,7 +115,7 @@
         "21,00"
       ]
     },
-    "poster": "image6621.png",
+    "poster": "image8941.png",
     "description": null,
     "wikipedia": {
       "title": "Odissea (film)",
@@ -199,6 +124,72 @@
     "omdb": null,
     "confidence": {
       "omdbScore": 10,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "miofratellovichingo",
+    "url": "http://www.cinemabristol.it/miofratellovichingo.htm",
+    "title": "MIO FRATELLO E� UN VICHINGO",
+    "director": "Anders Thomas Jensen�",
+    "schedule": {
+      "Ven.": [
+        "18,30"
+      ],
+      "Mar.": [
+        "21,00"
+      ]
+    },
+    "poster": "image5801.png",
+    "description": null,
+    "wikipedia": {
+      "title": "Mio fratello è un vichingo - The last viking",
+      "url": "https://it.wikipedia.org/wiki/Mio%20fratello%20%C3%A8%20un%20vichingo%20-%20The%20last%20viking"
+    },
+    "omdb": null,
+    "confidence": {
+      "omdbScore": 0,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "terapiafamiglia",
+    "url": "http://www.cinemabristol.it/terapiafamiglia.htm",
+    "title": "TERAPIA DI FAMIGLIA",
+    "director": "Arnaud Lemort",
+    "schedule": {
+      "Gio.": [
+        "18,40"
+      ],
+      "Ven.": [
+        "21,15"
+      ],
+      "Sab.": [
+        "18,40"
+      ],
+      "Dom": [
+        "16,30",
+        "21,15"
+      ],
+      "Lun.": [
+        "21,15"
+      ],
+      "Mar.": [
+        "18,40"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "image10481.png",
+    "description": null,
+    "wikipedia": {
+      "title": "Terapia e pallottole",
+      "url": "https://it.wikipedia.org/wiki/Terapia%20e%20pallottole"
+    },
+    "omdb": null,
+    "confidence": {
+      "omdbScore": 0,
       "wikipediaFound": true
     }
   }
