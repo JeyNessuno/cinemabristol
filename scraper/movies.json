@@ -1,9 +1,24 @@
 [
   {
-    "id": "blue",
-    "url": "http://www.cinemabristol.it/blue.htm",
-    "title": "BLUE",
-    "director": "Eleonora Puglia",
+    "id": "hen",
+    "url": "http://www.cinemabristol.it/hen.htm",
+    "title": "HEN - STORIA DI UNA GALLINA",
+    "director": "Gyorgy Palfi�",
+    "schedule": {
+      "Ven.": [
+        "18,30"
+      ],
+      "Mar.": [
+        "21,00"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image4511.png"
+  },
+  {
+    "id": "deepwater",
+    "url": "http://www.cinemabristol.it/deepwater.htm",
+    "title": "DEPP WATER - INCUBO DAGLI ABISSI",
+    "director": "Renny Harlin",
     "schedule": {
       "Gio.": [
         "21,40"
@@ -23,11 +38,9 @@
       "Mar.": [
         "21,40"
       ],
-      "Mer.": [
-        "closed"
-      ]
+      "Mer.": []
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image6571.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image9271.png"
   },
   {
     "id": "minionsmonster",
@@ -53,65 +66,15 @@
       "Mar.": [
         "18,40"
       ],
-      "Mer.": [
-        "closed"
-      ]
+      "Mer.": []
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image5681.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image5671.png"
   },
   {
-    "id": "odissea",
-    "url": "http://www.cinemabristol.it/odissea.htm",
-    "title": "ODISSEA",
-    "director": "Christopher Nolan",
-    "schedule": {
-      "Gio.": [
-        "18,30",
-        "21,00"
-      ],
-      "Ven.": [
-        "18,30",
-        "21,00"
-      ],
-      "Sab.": [
-        "18,30",
-        "21,00"
-      ],
-      "Dom": [
-        "16,00",
-        "18,30",
-        "21,00"
-      ],
-      "Lun.": [
-        "21,00"
-      ],
-      "Mar.": [
-        "18,30",
-        "21,00"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image8941.png"
-  },
-  {
-    "id": "miofratellovichingo",
-    "url": "http://www.cinemabristol.it/miofratellovichingo.htm",
-    "title": "MIO FRATELLO E� UN VICHINGO",
-    "director": "Anders Thomas Jensen�",
-    "schedule": {
-      "Ven.": [
-        "18,30"
-      ],
-      "Mar.": [
-        "21,00"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image5801.png"
-  },
-  {
-    "id": "terapiafamiglia",
-    "url": "http://www.cinemabristol.it/terapiafamiglia.htm",
-    "title": "TERAPIA DI FAMIGLIA",
-    "director": "Arnaud Lemort",
+    "id": "hangarrosso",
+    "url": "http://www.cinemabristol.it/hangarrosso.htm",
+    "title": "L�HANGAR ROSSO",
+    "director": "Juan Pablo Sallato",
     "schedule": {
       "Gio.": [
         "18,40"
@@ -132,10 +95,8 @@
       "Mar.": [
         "18,40"
       ],
-      "Mer.": [
-        "closed"
-      ]
+      "Mer.": []
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image10481.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image8971.png"
   }
 ]

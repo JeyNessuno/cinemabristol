@@ -1,9 +1,34 @@
 [
   {
-    "id": "blue",
-    "url": "http://www.cinemabristol.it/blue.htm",
-    "title": "BLUE",
-    "director": "Eleonora Puglia",
+    "id": "hen",
+    "url": "http://www.cinemabristol.it/hen.htm",
+    "title": "HEN - STORIA DI UNA GALLINA",
+    "director": "Gyorgy Palfi�",
+    "schedule": {
+      "Ven.": [
+        "18,30"
+      ],
+      "Mar.": [
+        "21,00"
+      ]
+    },
+    "poster": "image4511.png",
+    "description": null,
+    "wikipedia": {
+      "title": "La gallinella saggia",
+      "url": "https://it.wikipedia.org/wiki/La%20gallinella%20saggia"
+    },
+    "omdb": null,
+    "confidence": {
+      "omdbScore": 0,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "deepwater",
+    "url": "http://www.cinemabristol.it/deepwater.htm",
+    "title": "DEPP WATER - INCUBO DAGLI ABISSI",
+    "director": "Renny Harlin",
     "schedule": {
       "Gio.": [
         "21,40"
@@ -23,19 +48,17 @@
       "Mar.": [
         "21,40"
       ],
-      "Mer.": [
-        "closed"
-      ]
+      "Mer.": []
     },
-    "poster": "image6571.png",
+    "poster": "image9271.png",
     "description": null,
     "wikipedia": {
-      "title": "Blue Film (film)",
-      "url": "https://it.wikipedia.org/wiki/Blue%20Film%20(film)"
+      "title": "Fabio Boccanera",
+      "url": "https://it.wikipedia.org/wiki/Fabio%20Boccanera"
     },
     "omdb": null,
     "confidence": {
-      "omdbScore": 10,
+      "omdbScore": 0,
       "wikipediaFound": true
     }
   },
@@ -63,15 +86,13 @@
       "Mar.": [
         "18,40"
       ],
-      "Mer.": [
-        "closed"
-      ]
+      "Mer.": []
     },
-    "poster": "image5681.png",
+    "poster": "image5671.png",
     "description": "Follows the Minions in 1920s Hollywood as they search for frightening creatures for their monster movie, partner with a green creature, and must save the planet after unleashing monsters.",
     "wikipedia": {
-      "title": "Minions (film)",
-      "url": "https://it.wikipedia.org/wiki/Minions%20(film)"
+      "title": "Minions & Monsters",
+      "url": "https://it.wikipedia.org/wiki/Minions%20%26%20Monsters"
     },
     "omdb": {
       "imdbID": "tt32890033",
@@ -80,83 +101,15 @@
       "plot": "Follows the Minions in 1920s Hollywood as they search for frightening creatures for their monster movie, partner with a green creature, and must save the planet after unleashing monsters."
     },
     "confidence": {
-      "omdbScore": 75,
+      "omdbScore": 90,
       "wikipediaFound": true
     }
   },
   {
-    "id": "odissea",
-    "url": "http://www.cinemabristol.it/odissea.htm",
-    "title": "ODISSEA",
-    "director": "Christopher Nolan",
-    "schedule": {
-      "Gio.": [
-        "18,30",
-        "21,00"
-      ],
-      "Ven.": [
-        "18,30",
-        "21,00"
-      ],
-      "Sab.": [
-        "18,30",
-        "21,00"
-      ],
-      "Dom": [
-        "16,00",
-        "18,30",
-        "21,00"
-      ],
-      "Lun.": [
-        "21,00"
-      ],
-      "Mar.": [
-        "18,30",
-        "21,00"
-      ]
-    },
-    "poster": "image8941.png",
-    "description": null,
-    "wikipedia": {
-      "title": "Odissea (film)",
-      "url": "https://it.wikipedia.org/wiki/Odissea%20(film)"
-    },
-    "omdb": null,
-    "confidence": {
-      "omdbScore": 10,
-      "wikipediaFound": true
-    }
-  },
-  {
-    "id": "miofratellovichingo",
-    "url": "http://www.cinemabristol.it/miofratellovichingo.htm",
-    "title": "MIO FRATELLO E� UN VICHINGO",
-    "director": "Anders Thomas Jensen�",
-    "schedule": {
-      "Ven.": [
-        "18,30"
-      ],
-      "Mar.": [
-        "21,00"
-      ]
-    },
-    "poster": "image5801.png",
-    "description": null,
-    "wikipedia": {
-      "title": "Mio fratello è un vichingo - The last viking",
-      "url": "https://it.wikipedia.org/wiki/Mio%20fratello%20%C3%A8%20un%20vichingo%20-%20The%20last%20viking"
-    },
-    "omdb": null,
-    "confidence": {
-      "omdbScore": 0,
-      "wikipediaFound": true
-    }
-  },
-  {
-    "id": "terapiafamiglia",
-    "url": "http://www.cinemabristol.it/terapiafamiglia.htm",
-    "title": "TERAPIA DI FAMIGLIA",
-    "director": "Arnaud Lemort",
+    "id": "hangarrosso",
+    "url": "http://www.cinemabristol.it/hangarrosso.htm",
+    "title": "L�HANGAR ROSSO",
+    "director": "Juan Pablo Sallato",
     "schedule": {
       "Gio.": [
         "18,40"
@@ -177,15 +130,13 @@
       "Mar.": [
         "18,40"
       ],
-      "Mer.": [
-        "closed"
-      ]
+      "Mer.": []
     },
-    "poster": "image10481.png",
+    "poster": "image8971.png",
     "description": null,
     "wikipedia": {
-      "title": "Terapia e pallottole",
-      "url": "https://it.wikipedia.org/wiki/Terapia%20e%20pallottole"
+      "title": "L'hangar rosso",
+      "url": "https://it.wikipedia.org/wiki/L'hangar%20rosso"
     },
     "omdb": null,
     "confidence": {
