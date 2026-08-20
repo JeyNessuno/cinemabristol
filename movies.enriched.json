@@ -1,1 +1,165 @@
-[]
+[
+  {
+    "id": "oceania",
+    "url": "http://www.cinemabristol.it/oceania.htm",
+    "title": "OCEANIA",
+    "director": "Thomas Kail",
+    "schedule": {
+      "Mer.": [
+        "18,40",
+        "21,00"
+      ],
+      "Gio.": [
+        "18,40",
+        "21,00"
+      ],
+      "Ven.": [
+        "18,40",
+        "21,00"
+      ],
+      "Sab.": [
+        "18,40",
+        "21,00"
+      ],
+      "Dom": [
+        "16,00",
+        "19,00",
+        "21,00"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "18,40",
+        "21,00"
+      ]
+    },
+    "poster": "image7291.png",
+    "description": "Two teenagers deal with their shattered family-life in a small California coastal town.",
+    "wikipedia": {
+      "title": "Oceania (film 2026)",
+      "url": "https://it.wikipedia.org/wiki/Oceania%20(film%202026)"
+    },
+    "omdb": {
+      "imdbID": "tt1199787",
+      "imdbRating": "6.6",
+      "year": "2008",
+      "plot": "Two teenagers deal with their shattered family-life in a small California coastal town."
+    },
+    "confidence": {
+      "omdbScore": 75,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "tigrimompracem",
+    "url": "http://www.cinemabristol.it/tigrimompracem.htm",
+    "title": "LE TIGRI DI MOMPRACEM",
+    "director": "Alberto Rodriguez�",
+    "schedule": {
+      "Ven.": [
+        "18,30"
+      ],
+      "Mar.": [
+        "21,00"
+      ]
+    },
+    "poster": "image6241.png",
+    "description": "After the evil maharajah Varauni exterminated his whole family, the brave Sandokan decides to retreat on the island of Mompracem to meditate a terrible revenge against him.",
+    "wikipedia": {
+      "title": "Le tigri di Mompracem",
+      "url": "https://it.wikipedia.org/wiki/Le%20tigri%20di%20Mompracem"
+    },
+    "omdb": {
+      "imdbID": "tt0066457",
+      "imdbRating": "5.8",
+      "year": "1970",
+      "plot": "After the evil maharajah Varauni exterminated his whole family, the brave Sandokan decides to retreat on the island of Mompracem to meditate a terrible revenge against him."
+    },
+    "confidence": {
+      "omdbScore": 90,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "fineoakstreet",
+    "url": "http://www.cinemabristol.it/fineoakstreet.htm",
+    "title": "LA FINE DI OAK STREET",
+    "director": "David Robert Mitchell",
+    "schedule": {
+      "Gio.": [
+        "18,40"
+      ],
+      "Ven.": [
+        "18,40"
+      ],
+      "Sab.": [
+        "18,40"
+      ],
+      "Dom": [
+        "21,15"
+      ],
+      "Lun.": [],
+      "Mar.": [
+        "18,40"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "image9221.png",
+    "description": null,
+    "wikipedia": {
+      "title": "La fine di Oak Street",
+      "url": "https://it.wikipedia.org/wiki/La%20fine%20di%20Oak%20Street"
+    },
+    "omdb": null,
+    "confidence": {
+      "omdbScore": 0,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "odissea",
+    "url": "http://www.cinemabristol.it/odissea.htm",
+    "title": "ODISSEA",
+    "director": "Christopher Nolan",
+    "schedule": {
+      "Mer.": [
+        "18,00",
+        "21,00"
+      ],
+      "Gio.": [
+        "18,00"
+      ],
+      "Ven.": [
+        "21,00"
+      ],
+      "Sab.": [
+        "18,00",
+        "21,00"
+      ],
+      "Dom": [
+        "16,00",
+        "21,00"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "18,00"
+      ]
+    },
+    "poster": "image9811.png",
+    "description": null,
+    "wikipedia": {
+      "title": "Odissea (film)",
+      "url": "https://it.wikipedia.org/wiki/Odissea%20(film)"
+    },
+    "omdb": null,
+    "confidence": {
+      "omdbScore": 10,
+      "wikipediaFound": true
+    }
+  }
+]

@@ -1,1 +1,115 @@
-[]
+[
+  {
+    "id": "oceania",
+    "url": "http://www.cinemabristol.it/oceania.htm",
+    "title": "OCEANIA",
+    "director": "Thomas Kail",
+    "schedule": {
+      "Mer.": [
+        "18,40",
+        "21,00"
+      ],
+      "Gio.": [
+        "18,40",
+        "21,00"
+      ],
+      "Ven.": [
+        "18,40",
+        "21,00"
+      ],
+      "Sab.": [
+        "18,40",
+        "21,00"
+      ],
+      "Dom": [
+        "16,00",
+        "19,00",
+        "21,00"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "18,40",
+        "21,00"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image7291.png"
+  },
+  {
+    "id": "tigrimompracem",
+    "url": "http://www.cinemabristol.it/tigrimompracem.htm",
+    "title": "LE TIGRI DI MOMPRACEM",
+    "director": "Alberto Rodriguez�",
+    "schedule": {
+      "Ven.": [
+        "18,30"
+      ],
+      "Mar.": [
+        "21,00"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image6241.png"
+  },
+  {
+    "id": "fineoakstreet",
+    "url": "http://www.cinemabristol.it/fineoakstreet.htm",
+    "title": "LA FINE DI OAK STREET",
+    "director": "David Robert Mitchell",
+    "schedule": {
+      "Gio.": [
+        "18,40"
+      ],
+      "Ven.": [
+        "18,40"
+      ],
+      "Sab.": [
+        "18,40"
+      ],
+      "Dom": [
+        "21,15"
+      ],
+      "Lun.": [],
+      "Mar.": [
+        "18,40"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image9221.png"
+  },
+  {
+    "id": "odissea",
+    "url": "http://www.cinemabristol.it/odissea.htm",
+    "title": "ODISSEA",
+    "director": "Christopher Nolan",
+    "schedule": {
+      "Mer.": [
+        "18,00",
+        "21,00"
+      ],
+      "Gio.": [
+        "18,00"
+      ],
+      "Ven.": [
+        "21,00"
+      ],
+      "Sab.": [
+        "18,00",
+        "21,00"
+      ],
+      "Dom": [
+        "16,00",
+        "21,00"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "18,00"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image9811.png"
+  }
+]
