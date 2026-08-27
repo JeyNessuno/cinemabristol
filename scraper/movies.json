@@ -1,14 +1,40 @@
 [
   {
+    "id": "spiderman",
+    "url": "http://www.cinemabristol.it/spiderman.htm",
+    "title": "SPIDER-MAN: BRAND NEW DAY",
+    "director": "Cretton Daniel Destin",
+    "schedule": {
+      "Gio.": [
+        "18,30"
+      ],
+      "Ven.": [
+        "18,30"
+      ],
+      "Sab.": [
+        "21,00"
+      ],
+      "Dom": [
+        "21,00"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "18,30"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image6901.png"
+  },
+  {
     "id": "oceania",
     "url": "http://www.cinemabristol.it/oceania.htm",
     "title": "OCEANIA",
     "director": "Thomas Kail",
     "schedule": {
-      "Mer.": [
-        "18,40",
-        "21,00"
-      ],
       "Gio.": [
         "18,40",
         "21,00"
@@ -23,24 +49,54 @@
       ],
       "Dom": [
         "16,00",
-        "19,00",
+        "18,40",
         "21,00"
       ],
       "Lun.": [
         "21,00"
       ],
       "Mar.": [
-        "18,40",
-        "21,00"
+        "18,40"
+      ],
+      "Mer.": [
+        "closed"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image7291.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image7681.png"
   },
   {
-    "id": "tigrimompracem",
-    "url": "http://www.cinemabristol.it/tigrimompracem.htm",
-    "title": "LE TIGRI DI MOMPRACEM",
-    "director": "Alberto Rodriguez�",
+    "id": "odissea",
+    "url": "http://www.cinemabristol.it/odissea.htm",
+    "title": "ODISSEA",
+    "director": "Christopher Nolan",
+    "schedule": {
+      "Gio.": [
+        "21,00"
+      ],
+      "Ven.": [
+        "21,00"
+      ],
+      "Sab.": [
+        "18,15"
+      ],
+      "Dom": [
+        "16,00"
+      ],
+      "Lun.": [],
+      "Mar.": [
+        "21,00"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image5771.png"
+  },
+  {
+    "id": "yellowletters",
+    "url": "http://www.cinemabristol.it/yellowletters.htm",
+    "title": "YELLOW LETTERS",
+    "director": "Ilker Catak�",
     "schedule": {
       "Ven.": [
         "18,30"
@@ -49,67 +105,41 @@
         "21,00"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image6241.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image6871.png"
   },
   {
-    "id": "fineoakstreet",
-    "url": "http://www.cinemabristol.it/fineoakstreet.htm",
-    "title": "LA FINE DI OAK STREET",
-    "director": "David Robert Mitchell",
+    "id": "onenightonly",
+    "url": "http://www.cinemabristol.it/onenightonly.htm",
+    "title": "ONE NIGHT ONLY",
+    "director": "Will Gluck",
     "schedule": {
       "Gio.": [
-        "18,40"
-      ],
-      "Ven.": [
-        "18,40"
-      ],
-      "Sab.": [
-        "18,40"
-      ],
-      "Dom": [
+        "18,40",
         "21,15"
       ],
-      "Lun.": [],
+      "Ven.": [
+        "21,15"
+      ],
+      "Sab.": [
+        "18,40",
+        "21,30"
+      ],
+      "Dom": [
+        "16,15",
+        "19,00",
+        "21,15"
+      ],
+      "Lun.": [
+        "21,15"
+      ],
       "Mar.": [
-        "18,40"
+        "18,40",
+        "21,15"
       ],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image9221.png"
-  },
-  {
-    "id": "odissea",
-    "url": "http://www.cinemabristol.it/odissea.htm",
-    "title": "ODISSEA",
-    "director": "Christopher Nolan",
-    "schedule": {
-      "Mer.": [
-        "18,00",
-        "21,00"
-      ],
-      "Gio.": [
-        "18,00"
-      ],
-      "Ven.": [
-        "21,00"
-      ],
-      "Sab.": [
-        "18,00",
-        "21,00"
-      ],
-      "Dom": [
-        "16,00",
-        "21,00"
-      ],
-      "Lun.": [
-        "21,00"
-      ],
-      "Mar.": [
-        "18,00"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image9811.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image6981.png"
   }
 ]
