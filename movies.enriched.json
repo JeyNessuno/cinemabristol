@@ -1,35 +1,42 @@
 [
   {
-    "id": "insidious",
-    "url": "http://www.cinemabristol.it/insidious.htm",
-    "title": "INSIDIOUS - FUORI DALL�ALTROVE",
-    "director": "Jacob Chase",
+    "id": "amoriincantesimi",
+    "url": "http://www.cinemabristol.it/amoriincantesimi.htm",
+    "title": "AMORI & INCANTESIMI 2",
+    "director": "Susanne Bier",
     "schedule": {
       "Gio.": [
+        "18,40",
         "21,00"
       ],
       "Ven.": [
         "21,00"
       ],
       "Sab.": [
-        "21,30"
+        "18,40",
+        "21,00"
       ],
       "Dom": [
-        "21,30"
+        "16,15",
+        "18,40",
+        "21,00"
       ],
-      "Lun.": [],
+      "Lun.": [
+        "21,00"
+      ],
       "Mar.": [
+        "18,40",
         "21,00"
       ],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "image4441.png",
+    "poster": "image7041.png",
     "description": null,
     "wikipedia": {
-      "title": "Insidious (film)",
-      "url": "https://it.wikipedia.org/wiki/Insidious%20(film)"
+      "title": "Sandra Bullock",
+      "url": "https://it.wikipedia.org/wiki/Sandra%20Bullock"
     },
     "omdb": null,
     "confidence": {
@@ -71,17 +78,17 @@
         "closed"
       ]
     },
-    "poster": "image3651.png",
-    "description": "A story set in the ACME warehouse, the manufacturer of anything and everything used by the Looney Tunes characters.",
+    "poster": "image6261.png",
+    "description": "After enduring years of malfunctioning products, Wile E. Coyote teams up with a local personal injury attorney to take on ACME, the manufacturer of anything and everything used by the Looney Tunes characters.",
     "wikipedia": {
       "title": "Coyote vs. Acme",
       "url": "https://it.wikipedia.org/wiki/Coyote%20vs.%20Acme"
     },
     "omdb": {
       "imdbID": "tt1756855",
-      "imdbRating": "7.7",
+      "imdbRating": "7.6",
       "year": "2026",
-      "plot": "A story set in the ACME warehouse, the manufacturer of anything and everything used by the Looney Tunes characters."
+      "plot": "After enduring years of malfunctioning products, Wile E. Coyote teams up with a local personal injury attorney to take on ACME, the manufacturer of anything and everything used by the Looney Tunes characters."
     },
     "confidence": {
       "omdbScore": 90,
@@ -89,10 +96,69 @@
     }
   },
   {
-    "id": "oceania",
-    "url": "http://www.cinemabristol.it/oceania.htm",
-    "title": "OCEANIA",
-    "director": "Thomas Kail",
+    "id": "odissea",
+    "url": "http://www.cinemabristol.it/odissea.htm",
+    "title": "ODISSEA",
+    "director": "Christopher Nolan",
+    "schedule": {
+      "Gio.": [
+        "20,45"
+      ],
+      "Ven.": [],
+      "Sab.": [],
+      "Dom": [
+        "20,45"
+      ],
+      "Lun.": [
+        "20,45"
+      ],
+      "Mar.": [],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "image4271.png",
+    "description": null,
+    "wikipedia": {
+      "title": "Odissea (film)",
+      "url": "https://it.wikipedia.org/wiki/Odissea%20(film)"
+    },
+    "omdb": null,
+    "confidence": {
+      "omdbScore": 10,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "cenadittatore",
+    "url": "http://www.cinemabristol.it/cenadittatore.htm",
+    "title": "A CENA CON IL DITTATORE",
+    "director": "Manuel Gomez Pereira�",
+    "schedule": {
+      "Ven.": [
+        "18,30"
+      ],
+      "Mar.": [
+        "21,00"
+      ]
+    },
+    "poster": "image6361.png",
+    "description": null,
+    "wikipedia": {
+      "title": "A cena con il dittatore",
+      "url": "https://it.wikipedia.org/wiki/A%20cena%20con%20il%20dittatore"
+    },
+    "omdb": null,
+    "confidence": {
+      "omdbScore": 0,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "pawpatrol",
+    "url": "http://www.cinemabristol.it/pawpatrol.htm",
+    "title": "PAW PATROL - MISSIONE DINOSAURI",
+    "director": "Cal� Brunker",
     "schedule": {
       "Gio.": [
         "18,40"
@@ -104,11 +170,9 @@
         "18,40"
       ],
       "Dom": [
-        "16,00"
+        "16,30"
       ],
-      "Lun.": [
-        "21,00"
-      ],
+      "Lun.": [],
       "Mar.": [
         "18,40"
       ],
@@ -116,7 +180,39 @@
         "closed"
       ]
     },
-    "poster": "image3541.png",
+    "poster": "image5441.png",
+    "description": null,
+    "wikipedia": {
+      "title": "Paw Patrol - Missione dinosauri",
+      "url": "https://it.wikipedia.org/wiki/Paw%20Patrol%20-%20Missione%20dinosauri"
+    },
+    "omdb": null,
+    "confidence": {
+      "omdbScore": 0,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "oceania",
+    "url": "http://www.cinemabristol.it/oceania.htm",
+    "title": "OCEANIA",
+    "director": "Thomas Kail",
+    "schedule": {
+      "Gio.": [],
+      "Ven.": [
+        "21,00"
+      ],
+      "Sab.": [
+        "21,00"
+      ],
+      "Dom": [],
+      "Lun.": [],
+      "Mar.": [],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "image8311.png",
     "description": "Two teenagers deal with their shattered family-life in a small California coastal town.",
     "wikipedia": {
       "title": "Oceania (film 2026)",
@@ -130,115 +226,6 @@
     },
     "confidence": {
       "omdbScore": 75,
-      "wikipediaFound": true
-    }
-  },
-  {
-    "id": "odissea",
-    "url": "http://www.cinemabristol.it/odissea.htm",
-    "title": "ODISSEA",
-    "director": "Christopher Nolan",
-    "schedule": {
-      "Gio.": [],
-      "Ven.": [],
-      "Sab.": [
-        "18,15"
-      ],
-      "Dom": [
-        "18,15"
-      ],
-      "Lun.": [],
-      "Mar.": [],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "image9731.png",
-    "description": null,
-    "wikipedia": {
-      "title": "Odissea (film)",
-      "url": "https://it.wikipedia.org/wiki/Odissea%20(film)"
-    },
-    "omdb": null,
-    "confidence": {
-      "omdbScore": 10,
-      "wikipediaFound": true
-    }
-  },
-  {
-    "id": "nogoodmen",
-    "url": "http://www.cinemabristol.it/nogoodmen.htm",
-    "title": "NO GOOD MEN",
-    "director": "Shahrbanoo Sadat�",
-    "schedule": {
-      "Ven.": [
-        "18,30"
-      ],
-      "Mar.": [
-        "21,00"
-      ]
-    },
-    "poster": "image9761.png",
-    "description": "Naru, 25, films cooking shows but despises men after her husband's affairs. She lives with her 3-year-old son in her parents' Kabul apartment, though Afghan law favors the father. Her ex calls during a live show, demanding her ret...",
-    "wikipedia": {
-      "title": "X-Men - Apocalisse",
-      "url": "https://it.wikipedia.org/wiki/X-Men%20-%20Apocalisse"
-    },
-    "omdb": {
-      "imdbID": "tt13868840",
-      "imdbRating": "7.5",
-      "year": "2026",
-      "plot": "Naru, 25, films cooking shows but despises men after her husband's affairs. She lives with her 3-year-old son in her parents' Kabul apartment, though Afghan law favors the father. Her ex calls during a live show, demanding her ret..."
-    },
-    "confidence": {
-      "omdbScore": 75,
-      "wikipediaFound": true
-    }
-  },
-  {
-    "id": "malloppo",
-    "url": "http://www.cinemabristol.it/malloppo.htm",
-    "title": "IL MALLOPPO",
-    "director": "Volfango De Biasi",
-    "schedule": {
-      "Gio.": [
-        "18,40",
-        "21,00"
-      ],
-      "Ven.": [
-        "21,00"
-      ],
-      "Sab.": [
-        "21,00"
-      ],
-      "Dom": [
-        "16,15",
-        "21,00"
-      ],
-      "Lun.": [
-        "21,00"
-      ],
-      "Mar.": [
-        "18,40"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "image6371.png",
-    "description": "Diego Viani is a former robber who was infamous in the 1980s for his daring 'unarmed' heists - jobs that were carried out with charm, nerve and meticulous planning rather than violence. After serving a long prison sentence, he swo...",
-    "wikipedia": {
-      "title": "Il malloppo",
-      "url": "https://it.wikipedia.org/wiki/Il%20malloppo"
-    },
-    "omdb": {
-      "imdbID": "tt39302054",
-      "imdbRating": null,
-      "year": "2026",
-      "plot": "Diego Viani is a former robber who was infamous in the 1980s for his daring 'unarmed' heists - jobs that were carried out with charm, nerve and meticulous planning rather than violence. After serving a long prison sentence, he swo..."
-    },
-    "confidence": {
-      "omdbScore": 90,
       "wikipediaFound": true
     }
   }

@@ -1,31 +1,38 @@
 [
   {
-    "id": "insidious",
-    "url": "http://www.cinemabristol.it/insidious.htm",
-    "title": "INSIDIOUS - FUORI DALL�ALTROVE",
-    "director": "Jacob Chase",
+    "id": "amoriincantesimi",
+    "url": "http://www.cinemabristol.it/amoriincantesimi.htm",
+    "title": "AMORI & INCANTESIMI 2",
+    "director": "Susanne Bier",
     "schedule": {
       "Gio.": [
+        "18,40",
         "21,00"
       ],
       "Ven.": [
         "21,00"
       ],
       "Sab.": [
-        "21,30"
+        "18,40",
+        "21,00"
       ],
       "Dom": [
-        "21,30"
+        "16,15",
+        "18,40",
+        "21,00"
       ],
-      "Lun.": [],
+      "Lun.": [
+        "21,00"
+      ],
       "Mar.": [
+        "18,40",
         "21,00"
       ],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image4441.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image7041.png"
   },
   {
     "id": "coyotevsacme",
@@ -61,37 +68,7 @@
         "closed"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image3651.png"
-  },
-  {
-    "id": "oceania",
-    "url": "http://www.cinemabristol.it/oceania.htm",
-    "title": "OCEANIA",
-    "director": "Thomas Kail",
-    "schedule": {
-      "Gio.": [
-        "18,40"
-      ],
-      "Ven.": [
-        "18,40"
-      ],
-      "Sab.": [
-        "18,40"
-      ],
-      "Dom": [
-        "16,00"
-      ],
-      "Lun.": [
-        "21,00"
-      ],
-      "Mar.": [
-        "18,40"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image3541.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image6261.png"
   },
   {
     "id": "odissea",
@@ -99,27 +76,29 @@
     "title": "ODISSEA",
     "director": "Christopher Nolan",
     "schedule": {
-      "Gio.": [],
+      "Gio.": [
+        "20,45"
+      ],
       "Ven.": [],
-      "Sab.": [
-        "18,15"
-      ],
+      "Sab.": [],
       "Dom": [
-        "18,15"
+        "20,45"
       ],
-      "Lun.": [],
+      "Lun.": [
+        "20,45"
+      ],
       "Mar.": [],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image9731.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image4271.png"
   },
   {
-    "id": "nogoodmen",
-    "url": "http://www.cinemabristol.it/nogoodmen.htm",
-    "title": "NO GOOD MEN",
-    "director": "Shahrbanoo Sadat�",
+    "id": "cenadittatore",
+    "url": "http://www.cinemabristol.it/cenadittatore.htm",
+    "title": "A CENA CON IL DITTATORE",
+    "director": "Manuel Gomez Pereira�",
     "schedule": {
       "Ven.": [
         "18,30"
@@ -128,31 +107,27 @@
         "21,00"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image9761.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image6361.png"
   },
   {
-    "id": "malloppo",
-    "url": "http://www.cinemabristol.it/malloppo.htm",
-    "title": "IL MALLOPPO",
-    "director": "Volfango De Biasi",
+    "id": "pawpatrol",
+    "url": "http://www.cinemabristol.it/pawpatrol.htm",
+    "title": "PAW PATROL - MISSIONE DINOSAURI",
+    "director": "Cal� Brunker",
     "schedule": {
       "Gio.": [
-        "18,40",
-        "21,00"
+        "18,40"
       ],
       "Ven.": [
-        "21,00"
+        "18,40"
       ],
       "Sab.": [
-        "21,00"
+        "18,40"
       ],
       "Dom": [
-        "16,15",
-        "21,00"
+        "16,30"
       ],
-      "Lun.": [
-        "21,00"
-      ],
+      "Lun.": [],
       "Mar.": [
         "18,40"
       ],
@@ -160,6 +135,28 @@
         "closed"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image6371.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image5441.png"
+  },
+  {
+    "id": "oceania",
+    "url": "http://www.cinemabristol.it/oceania.htm",
+    "title": "OCEANIA",
+    "director": "Thomas Kail",
+    "schedule": {
+      "Gio.": [],
+      "Ven.": [
+        "21,00"
+      ],
+      "Sab.": [
+        "21,00"
+      ],
+      "Dom": [],
+      "Lun.": [],
+      "Mar.": [],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image8311.png"
   }
 ]
