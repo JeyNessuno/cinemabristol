@@ -1,15 +1,16 @@
 [
   {
-    "id": "amoriincantesimi",
-    "url": "http://www.cinemabristol.it/amoriincantesimi.htm",
-    "title": "AMORI & INCANTESIMI 2",
-    "director": "Susanne Bier",
+    "id": "figliscimmia",
+    "url": "http://www.cinemabristol.it/figliscimmia.htm",
+    "title": "I FIGLI DELLA SCIMMIA",
+    "director": "Tommaso Landucci",
     "schedule": {
       "Gio.": [
         "18,40",
         "21,00"
       ],
       "Ven.": [
+        "18,40",
         "21,00"
       ],
       "Sab.": [
@@ -17,7 +18,7 @@
         "21,00"
       ],
       "Dom": [
-        "16,15",
+        "16,30",
         "18,40",
         "21,00"
       ],
@@ -32,7 +33,115 @@
         "closed"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image7041.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image4591.png"
+  },
+  {
+    "id": "amoriincantesimi",
+    "url": "http://www.cinemabristol.it/amoriincantesimi.htm",
+    "title": "AMORI & INCANTESIMI 2",
+    "director": "Susanne Bier",
+    "schedule": {
+      "Gio.": [],
+      "Ven.": [],
+      "Sab.": [
+        "18,40"
+      ],
+      "Dom": [
+        "21,00"
+      ],
+      "Lun.": [],
+      "Mar.": [],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image9221.png"
+  },
+  {
+    "id": "pawpatrol",
+    "url": "http://www.cinemabristol.it/pawpatrol.htm",
+    "title": "PAW PATROL - MISSIONE DINOSAURI",
+    "director": "Cal� Brunker",
+    "schedule": {
+      "Gio.": [],
+      "Ven.": [],
+      "Sab.": [],
+      "Dom": [
+        "15,00"
+      ],
+      "Lun.": [],
+      "Mar.": [],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image10191.png"
+  },
+  {
+    "id": "dovefiesta",
+    "url": "http://www.cinemabristol.it/dovefiesta.htm",
+    "title": "DOV�E� LA FIESTA",
+    "director": "Niccol� Gentili�",
+    "schedule": {
+      "Gio.": [
+        "21,00"
+      ],
+      "Ven.": [
+        "21,00"
+      ],
+      "Sab.": [
+        "21,00"
+      ],
+      "Dom": [
+        "14,30",
+        "16,30",
+        "18,40"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "21,00"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image10391.png"
+  },
+  {
+    "id": "residentevil",
+    "url": "http://www.cinemabristol.it/residentevil.htm",
+    "title": "RESIDENT EVIL",
+    "director": "Zach Creger",
+    "schedule": {
+      "Gio.": [
+        "18,40",
+        "21,15"
+      ],
+      "Ven.": [
+        "18,40",
+        "21,15"
+      ],
+      "Sab.": [
+        "21,15"
+      ],
+      "Dom": [
+        "19,00",
+        "21,15"
+      ],
+      "Lun.": [
+        "21,15"
+      ],
+      "Mar.": [
+        "18,40",
+        "21,15"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image8731.png"
   },
   {
     "id": "coyotevsacme",
@@ -41,81 +150,6 @@
     "director": "Dave Green",
     "schedule": {
       "Gio.": [
-        "18,40",
-        "21,00"
-      ],
-      "Ven.": [
-        "18,40",
-        "21,00"
-      ],
-      "Sab.": [
-        "18,40",
-        "21,00"
-      ],
-      "Dom": [
-        "16,15",
-        "18,40",
-        "21,00"
-      ],
-      "Lun.": [
-        "21,00"
-      ],
-      "Mar.": [
-        "18,40",
-        "21,00"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image6261.png"
-  },
-  {
-    "id": "odissea",
-    "url": "http://www.cinemabristol.it/odissea.htm",
-    "title": "ODISSEA",
-    "director": "Christopher Nolan",
-    "schedule": {
-      "Gio.": [
-        "20,45"
-      ],
-      "Ven.": [],
-      "Sab.": [],
-      "Dom": [
-        "20,45"
-      ],
-      "Lun.": [
-        "20,45"
-      ],
-      "Mar.": [],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image4271.png"
-  },
-  {
-    "id": "cenadittatore",
-    "url": "http://www.cinemabristol.it/cenadittatore.htm",
-    "title": "A CENA CON IL DITTATORE",
-    "director": "Manuel Gomez Pereira�",
-    "schedule": {
-      "Ven.": [
-        "18,30"
-      ],
-      "Mar.": [
-        "21,00"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image6361.png"
-  },
-  {
-    "id": "pawpatrol",
-    "url": "http://www.cinemabristol.it/pawpatrol.htm",
-    "title": "PAW PATROL - MISSIONE DINOSAURI",
-    "director": "Cal� Brunker",
-    "schedule": {
-      "Gio.": [
         "18,40"
       ],
       "Ven.": [
@@ -125,7 +159,7 @@
         "18,40"
       ],
       "Dom": [
-        "16,30"
+        "16,50"
       ],
       "Lun.": [],
       "Mar.": [
@@ -135,28 +169,6 @@
         "closed"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image5441.png"
-  },
-  {
-    "id": "oceania",
-    "url": "http://www.cinemabristol.it/oceania.htm",
-    "title": "OCEANIA",
-    "director": "Thomas Kail",
-    "schedule": {
-      "Gio.": [],
-      "Ven.": [
-        "21,00"
-      ],
-      "Sab.": [
-        "21,00"
-      ],
-      "Dom": [],
-      "Lun.": [],
-      "Mar.": [],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image8311.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image10811.png"
   }
 ]

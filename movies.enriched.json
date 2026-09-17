@@ -1,54 +1,9 @@
 [
   {
-    "id": "amoriincantesimi",
-    "url": "http://www.cinemabristol.it/amoriincantesimi.htm",
-    "title": "AMORI & INCANTESIMI 2",
-    "director": "Susanne Bier",
-    "schedule": {
-      "Gio.": [
-        "18,40",
-        "21,00"
-      ],
-      "Ven.": [
-        "21,00"
-      ],
-      "Sab.": [
-        "18,40",
-        "21,00"
-      ],
-      "Dom": [
-        "16,15",
-        "18,40",
-        "21,00"
-      ],
-      "Lun.": [
-        "21,00"
-      ],
-      "Mar.": [
-        "18,40",
-        "21,00"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "image7041.png",
-    "description": null,
-    "wikipedia": {
-      "title": "Sandra Bullock",
-      "url": "https://it.wikipedia.org/wiki/Sandra%20Bullock"
-    },
-    "omdb": null,
-    "confidence": {
-      "omdbScore": 0,
-      "wikipediaFound": true
-    }
-  },
-  {
-    "id": "coyotevsacme",
-    "url": "http://www.cinemabristol.it/coyotevsacme.htm",
-    "title": "COYOTE VS. ACME",
-    "director": "Dave Green",
+    "id": "figliscimmia",
+    "url": "http://www.cinemabristol.it/figliscimmia.htm",
+    "title": "I FIGLI DELLA SCIMMIA",
+    "director": "Tommaso Landucci",
     "schedule": {
       "Gio.": [
         "18,40",
@@ -63,7 +18,7 @@
         "21,00"
       ],
       "Dom": [
-        "16,15",
+        "16,30",
         "18,40",
         "21,00"
       ],
@@ -78,17 +33,17 @@
         "closed"
       ]
     },
-    "poster": "image6261.png",
-    "description": "After enduring years of malfunctioning products, Wile E. Coyote teams up with a local personal injury attorney to take on ACME, the manufacturer of anything and everything used by the Looney Tunes characters.",
+    "poster": "image4591.png",
+    "description": "Dario, father of a disabled child, begins to receive attention from his brother's teenage son and discovers that he prefers him to his own son. In his growing complicity with his nephew, he finds the son he would have liked to have.",
     "wikipedia": {
-      "title": "Coyote vs. Acme",
-      "url": "https://it.wikipedia.org/wiki/Coyote%20vs.%20Acme"
+      "title": "I figli della scimmia",
+      "url": "https://it.wikipedia.org/wiki/I%20figli%20della%20scimmia"
     },
     "omdb": {
-      "imdbID": "tt1756855",
-      "imdbRating": "7.6",
+      "imdbID": "tt39390583",
+      "imdbRating": null,
       "year": "2026",
-      "plot": "After enduring years of malfunctioning products, Wile E. Coyote teams up with a local personal injury attorney to take on ACME, the manufacturer of anything and everything used by the Looney Tunes characters."
+      "plot": "Dario, father of a disabled child, begins to receive attention from his brother's teenage son and discovers that he prefers him to his own son. In his growing complicity with his nephew, he finds the son he would have liked to have."
     },
     "confidence": {
       "omdbScore": 90,
@@ -96,57 +51,30 @@
     }
   },
   {
-    "id": "odissea",
-    "url": "http://www.cinemabristol.it/odissea.htm",
-    "title": "ODISSEA",
-    "director": "Christopher Nolan",
+    "id": "amoriincantesimi",
+    "url": "http://www.cinemabristol.it/amoriincantesimi.htm",
+    "title": "AMORI & INCANTESIMI 2",
+    "director": "Susanne Bier",
     "schedule": {
-      "Gio.": [
-        "20,45"
-      ],
+      "Gio.": [],
       "Ven.": [],
-      "Sab.": [],
+      "Sab.": [
+        "18,40"
+      ],
       "Dom": [
-        "20,45"
+        "21,00"
       ],
-      "Lun.": [
-        "20,45"
-      ],
+      "Lun.": [],
       "Mar.": [],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "image4271.png",
+    "poster": "image9221.png",
     "description": null,
     "wikipedia": {
-      "title": "Odissea (film)",
-      "url": "https://it.wikipedia.org/wiki/Odissea%20(film)"
-    },
-    "omdb": null,
-    "confidence": {
-      "omdbScore": 10,
-      "wikipediaFound": true
-    }
-  },
-  {
-    "id": "cenadittatore",
-    "url": "http://www.cinemabristol.it/cenadittatore.htm",
-    "title": "A CENA CON IL DITTATORE",
-    "director": "Manuel Gomez Pereira�",
-    "schedule": {
-      "Ven.": [
-        "18,30"
-      ],
-      "Mar.": [
-        "21,00"
-      ]
-    },
-    "poster": "image6361.png",
-    "description": null,
-    "wikipedia": {
-      "title": "A cena con il dittatore",
-      "url": "https://it.wikipedia.org/wiki/A%20cena%20con%20il%20dittatore"
+      "title": "Amori & incantesimi 2",
+      "url": "https://it.wikipedia.org/wiki/Amori%20%26%20incantesimi%202"
     },
     "omdb": null,
     "confidence": {
@@ -160,27 +88,19 @@
     "title": "PAW PATROL - MISSIONE DINOSAURI",
     "director": "Cal� Brunker",
     "schedule": {
-      "Gio.": [
-        "18,40"
-      ],
-      "Ven.": [
-        "18,40"
-      ],
-      "Sab.": [
-        "18,40"
-      ],
+      "Gio.": [],
+      "Ven.": [],
+      "Sab.": [],
       "Dom": [
-        "16,30"
+        "15,00"
       ],
       "Lun.": [],
-      "Mar.": [
-        "18,40"
-      ],
+      "Mar.": [],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "image5441.png",
+    "poster": "image10191.png",
     "description": null,
     "wikipedia": {
       "title": "Paw Patrol - Missione dinosauri",
@@ -193,39 +113,136 @@
     }
   },
   {
-    "id": "oceania",
-    "url": "http://www.cinemabristol.it/oceania.htm",
-    "title": "OCEANIA",
-    "director": "Thomas Kail",
+    "id": "dovefiesta",
+    "url": "http://www.cinemabristol.it/dovefiesta.htm",
+    "title": "DOV�E� LA FIESTA",
+    "director": "Niccol� Gentili�",
     "schedule": {
-      "Gio.": [],
+      "Gio.": [
+        "21,00"
+      ],
       "Ven.": [
         "21,00"
       ],
       "Sab.": [
         "21,00"
       ],
-      "Dom": [],
-      "Lun.": [],
-      "Mar.": [],
+      "Dom": [
+        "14,30",
+        "16,30",
+        "18,40"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "21,00"
+      ],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "image8311.png",
-    "description": "Two teenagers deal with their shattered family-life in a small California coastal town.",
+    "poster": "image10391.png",
+    "description": null,
     "wikipedia": {
-      "title": "Oceania (film 2026)",
-      "url": "https://it.wikipedia.org/wiki/Oceania%20(film%202026)"
+      "title": "Fiesta",
+      "url": "https://it.wikipedia.org/wiki/Fiesta"
+    },
+    "omdb": null,
+    "confidence": {
+      "omdbScore": 0,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "residentevil",
+    "url": "http://www.cinemabristol.it/residentevil.htm",
+    "title": "RESIDENT EVIL",
+    "director": "Zach Creger",
+    "schedule": {
+      "Gio.": [
+        "18,40",
+        "21,15"
+      ],
+      "Ven.": [
+        "18,40",
+        "21,15"
+      ],
+      "Sab.": [
+        "21,15"
+      ],
+      "Dom": [
+        "19,00",
+        "21,15"
+      ],
+      "Lun.": [
+        "21,15"
+      ],
+      "Mar.": [
+        "18,40",
+        "21,15"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "image8731.png",
+    "description": "A special military unit fights a powerful, out-of-control supercomputer and hundreds of scientists who have mutated into flesh-eating creatures after a laboratory accident.",
+    "wikipedia": {
+      "title": "Resident Evil (film)",
+      "url": "https://it.wikipedia.org/wiki/Resident%20Evil%20(film)"
     },
     "omdb": {
-      "imdbID": "tt1199787",
+      "imdbID": "tt0120804",
       "imdbRating": "6.6",
-      "year": "2008",
-      "plot": "Two teenagers deal with their shattered family-life in a small California coastal town."
+      "year": "2002",
+      "plot": "A special military unit fights a powerful, out-of-control supercomputer and hundreds of scientists who have mutated into flesh-eating creatures after a laboratory accident."
     },
     "confidence": {
       "omdbScore": 75,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "coyotevsacme",
+    "url": "http://www.cinemabristol.it/coyotevsacme.htm",
+    "title": "COYOTE VS. ACME",
+    "director": "Dave Green",
+    "schedule": {
+      "Gio.": [
+        "18,40"
+      ],
+      "Ven.": [
+        "18,40"
+      ],
+      "Sab.": [
+        "18,40"
+      ],
+      "Dom": [
+        "16,50"
+      ],
+      "Lun.": [],
+      "Mar.": [
+        "18,40"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "image10811.png",
+    "description": "After enduring years of malfunctioning products, Wile E. Coyote teams up with a local personal injury attorney to take on ACME, the manufacturer of anything and everything used by the Looney Tunes characters.",
+    "wikipedia": {
+      "title": "Coyote vs. Acme",
+      "url": "https://it.wikipedia.org/wiki/Coyote%20vs.%20Acme"
+    },
+    "omdb": {
+      "imdbID": "tt1756855",
+      "imdbRating": "7.6",
+      "year": "2026",
+      "plot": "After enduring years of malfunctioning products, Wile E. Coyote teams up with a local personal injury attorney to take on ACME, the manufacturer of anything and everything used by the Looney Tunes characters."
+    },
+    "confidence": {
+      "omdbScore": 90,
       "wikipediaFound": true
     }
   }
