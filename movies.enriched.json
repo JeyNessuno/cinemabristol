@@ -1,196 +1,29 @@
 [
   {
-    "id": "figliscimmia",
-    "url": "http://www.cinemabristol.it/figliscimmia.htm",
-    "title": "I FIGLI DELLA SCIMMIA",
-    "director": "Tommaso Landucci",
-    "schedule": {
-      "Gio.": [
-        "18,40",
-        "21,00"
-      ],
-      "Ven.": [
-        "18,40",
-        "21,00"
-      ],
-      "Sab.": [
-        "18,40",
-        "21,00"
-      ],
-      "Dom": [
-        "16,30",
-        "18,40",
-        "21,00"
-      ],
-      "Lun.": [
-        "21,00"
-      ],
-      "Mar.": [
-        "18,40",
-        "21,00"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "image4591.png",
-    "description": "Dario, father of a disabled child, begins to receive attention from his brother's teenage son and discovers that he prefers him to his own son. In his growing complicity with his nephew, he finds the son he would have liked to have.",
-    "wikipedia": {
-      "title": "I figli della scimmia",
-      "url": "https://it.wikipedia.org/wiki/I%20figli%20della%20scimmia"
-    },
-    "omdb": {
-      "imdbID": "tt39390583",
-      "imdbRating": null,
-      "year": "2026",
-      "plot": "Dario, father of a disabled child, begins to receive attention from his brother's teenage son and discovers that he prefers him to his own son. In his growing complicity with his nephew, he finds the son he would have liked to have."
-    },
-    "confidence": {
-      "omdbScore": 90,
-      "wikipediaFound": true
-    }
-  },
-  {
-    "id": "amoriincantesimi",
-    "url": "http://www.cinemabristol.it/amoriincantesimi.htm",
-    "title": "AMORI & INCANTESIMI 2",
-    "director": "Susanne Bier",
-    "schedule": {
-      "Gio.": [],
-      "Ven.": [],
-      "Sab.": [
-        "18,40"
-      ],
-      "Dom": [
-        "21,00"
-      ],
-      "Lun.": [],
-      "Mar.": [],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "image9221.png",
-    "description": null,
-    "wikipedia": {
-      "title": "Amori & incantesimi 2",
-      "url": "https://it.wikipedia.org/wiki/Amori%20%26%20incantesimi%202"
-    },
-    "omdb": null,
-    "confidence": {
-      "omdbScore": 0,
-      "wikipediaFound": true
-    }
-  },
-  {
-    "id": "pawpatrol",
-    "url": "http://www.cinemabristol.it/pawpatrol.htm",
-    "title": "PAW PATROL - MISSIONE DINOSAURI",
-    "director": "Cal� Brunker",
-    "schedule": {
-      "Gio.": [],
-      "Ven.": [],
-      "Sab.": [],
-      "Dom": [
-        "15,00"
-      ],
-      "Lun.": [],
-      "Mar.": [],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "image10191.png",
-    "description": null,
-    "wikipedia": {
-      "title": "Paw Patrol - Missione dinosauri",
-      "url": "https://it.wikipedia.org/wiki/Paw%20Patrol%20-%20Missione%20dinosauri"
-    },
-    "omdb": null,
-    "confidence": {
-      "omdbScore": 0,
-      "wikipediaFound": true
-    }
-  },
-  {
-    "id": "dovefiesta",
-    "url": "http://www.cinemabristol.it/dovefiesta.htm",
-    "title": "DOV�E� LA FIESTA",
-    "director": "Niccol� Gentili�",
-    "schedule": {
-      "Gio.": [
-        "21,00"
-      ],
-      "Ven.": [
-        "21,00"
-      ],
-      "Sab.": [
-        "21,00"
-      ],
-      "Dom": [
-        "14,30",
-        "16,30",
-        "18,40"
-      ],
-      "Lun.": [
-        "21,00"
-      ],
-      "Mar.": [
-        "21,00"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "image10391.png",
-    "description": null,
-    "wikipedia": {
-      "title": "Fiesta",
-      "url": "https://it.wikipedia.org/wiki/Fiesta"
-    },
-    "omdb": null,
-    "confidence": {
-      "omdbScore": 0,
-      "wikipediaFound": true
-    }
-  },
-  {
     "id": "residentevil",
     "url": "http://www.cinemabristol.it/residentevil.htm",
     "title": "RESIDENT EVIL",
     "director": "Zach Creger",
     "schedule": {
-      "Gio.": [
-        "18,40",
-        "21,15"
-      ],
-      "Ven.": [
-        "18,40",
-        "21,15"
-      ],
+      "Gio.": [],
+      "Ven.": [],
       "Sab.": [
-        "21,15"
+        "22,20"
       ],
       "Dom": [
-        "19,00",
-        "21,15"
+        "22,20"
       ],
-      "Lun.": [
-        "21,15"
-      ],
-      "Mar.": [
-        "18,40",
-        "21,15"
-      ],
+      "Lun.": [],
+      "Mar.": [],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "image8731.png",
+    "poster": "image6881.png",
     "description": "A special military unit fights a powerful, out-of-control supercomputer and hundreds of scientists who have mutated into flesh-eating creatures after a laboratory accident.",
     "wikipedia": {
-      "title": "Resident Evil (film)",
-      "url": "https://it.wikipedia.org/wiki/Resident%20Evil%20(film)"
+      "title": "Resident Evil (film 2026)",
+      "url": "https://it.wikipedia.org/wiki/Resident%20Evil%20(film%202026)"
     },
     "omdb": {
       "imdbID": "tt0120804",
@@ -204,45 +37,167 @@
     }
   },
   {
-    "id": "coyotevsacme",
-    "url": "http://www.cinemabristol.it/coyotevsacme.htm",
-    "title": "COYOTE VS. ACME",
-    "director": "Dave Green",
+    "id": "isolaricordi",
+    "url": "https://www.cinemabristol.it/isolaricordi.htm",
+    "title": "L�ISOLA DEI RICORDI",
+    "director": "Joel Crawford e Januel Mercado",
     "schedule": {
       "Gio.": [
-        "18,40"
+        "18,30",
+        "20,30"
       ],
       "Ven.": [
-        "18,40"
+        "18,30",
+        "20,30"
       ],
       "Sab.": [
-        "18,40"
+        "18,30",
+        "20,30"
       ],
       "Dom": [
-        "16,50"
+        "16,15",
+        "18,30",
+        "20,30"
       ],
-      "Lun.": [],
+      "Lun.": [
+        "20,30"
+      ],
       "Mar.": [
-        "18,40"
+        "18,30",
+        "20,30"
       ],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "image10811.png",
-    "description": "After enduring years of malfunctioning products, Wile E. Coyote teams up with a local personal injury attorney to take on ACME, the manufacturer of anything and everything used by the Looney Tunes characters.",
+    "poster": "image8721.png",
+    "description": null,
     "wikipedia": {
-      "title": "Coyote vs. Acme",
-      "url": "https://it.wikipedia.org/wiki/Coyote%20vs.%20Acme"
+      "title": "L'isola dei ricordi",
+      "url": "https://it.wikipedia.org/wiki/L'isola%20dei%20ricordi"
     },
-    "omdb": {
-      "imdbID": "tt1756855",
-      "imdbRating": "7.6",
-      "year": "2026",
-      "plot": "After enduring years of malfunctioning products, Wile E. Coyote teams up with a local personal injury attorney to take on ACME, the manufacturer of anything and everything used by the Looney Tunes characters."
-    },
+    "omdb": null,
     "confidence": {
-      "omdbScore": 90,
+      "omdbScore": 0,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "naza",
+    "url": "https://www.cinemabristol.it/naza.htm",
+    "title": "NAZA",
+    "director": "Yuval Abraham e Rachel Szor�",
+    "schedule": {
+      "Gio.": [],
+      "Ven.": [],
+      "Sab.": [],
+      "Dom": [],
+      "Lun.": [
+        "21,15"
+      ],
+      "Mar.": [
+        "19,15",
+        "21,15"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "image5511.png",
+    "description": null,
+    "wikipedia": {
+      "title": "Naza (film)",
+      "url": "https://it.wikipedia.org/wiki/Naza%20(film)"
+    },
+    "omdb": null,
+    "confidence": {
+      "omdbScore": 10,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "heartofbeast",
+    "url": "https://www.cinemabristol.it/heartofbeast.htm",
+    "title": "HEART OF THE BEAST",
+    "director": "David Ayer",
+    "schedule": {
+      "Gio.": [
+        "18,40",
+        "21,00"
+      ],
+      "Ven.": [
+        "18,40",
+        "21,00"
+      ],
+      "Sab.": [
+        "18,40",
+        "21,00"
+      ],
+      "Dom": [
+        "16,30",
+        "18,40",
+        "21,00"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "18,40",
+        "21,00"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "image8751.png",
+    "description": null,
+    "wikipedia": {
+      "title": "My Heart Will Go On",
+      "url": "https://it.wikipedia.org/wiki/My%20Heart%20Will%20Go%20On"
+    },
+    "omdb": null,
+    "confidence": {
+      "omdbScore": 35,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "invite",
+    "url": "https://www.cinemabristol.it/invite.htm",
+    "title": "�THE INVITE - IL PIACERE E� TUTTO NOSTRO",
+    "director": "Olivia Wilde",
+    "schedule": {
+      "Gio.": [
+        "18,15"
+      ],
+      "Ven.": [
+        "18,40",
+        "21,00"
+      ],
+      "Sab.": [
+        "18,40",
+        "21,00"
+      ],
+      "Dom": [
+        "16,30",
+        "18,40",
+        "21,00"
+      ],
+      "Lun.": [],
+      "Mar.": [],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "image8971.png",
+    "description": null,
+    "wikipedia": {
+      "title": "The Invite - Il piacere è tutto nostro",
+      "url": "https://it.wikipedia.org/wiki/The%20Invite%20-%20Il%20piacere%20%C3%A8%20tutto%20nostro"
+    },
+    "omdb": null,
+    "confidence": {
+      "omdbScore": 0,
       "wikipediaFound": true
     }
   }
