@@ -1,61 +1,29 @@
 [
   {
-    "id": "residentevil",
-    "url": "http://www.cinemabristol.it/residentevil.htm",
-    "title": "RESIDENT EVIL",
-    "director": "Zach Creger",
-    "schedule": {
-      "Gio.": [],
-      "Ven.": [],
-      "Sab.": [
-        "22,20"
-      ],
-      "Dom": [
-        "22,20"
-      ],
-      "Lun.": [],
-      "Mar.": [],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image6881.png"
-  },
-  {
     "id": "isolaricordi",
     "url": "https://www.cinemabristol.it/isolaricordi.htm",
     "title": "L�ISOLA DEI RICORDI",
     "director": "Joel Crawford e Januel Mercado",
     "schedule": {
-      "Gio.": [
-        "18,30",
-        "20,30"
-      ],
-      "Ven.": [
-        "18,30",
-        "20,30"
-      ],
+      "Gio.": [],
+      "Ven.": [],
       "Sab.": [
-        "18,30",
-        "20,30"
+        "18,30"
       ],
       "Dom": [
-        "16,15",
-        "18,30",
-        "20,30"
+        "16,00"
       ],
       "Lun.": [
-        "20,30"
+        "closed"
       ],
       "Mar.": [
-        "18,30",
-        "20,30"
+        "closed"
       ],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image8721.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image8441.png"
   },
   {
     "id": "naza",
@@ -63,22 +31,33 @@
     "title": "NAZA",
     "director": "Yuval Abraham e Rachel Szor�",
     "schedule": {
-      "Gio.": [],
-      "Ven.": [],
-      "Sab.": [],
-      "Dom": [],
-      "Lun.": [
-        "21,15"
+      "Gio.": [
+        "19,15"
       ],
-      "Mar.": [
+      "Ven.": [
         "19,15",
         "21,15"
+      ],
+      "Sab.": [
+        "20,30",
+        "22,00"
+      ],
+      "Dom": [
+        "18,00",
+        "19,40",
+        "21,15"
+      ],
+      "Lun.": [
+        "closed"
+      ],
+      "Mar.": [
+        "closed"
       ],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image5511.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image9591.png"
   },
   {
     "id": "heartofbeast",
@@ -86,64 +65,93 @@
     "title": "HEART OF THE BEAST",
     "director": "David Ayer",
     "schedule": {
-      "Gio.": [
-        "18,40",
-        "21,00"
-      ],
+      "Gio.": [],
       "Ven.": [
-        "18,40",
-        "21,00"
+        "18,40"
       ],
       "Sab.": [
-        "18,40",
-        "21,00"
+        "18,40"
       ],
       "Dom": [
-        "16,30",
-        "18,40",
-        "21,00"
+        "16,30"
       ],
       "Lun.": [
-        "21,00"
+        "closed"
       ],
       "Mar.": [
-        "18,40",
-        "21,00"
+        "closed"
       ],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image8751.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image9891.png"
   },
   {
-    "id": "invite",
-    "url": "https://www.cinemabristol.it/invite.htm",
-    "title": "�THE INVITE - IL PIACERE E� TUTTO NOSTRO",
-    "director": "Olivia Wilde",
+    "id": "diggerl",
+    "url": "https://www.cinemabristol.it/diggerl.htm",
+    "title": "DIGGER",
+    "director": "Alejandro Gonzalz Inarritu",
     "schedule": {
       "Gio.": [
-        "18,15"
+        "18,40",
+        "21,15"
       ],
       "Ven.": [
         "18,40",
-        "21,00"
+        "21,15"
       ],
       "Sab.": [
         "18,40",
-        "21,00"
+        "21,15"
       ],
       "Dom": [
-        "16,30",
+        "16,00",
         "18,40",
-        "21,00"
+        "21,15"
       ],
-      "Lun.": [],
-      "Mar.": [],
+      "Lun.": [
+        "closed"
+      ],
+      "Mar.": [
+        "closed"
+      ],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image8971.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image10381.png"
+  },
+  {
+    "id": "verity",
+    "url": "https://www.cinemabristol.it/verity.htm",
+    "title": "�VERITY",
+    "director": "Michael Showalter������",
+    "schedule": {
+      "Gio.": [
+        "18,40",
+        "21,15"
+      ],
+      "Ven.": [
+        "21,15"
+      ],
+      "Sab.": [
+        "21,15"
+      ],
+      "Dom": [
+        "18,40",
+        "21,15"
+      ],
+      "Lun.": [
+        "closed"
+      ],
+      "Mar.": [
+        "closed"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image4591.png"
   }
 ]

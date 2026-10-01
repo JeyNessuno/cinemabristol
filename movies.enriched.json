@@ -1,80 +1,33 @@
 [
   {
-    "id": "residentevil",
-    "url": "http://www.cinemabristol.it/residentevil.htm",
-    "title": "RESIDENT EVIL",
-    "director": "Zach Creger",
-    "schedule": {
-      "Gio.": [],
-      "Ven.": [],
-      "Sab.": [
-        "22,20"
-      ],
-      "Dom": [
-        "22,20"
-      ],
-      "Lun.": [],
-      "Mar.": [],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "image6881.png",
-    "description": "A special military unit fights a powerful, out-of-control supercomputer and hundreds of scientists who have mutated into flesh-eating creatures after a laboratory accident.",
-    "wikipedia": {
-      "title": "Resident Evil (film 2026)",
-      "url": "https://it.wikipedia.org/wiki/Resident%20Evil%20(film%202026)"
-    },
-    "omdb": {
-      "imdbID": "tt0120804",
-      "imdbRating": "6.6",
-      "year": "2002",
-      "plot": "A special military unit fights a powerful, out-of-control supercomputer and hundreds of scientists who have mutated into flesh-eating creatures after a laboratory accident."
-    },
-    "confidence": {
-      "omdbScore": 75,
-      "wikipediaFound": true
-    }
-  },
-  {
     "id": "isolaricordi",
     "url": "https://www.cinemabristol.it/isolaricordi.htm",
     "title": "L�ISOLA DEI RICORDI",
     "director": "Joel Crawford e Januel Mercado",
     "schedule": {
-      "Gio.": [
-        "18,30",
-        "20,30"
-      ],
-      "Ven.": [
-        "18,30",
-        "20,30"
-      ],
+      "Gio.": [],
+      "Ven.": [],
       "Sab.": [
-        "18,30",
-        "20,30"
+        "18,30"
       ],
       "Dom": [
-        "16,15",
-        "18,30",
-        "20,30"
+        "16,00"
       ],
       "Lun.": [
-        "20,30"
+        "closed"
       ],
       "Mar.": [
-        "18,30",
-        "20,30"
+        "closed"
       ],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "image8721.png",
+    "poster": "image8441.png",
     "description": null,
     "wikipedia": {
-      "title": "L'isola dei ricordi",
-      "url": "https://it.wikipedia.org/wiki/L'isola%20dei%20ricordi"
+      "title": "L'isola dei ricordi (film 2026)",
+      "url": "https://it.wikipedia.org/wiki/L'isola%20dei%20ricordi%20(film%202026)"
     },
     "omdb": null,
     "confidence": {
@@ -88,22 +41,33 @@
     "title": "NAZA",
     "director": "Yuval Abraham e Rachel Szor�",
     "schedule": {
-      "Gio.": [],
-      "Ven.": [],
-      "Sab.": [],
-      "Dom": [],
-      "Lun.": [
-        "21,15"
+      "Gio.": [
+        "19,15"
       ],
-      "Mar.": [
+      "Ven.": [
         "19,15",
         "21,15"
+      ],
+      "Sab.": [
+        "20,30",
+        "22,00"
+      ],
+      "Dom": [
+        "18,00",
+        "19,40",
+        "21,15"
+      ],
+      "Lun.": [
+        "closed"
+      ],
+      "Mar.": [
+        "closed"
       ],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "image5511.png",
+    "poster": "image9591.png",
     "description": null,
     "wikipedia": {
       "title": "Naza (film)",
@@ -121,83 +85,137 @@
     "title": "HEART OF THE BEAST",
     "director": "David Ayer",
     "schedule": {
-      "Gio.": [
-        "18,40",
-        "21,00"
-      ],
+      "Gio.": [],
       "Ven.": [
-        "18,40",
-        "21,00"
+        "18,40"
       ],
       "Sab.": [
-        "18,40",
-        "21,00"
+        "18,40"
       ],
       "Dom": [
-        "16,30",
-        "18,40",
-        "21,00"
+        "16,30"
       ],
       "Lun.": [
-        "21,00"
+        "closed"
       ],
       "Mar.": [
-        "18,40",
-        "21,00"
+        "closed"
       ],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "image8751.png",
-    "description": null,
+    "poster": "image9891.png",
+    "description": "After his mother's death, Stephanos inherits her debts and, in order to pay them, decides to help an old classmate who wants to rob a bank.",
     "wikipedia": {
-      "title": "My Heart Will Go On",
-      "url": "https://it.wikipedia.org/wiki/My%20Heart%20Will%20Go%20On"
+      "title": "Heart of the Beast - Nel profondo selvaggio",
+      "url": "https://it.wikipedia.org/wiki/Heart%20of%20the%20Beast%20-%20Nel%20profondo%20selvaggio"
     },
-    "omdb": null,
+    "omdb": {
+      "imdbID": "tt0852974",
+      "imdbRating": "6.4",
+      "year": "2005",
+      "plot": "After his mother's death, Stephanos inherits her debts and, in order to pay them, decides to help an old classmate who wants to rob a bank."
+    },
     "confidence": {
-      "omdbScore": 35,
+      "omdbScore": 50,
       "wikipediaFound": true
     }
   },
   {
-    "id": "invite",
-    "url": "https://www.cinemabristol.it/invite.htm",
-    "title": "�THE INVITE - IL PIACERE E� TUTTO NOSTRO",
-    "director": "Olivia Wilde",
+    "id": "diggerl",
+    "url": "https://www.cinemabristol.it/diggerl.htm",
+    "title": "DIGGER",
+    "director": "Alejandro Gonzalz Inarritu",
     "schedule": {
       "Gio.": [
-        "18,15"
+        "18,40",
+        "21,15"
       ],
       "Ven.": [
         "18,40",
-        "21,00"
+        "21,15"
       ],
       "Sab.": [
         "18,40",
-        "21,00"
+        "21,15"
       ],
       "Dom": [
-        "16,30",
+        "16,00",
         "18,40",
-        "21,00"
+        "21,15"
       ],
-      "Lun.": [],
-      "Mar.": [],
+      "Lun.": [
+        "closed"
+      ],
+      "Mar.": [
+        "closed"
+      ],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "image8971.png",
-    "description": null,
+    "poster": "image10381.png",
+    "description": "A father and a son long lost. Love and hate. Digging deep into mud to find their roots. Revenge and Redemption. A Western, revisited.",
     "wikipedia": {
-      "title": "The Invite - Il piacere è tutto nostro",
-      "url": "https://it.wikipedia.org/wiki/The%20Invite%20-%20Il%20piacere%20%C3%A8%20tutto%20nostro"
+      "title": "Digger (film 2026)",
+      "url": "https://it.wikipedia.org/wiki/Digger%20(film%202026)"
     },
-    "omdb": null,
+    "omdb": {
+      "imdbID": "tt9389916",
+      "imdbRating": "7.4",
+      "year": "2020",
+      "plot": "A father and a son long lost. Love and hate. Digging deep into mud to find their roots. Revenge and Redemption. A Western, revisited."
+    },
     "confidence": {
-      "omdbScore": 0,
+      "omdbScore": 75,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "verity",
+    "url": "https://www.cinemabristol.it/verity.htm",
+    "title": "�VERITY",
+    "director": "Michael Showalter������",
+    "schedule": {
+      "Gio.": [
+        "18,40",
+        "21,15"
+      ],
+      "Ven.": [
+        "21,15"
+      ],
+      "Sab.": [
+        "21,15"
+      ],
+      "Dom": [
+        "18,40",
+        "21,15"
+      ],
+      "Lun.": [
+        "closed"
+      ],
+      "Mar.": [
+        "closed"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "image4591.png",
+    "description": "A loner befriends his next-door neighbor - a single mother who he becomes convinced to be his long-missing daughter.",
+    "wikipedia": {
+      "title": "Verity",
+      "url": "https://it.wikipedia.org/wiki/Verity"
+    },
+    "omdb": {
+      "imdbID": "tt2876454",
+      "imdbRating": null,
+      "year": "2015",
+      "plot": "A loner befriends his next-door neighbor - a single mother who he becomes convinced to be his long-missing daughter."
+    },
+    "confidence": {
+      "omdbScore": 90,
       "wikipediaFound": true
     }
   }
