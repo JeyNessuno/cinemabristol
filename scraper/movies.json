@@ -1,9 +1,156 @@
 [
   {
-    "id": "isolaricordi",
-    "url": "https://www.cinemabristol.it/isolaricordi.htm",
-    "title": "L�ISOLA DEI RICORDI",
-    "director": "Joel Crawford e Januel Mercado",
+    "id": "social",
+    "url": "https://www.cinemabristol.it/social.htm",
+    "title": "THE SOCIAL - IL PREZZO DELLA VERITA�",
+    "director": "Aaron Sarkin",
+    "schedule": {
+      "Gio.": [
+        "21,00"
+      ],
+      "Ven.": [
+        "21,00"
+      ],
+      "Sab.": [
+        "21,00"
+      ],
+      "Dom": [
+        "18,40"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "21,00"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image7681.png"
+  },
+  {
+    "id": "naza",
+    "url": "https://www.cinemabristol.it/naza.htm",
+    "title": "NAZA",
+    "director": "Yuval Abraham e Rachel Szor�",
+    "schedule": {
+      "Gio.": [],
+      "Ven.": [
+        "19,15"
+      ],
+      "Sab.": [],
+      "Dom": [
+        "18,15",
+        "19,40"
+      ],
+      "Lun.": [],
+      "Mar.": [
+        "19,15"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image6881.png"
+  },
+  {
+    "id": "diggerl",
+    "url": "https://www.cinemabristol.it/diggerl.htm",
+    "title": "DIGGER",
+    "director": "Alejandro Gonzalz Inarritu",
+    "schedule": {
+      "Gio.": [
+        "21,00"
+      ],
+      "Ven.": [
+        "21,00"
+      ],
+      "Sab.": [
+        "21,00"
+      ],
+      "Dom": [
+        "16,00",
+        "21,00"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "21,00"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image8721.png"
+  },
+  {
+    "id": "verity",
+    "url": "https://www.cinemabristol.it/verity.htm",
+    "title": "�VERITY",
+    "director": "Michael Showalter������",
+    "schedule": {
+      "Gio.": [],
+      "Ven.": [
+        "18,40"
+      ],
+      "Sab.": [
+        "18,40"
+      ],
+      "Dom": [
+        "21,15"
+      ],
+      "Lun.": [],
+      "Mar.": [
+        "18,40"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image11211.png"
+  },
+  {
+    "id": "estranea",
+    "url": "https://www.cinemabristol.it/estranea.htm",
+    "title": "L�ESTRANEA",
+    "director": "Paolo Strippoli",
+    "schedule": {
+      "Gio.": [
+        "21,00"
+      ],
+      "Ven.": [
+        "18,40",
+        "21,00"
+      ],
+      "Sab.": [
+        "18,40",
+        "21,00"
+      ],
+      "Dom": [
+        "16,15",
+        "18,40",
+        "21,00"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "18,40",
+        "21,00"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image9841.png"
+  },
+  {
+    "id": "alberomoltolontano",
+    "url": "https://www.cinemabristol.it/alberomoltolontano.htm",
+    "title": "L�ALBERO DI MOLTO LONTANO",
+    "director": "Ben Gregor",
     "schedule": {
       "Gio.": [],
       "Ven.": [],
@@ -23,135 +170,6 @@
         "closed"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image8441.png"
-  },
-  {
-    "id": "naza",
-    "url": "https://www.cinemabristol.it/naza.htm",
-    "title": "NAZA",
-    "director": "Yuval Abraham e Rachel Szor�",
-    "schedule": {
-      "Gio.": [
-        "19,15"
-      ],
-      "Ven.": [
-        "19,15",
-        "21,15"
-      ],
-      "Sab.": [
-        "20,30",
-        "22,00"
-      ],
-      "Dom": [
-        "18,00",
-        "19,40",
-        "21,15"
-      ],
-      "Lun.": [
-        "closed"
-      ],
-      "Mar.": [
-        "closed"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image9591.png"
-  },
-  {
-    "id": "heartofbeast",
-    "url": "https://www.cinemabristol.it/heartofbeast.htm",
-    "title": "HEART OF THE BEAST",
-    "director": "David Ayer",
-    "schedule": {
-      "Gio.": [],
-      "Ven.": [
-        "18,40"
-      ],
-      "Sab.": [
-        "18,40"
-      ],
-      "Dom": [
-        "16,30"
-      ],
-      "Lun.": [
-        "closed"
-      ],
-      "Mar.": [
-        "closed"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image9891.png"
-  },
-  {
-    "id": "diggerl",
-    "url": "https://www.cinemabristol.it/diggerl.htm",
-    "title": "DIGGER",
-    "director": "Alejandro Gonzalz Inarritu",
-    "schedule": {
-      "Gio.": [
-        "18,40",
-        "21,15"
-      ],
-      "Ven.": [
-        "18,40",
-        "21,15"
-      ],
-      "Sab.": [
-        "18,40",
-        "21,15"
-      ],
-      "Dom": [
-        "16,00",
-        "18,40",
-        "21,15"
-      ],
-      "Lun.": [
-        "closed"
-      ],
-      "Mar.": [
-        "closed"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image10381.png"
-  },
-  {
-    "id": "verity",
-    "url": "https://www.cinemabristol.it/verity.htm",
-    "title": "�VERITY",
-    "director": "Michael Showalter������",
-    "schedule": {
-      "Gio.": [
-        "18,40",
-        "21,15"
-      ],
-      "Ven.": [
-        "21,15"
-      ],
-      "Sab.": [
-        "21,15"
-      ],
-      "Dom": [
-        "18,40",
-        "21,15"
-      ],
-      "Lun.": [
-        "closed"
-      ],
-      "Mar.": [
-        "closed"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image4591.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image5991.png"
   }
 ]

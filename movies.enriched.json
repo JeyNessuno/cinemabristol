@@ -1,33 +1,37 @@
 [
   {
-    "id": "isolaricordi",
-    "url": "https://www.cinemabristol.it/isolaricordi.htm",
-    "title": "L�ISOLA DEI RICORDI",
-    "director": "Joel Crawford e Januel Mercado",
+    "id": "social",
+    "url": "https://www.cinemabristol.it/social.htm",
+    "title": "THE SOCIAL - IL PREZZO DELLA VERITA�",
+    "director": "Aaron Sarkin",
     "schedule": {
-      "Gio.": [],
-      "Ven.": [],
+      "Gio.": [
+        "21,00"
+      ],
+      "Ven.": [
+        "21,00"
+      ],
       "Sab.": [
-        "18,30"
+        "21,00"
       ],
       "Dom": [
-        "16,00"
+        "18,40"
       ],
       "Lun.": [
-        "closed"
+        "21,00"
       ],
       "Mar.": [
-        "closed"
+        "21,00"
       ],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "image8441.png",
+    "poster": "image7681.png",
     "description": null,
     "wikipedia": {
-      "title": "L'isola dei ricordi (film 2026)",
-      "url": "https://it.wikipedia.org/wiki/L'isola%20dei%20ricordi%20(film%202026)"
+      "title": "The Social - Il prezzo della verità",
+      "url": "https://it.wikipedia.org/wiki/The%20Social%20-%20Il%20prezzo%20della%20verit%C3%A0"
     },
     "omdb": null,
     "confidence": {
@@ -41,33 +45,24 @@
     "title": "NAZA",
     "director": "Yuval Abraham e Rachel Szor�",
     "schedule": {
-      "Gio.": [
+      "Gio.": [],
+      "Ven.": [
         "19,15"
       ],
-      "Ven.": [
-        "19,15",
-        "21,15"
-      ],
-      "Sab.": [
-        "20,30",
-        "22,00"
-      ],
+      "Sab.": [],
       "Dom": [
-        "18,00",
-        "19,40",
-        "21,15"
+        "18,15",
+        "19,40"
       ],
-      "Lun.": [
-        "closed"
-      ],
+      "Lun.": [],
       "Mar.": [
-        "closed"
+        "19,15"
       ],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "image9591.png",
+    "poster": "image6881.png",
     "description": null,
     "wikipedia": {
       "title": "Naza (film)",
@@ -80,82 +75,35 @@
     }
   },
   {
-    "id": "heartofbeast",
-    "url": "https://www.cinemabristol.it/heartofbeast.htm",
-    "title": "HEART OF THE BEAST",
-    "director": "David Ayer",
-    "schedule": {
-      "Gio.": [],
-      "Ven.": [
-        "18,40"
-      ],
-      "Sab.": [
-        "18,40"
-      ],
-      "Dom": [
-        "16,30"
-      ],
-      "Lun.": [
-        "closed"
-      ],
-      "Mar.": [
-        "closed"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "image9891.png",
-    "description": "After his mother's death, Stephanos inherits her debts and, in order to pay them, decides to help an old classmate who wants to rob a bank.",
-    "wikipedia": {
-      "title": "Heart of the Beast - Nel profondo selvaggio",
-      "url": "https://it.wikipedia.org/wiki/Heart%20of%20the%20Beast%20-%20Nel%20profondo%20selvaggio"
-    },
-    "omdb": {
-      "imdbID": "tt0852974",
-      "imdbRating": "6.4",
-      "year": "2005",
-      "plot": "After his mother's death, Stephanos inherits her debts and, in order to pay them, decides to help an old classmate who wants to rob a bank."
-    },
-    "confidence": {
-      "omdbScore": 50,
-      "wikipediaFound": true
-    }
-  },
-  {
     "id": "diggerl",
     "url": "https://www.cinemabristol.it/diggerl.htm",
     "title": "DIGGER",
     "director": "Alejandro Gonzalz Inarritu",
     "schedule": {
       "Gio.": [
-        "18,40",
-        "21,15"
+        "21,00"
       ],
       "Ven.": [
-        "18,40",
-        "21,15"
+        "21,00"
       ],
       "Sab.": [
-        "18,40",
-        "21,15"
+        "21,00"
       ],
       "Dom": [
         "16,00",
-        "18,40",
-        "21,15"
+        "21,00"
       ],
       "Lun.": [
-        "closed"
+        "21,00"
       ],
       "Mar.": [
-        "closed"
+        "21,00"
       ],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "image10381.png",
+    "poster": "image8721.png",
     "description": "A father and a son long lost. Love and hate. Digging deep into mud to find their roots. Revenge and Redemption. A Western, revisited.",
     "wikipedia": {
       "title": "Digger (film 2026)",
@@ -178,19 +126,99 @@
     "title": "�VERITY",
     "director": "Michael Showalter������",
     "schedule": {
-      "Gio.": [
-        "18,40",
-        "21,15"
-      ],
+      "Gio.": [],
       "Ven.": [
-        "21,15"
+        "18,40"
       ],
       "Sab.": [
-        "21,15"
+        "18,40"
       ],
       "Dom": [
-        "18,40",
         "21,15"
+      ],
+      "Lun.": [],
+      "Mar.": [
+        "18,40"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "image11211.png",
+    "description": "A loner befriends his next-door neighbor - a single mother who he becomes convinced to be his long-missing daughter.",
+    "wikipedia": {
+      "title": "Verity (film)",
+      "url": "https://it.wikipedia.org/wiki/Verity%20(film)"
+    },
+    "omdb": {
+      "imdbID": "tt2876454",
+      "imdbRating": null,
+      "year": "2015",
+      "plot": "A loner befriends his next-door neighbor - a single mother who he becomes convinced to be his long-missing daughter."
+    },
+    "confidence": {
+      "omdbScore": 75,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "estranea",
+    "url": "https://www.cinemabristol.it/estranea.htm",
+    "title": "L�ESTRANEA",
+    "director": "Paolo Strippoli",
+    "schedule": {
+      "Gio.": [
+        "21,00"
+      ],
+      "Ven.": [
+        "18,40",
+        "21,00"
+      ],
+      "Sab.": [
+        "18,40",
+        "21,00"
+      ],
+      "Dom": [
+        "16,15",
+        "18,40",
+        "21,00"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "18,40",
+        "21,00"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "image9841.png",
+    "description": null,
+    "wikipedia": {
+      "title": "L'estranea (film 2026)",
+      "url": "https://it.wikipedia.org/wiki/L'estranea%20(film%202026)"
+    },
+    "omdb": null,
+    "confidence": {
+      "omdbScore": 0,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "alberomoltolontano",
+    "url": "https://www.cinemabristol.it/alberomoltolontano.htm",
+    "title": "L�ALBERO DI MOLTO LONTANO",
+    "director": "Ben Gregor",
+    "schedule": {
+      "Gio.": [],
+      "Ven.": [],
+      "Sab.": [
+        "18,30"
+      ],
+      "Dom": [
+        "16,00"
       ],
       "Lun.": [
         "closed"
@@ -202,20 +230,15 @@
         "closed"
       ]
     },
-    "poster": "image4591.png",
-    "description": "A loner befriends his next-door neighbor - a single mother who he becomes convinced to be his long-missing daughter.",
+    "poster": "image5991.png",
+    "description": null,
     "wikipedia": {
-      "title": "Verity",
-      "url": "https://it.wikipedia.org/wiki/Verity"
+      "title": "Shrek terzo",
+      "url": "https://it.wikipedia.org/wiki/Shrek%20terzo"
     },
-    "omdb": {
-      "imdbID": "tt2876454",
-      "imdbRating": null,
-      "year": "2015",
-      "plot": "A loner befriends his next-door neighbor - a single mother who he becomes convinced to be his long-missing daughter."
-    },
+    "omdb": null,
     "confidence": {
-      "omdbScore": 90,
+      "omdbScore": 0,
       "wikipediaFound": true
     }
   }
