@@ -1,37 +1,85 @@
 [
   {
-    "id": "social",
-    "url": "https://www.cinemabristol.it/social.htm",
-    "title": "THE SOCIAL - IL PREZZO DELLA VERITA�",
-    "director": "Aaron Sarkin",
+    "id": "seamiqualcunodillo",
+    "url": "https://cinemabristol.it/seamiqualcunodillo.htm",
+    "title": "SE AMI QUALCUNO DILLO",
+    "director": "Marco Bonini",
     "schedule": {
-      "Gio.": [
-        "21,00"
-      ],
+      "Gio.": [],
       "Ven.": [
+        "18,40",
         "21,00"
       ],
       "Sab.": [
+        "18,40",
         "21,00"
       ],
       "Dom": [
-        "18,40"
+        "16,30",
+        "18,40",
+        "21,00"
       ],
       "Lun.": [
         "21,00"
       ],
       "Mar.": [
+        "18,40",
         "21,00"
       ],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "image7681.png",
+    "poster": "image3601.png",
     "description": null,
     "wikipedia": {
-      "title": "The Social - Il prezzo della verità",
-      "url": "https://it.wikipedia.org/wiki/The%20Social%20-%20Il%20prezzo%20della%20verit%C3%A0"
+      "title": "Giovanna Mezzogiorno",
+      "url": "https://it.wikipedia.org/wiki/Giovanna%20Mezzogiorno"
+    },
+    "omdb": null,
+    "confidence": {
+      "omdbScore": 0,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "whalefall",
+    "url": "https://cinemabristol.it/whalefall.htm",
+    "title": "WHALEFALL - NELLA BALENA",
+    "director": "Brian Duffield�",
+    "schedule": {
+      "Gio.": [
+        "18,40",
+        "21,00"
+      ],
+      "Ven.": [
+        "18,40",
+        "21,00"
+      ],
+      "Sab.": [
+        "21,00"
+      ],
+      "Dom": [
+        "16,30",
+        "18,40",
+        "21,00"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "18,40",
+        "21,00"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "image10371.png",
+    "description": null,
+    "wikipedia": {
+      "title": "Josh Brolin",
+      "url": "https://it.wikipedia.org/wiki/Josh%20Brolin"
     },
     "omdb": null,
     "confidence": {
@@ -41,28 +89,24 @@
   },
   {
     "id": "naza",
-    "url": "https://www.cinemabristol.it/naza.htm",
+    "url": "https://cinemabristol.it/naza.htm",
     "title": "NAZA",
-    "director": "Yuval Abraham e Rachel Szor�",
+    "director": "Yuval Abraham e Rachel Szor",
     "schedule": {
-      "Gio.": [],
-      "Ven.": [
-        "19,15"
+      "Gio.": [
+        "19,15",
+        "21,15"
       ],
+      "Ven.": [],
       "Sab.": [],
-      "Dom": [
-        "18,15",
-        "19,40"
-      ],
+      "Dom": [],
       "Lun.": [],
-      "Mar.": [
-        "19,15"
-      ],
+      "Mar.": [],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "image6881.png",
+    "poster": "image10341.png",
     "description": null,
     "wikipedia": {
       "title": "Naza (film)",
@@ -75,99 +119,45 @@
     }
   },
   {
-    "id": "diggerl",
-    "url": "https://www.cinemabristol.it/diggerl.htm",
-    "title": "DIGGER",
-    "director": "Alejandro Gonzalz Inarritu",
-    "schedule": {
-      "Gio.": [
-        "21,00"
-      ],
-      "Ven.": [
-        "21,00"
-      ],
-      "Sab.": [
-        "21,00"
-      ],
-      "Dom": [
-        "16,00",
-        "21,00"
-      ],
-      "Lun.": [
-        "21,00"
-      ],
-      "Mar.": [
-        "21,00"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "image8721.png",
-    "description": "A father and a son long lost. Love and hate. Digging deep into mud to find their roots. Revenge and Redemption. A Western, revisited.",
-    "wikipedia": {
-      "title": "Digger (film 2026)",
-      "url": "https://it.wikipedia.org/wiki/Digger%20(film%202026)"
-    },
-    "omdb": {
-      "imdbID": "tt9389916",
-      "imdbRating": "7.4",
-      "year": "2020",
-      "plot": "A father and a son long lost. Love and hate. Digging deep into mud to find their roots. Revenge and Redemption. A Western, revisited."
-    },
-    "confidence": {
-      "omdbScore": 75,
-      "wikipediaFound": true
-    }
-  },
-  {
-    "id": "verity",
-    "url": "https://www.cinemabristol.it/verity.htm",
-    "title": "�VERITY",
-    "director": "Michael Showalter������",
+    "id": "frankie",
+    "url": "https://cinemabristol.it/frankie.htm",
+    "title": "FRANKIE E LE CREATURE DIMENTICATE",
+    "director": "Steve Hudson",
     "schedule": {
       "Gio.": [],
-      "Ven.": [
-        "18,40"
-      ],
+      "Ven.": [],
       "Sab.": [
         "18,40"
       ],
       "Dom": [
-        "21,15"
+        "14,45"
       ],
       "Lun.": [],
-      "Mar.": [
-        "18,40"
-      ],
+      "Mar.": [],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "image11211.png",
-    "description": "A loner befriends his next-door neighbor - a single mother who he becomes convinced to be his long-missing daughter.",
+    "poster": "image10291.png",
+    "description": null,
     "wikipedia": {
-      "title": "Verity (film)",
-      "url": "https://it.wikipedia.org/wiki/Verity%20(film)"
+      "title": "Essi vivono",
+      "url": "https://it.wikipedia.org/wiki/Essi%20vivono"
     },
-    "omdb": {
-      "imdbID": "tt2876454",
-      "imdbRating": null,
-      "year": "2015",
-      "plot": "A loner befriends his next-door neighbor - a single mother who he becomes convinced to be his long-missing daughter."
-    },
+    "omdb": null,
     "confidence": {
-      "omdbScore": 75,
+      "omdbScore": 0,
       "wikipediaFound": true
     }
   },
   {
     "id": "estranea",
-    "url": "https://www.cinemabristol.it/estranea.htm",
+    "url": "https://cinemabristol.it/estranea.htm",
     "title": "L�ESTRANEA",
     "director": "Paolo Strippoli",
     "schedule": {
       "Gio.": [
+        "18,40",
         "21,00"
       ],
       "Ven.": [
@@ -194,47 +184,11 @@
         "closed"
       ]
     },
-    "poster": "image9841.png",
+    "poster": "image10231.png",
     "description": null,
     "wikipedia": {
       "title": "L'estranea (film 2026)",
       "url": "https://it.wikipedia.org/wiki/L'estranea%20(film%202026)"
-    },
-    "omdb": null,
-    "confidence": {
-      "omdbScore": 0,
-      "wikipediaFound": true
-    }
-  },
-  {
-    "id": "alberomoltolontano",
-    "url": "https://www.cinemabristol.it/alberomoltolontano.htm",
-    "title": "L�ALBERO DI MOLTO LONTANO",
-    "director": "Ben Gregor",
-    "schedule": {
-      "Gio.": [],
-      "Ven.": [],
-      "Sab.": [
-        "18,30"
-      ],
-      "Dom": [
-        "16,00"
-      ],
-      "Lun.": [
-        "closed"
-      ],
-      "Mar.": [
-        "closed"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "image5991.png",
-    "description": null,
-    "wikipedia": {
-      "title": "Shrek terzo",
-      "url": "https://it.wikipedia.org/wiki/Shrek%20terzo"
     },
     "omdb": null,
     "confidence": {
