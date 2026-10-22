@@ -1,98 +1,151 @@
 [
   {
-    "id": "seamiqualcunodillo",
-    "url": "https://cinemabristol.it/seamiqualcunodillo.htm",
-    "title": "SE AMI QUALCUNO DILLO",
-    "director": "Marco Bonini",
+    "id": "ragionesentimento",
+    "url": "https://cinemabristol.it/ragionesentimento.htm",
+    "title": "RAGIONE E SENTIMENTO",
+    "director": "Georgia Oakley",
+    "schedule": {
+      "Gio.": [
+        "18,40",
+        "21,15"
+      ],
+      "Ven.": [
+        "18,40",
+        "21,15"
+      ],
+      "Sab.": [
+        "18,40",
+        "21,15"
+      ],
+      "Dom": [
+        "16,00",
+        "18,40",
+        "21,15"
+      ],
+      "Lun.": [
+        "21,15"
+      ],
+      "Mar.": [
+        "18,40",
+        "21,15"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image10131.png"
+  },
+  {
+    "id": "clayface",
+    "url": "https://cinemabristol.it/clayface.htm",
+    "title": "CLAYFACE",
+    "director": "James Watkins",
+    "schedule": {
+      "Gio.": [
+        "18,40",
+        "21,00"
+      ],
+      "Ven.": [
+        "21,00"
+      ],
+      "Sab.": [
+        "21,00"
+      ],
+      "Dom": [
+        "18,40",
+        "21,00"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "18,40"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image7791.png"
+  },
+  {
+    "id": "gialappas",
+    "url": "https://cinemabristol.it/gialappas.htm",
+    "title": "L�ASSURDA STORIA DELLA GIALAPPA�S BAND",
+    "director": "Walter Veltroni�",
+    "schedule": {
+      "Gio.": [
+        "18,40"
+      ],
+      "Ven.": [
+        "21,00"
+      ],
+      "Sab.": [
+        "21,00"
+      ],
+      "Dom": [
+        "18,40",
+        "21,00"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "18,40",
+        "21,00"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image8631.png"
+  },
+  {
+    "id": "rentalfamily",
+    "url": "https://cinemabristol.it/rentalfamily.htm",
+    "title": "RENTAL FAMILY - NELLE VITE DEGLI ALTRI",
+    "director": "Hikari",
+    "schedule": {
+      "Gio.": [
+        "21,00"
+      ],
+      "Ven.": [
+        "18,30"
+      ],
+      "Mar.": [
+        "21,00"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image8681.png"
+  },
+  {
+    "id": "taddeo",
+    "url": "https://cinemabristol.it/taddeo.htm",
+    "title": "TADDEO L�ESPLORATORE E LA LAMPADA MAGICA",
+    "director": "Enrique Gar",
     "schedule": {
       "Gio.": [],
       "Ven.": [
-        "18,40",
-        "21,00"
+        "18,40"
       ],
       "Sab.": [
-        "18,40",
-        "21,00"
+        "18,40"
       ],
       "Dom": [
-        "16,30",
-        "18,40",
-        "21,00"
+        "16,30"
       ],
-      "Lun.": [
-        "21,00"
-      ],
-      "Mar.": [
-        "18,40",
-        "21,00"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image3601.png"
-  },
-  {
-    "id": "whalefall",
-    "url": "https://cinemabristol.it/whalefall.htm",
-    "title": "WHALEFALL - NELLA BALENA",
-    "director": "Brian Duffield�",
-    "schedule": {
-      "Gio.": [
-        "18,40",
-        "21,00"
-      ],
-      "Ven.": [
-        "18,40",
-        "21,00"
-      ],
-      "Sab.": [
-        "21,00"
-      ],
-      "Dom": [
-        "16,30",
-        "18,40",
-        "21,00"
-      ],
-      "Lun.": [
-        "21,00"
-      ],
-      "Mar.": [
-        "18,40",
-        "21,00"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image10371.png"
-  },
-  {
-    "id": "naza",
-    "url": "https://cinemabristol.it/naza.htm",
-    "title": "NAZA",
-    "director": "Yuval Abraham e Rachel Szor",
-    "schedule": {
-      "Gio.": [
-        "19,15",
-        "21,15"
-      ],
-      "Ven.": [],
-      "Sab.": [],
-      "Dom": [],
       "Lun.": [],
       "Mar.": [],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image10341.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image8941.png"
   },
   {
-    "id": "frankie",
-    "url": "https://cinemabristol.it/frankie.htm",
-    "title": "FRANKIE E LE CREATURE DIMENTICATE",
-    "director": "Steve Hudson",
+    "id": "seamiqualcunodillo",
+    "url": "https://cinemabristol.it/seamiqualcunodillo.htm",
+    "title": "SE AMI QUALCUNO DILLO",
+    "director": "Marco Bonini",
     "schedule": {
       "Gio.": [],
       "Ven.": [],
@@ -100,7 +153,7 @@
         "18,40"
       ],
       "Dom": [
-        "14,45"
+        "16,15"
       ],
       "Lun.": [],
       "Mar.": [],
@@ -108,42 +161,6 @@
         "closed"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image10291.png"
-  },
-  {
-    "id": "estranea",
-    "url": "https://cinemabristol.it/estranea.htm",
-    "title": "L�ESTRANEA",
-    "director": "Paolo Strippoli",
-    "schedule": {
-      "Gio.": [
-        "18,40",
-        "21,00"
-      ],
-      "Ven.": [
-        "18,40",
-        "21,00"
-      ],
-      "Sab.": [
-        "18,40",
-        "21,00"
-      ],
-      "Dom": [
-        "16,15",
-        "18,40",
-        "21,00"
-      ],
-      "Lun.": [
-        "21,00"
-      ],
-      "Mar.": [
-        "18,40",
-        "21,00"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image10231.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image7681.png"
   }
 ]
