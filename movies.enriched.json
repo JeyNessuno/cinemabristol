@@ -1,81 +1,23 @@
 [
   {
-    "id": "ragionesentimento",
-    "url": "https://cinemabristol.it/ragionesentimento.htm",
-    "title": "RAGIONE E SENTIMENTO",
-    "director": "Georgia Oakley",
-    "schedule": {
-      "Gio.": [
-        "18,40",
-        "21,15"
-      ],
-      "Ven.": [
-        "18,40",
-        "21,15"
-      ],
-      "Sab.": [
-        "18,40",
-        "21,15"
-      ],
-      "Dom": [
-        "16,00",
-        "18,40",
-        "21,15"
-      ],
-      "Lun.": [
-        "21,15"
-      ],
-      "Mar.": [
-        "18,40",
-        "21,15"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "image10131.png",
-    "description": null,
-    "wikipedia": {
-      "title": "Ragione e sentimento",
-      "url": "https://it.wikipedia.org/wiki/Ragione%20e%20sentimento"
-    },
-    "omdb": null,
-    "confidence": {
-      "omdbScore": 0,
-      "wikipediaFound": true
-    }
-  },
-  {
     "id": "clayface",
     "url": "https://cinemabristol.it/clayface.htm",
     "title": "CLAYFACE",
     "director": "James Watkins",
     "schedule": {
-      "Gio.": [
-        "18,40",
-        "21,00"
-      ],
-      "Ven.": [
-        "21,00"
-      ],
+      "Gio.": [],
+      "Ven.": [],
       "Sab.": [
-        "21,00"
+        "22,45"
       ],
-      "Dom": [
-        "18,40",
-        "21,00"
-      ],
-      "Lun.": [
-        "21,00"
-      ],
-      "Mar.": [
-        "18,40"
-      ],
+      "Dom": [],
+      "Lun.": [],
+      "Mar.": [],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "image7791.png",
+    "poster": "image6511.png",
     "description": "A silent stage actor slowly realises how empty and lonely his life choices are.",
     "wikipedia": {
       "title": "Clayface (film)",
@@ -93,21 +35,24 @@
     }
   },
   {
-    "id": "gialappas",
-    "url": "https://cinemabristol.it/gialappas.htm",
-    "title": "L�ASSURDA STORIA DELLA GIALAPPA�S BAND",
-    "director": "Walter Veltroni�",
+    "id": "dioride",
+    "url": "https://cinemabristol.it/dioride.htm",
+    "title": "DIO RIDE",
+    "director": "Giovanni Veronesi�",
     "schedule": {
       "Gio.": [
-        "18,40"
+        "18,40",
+        "21,00"
       ],
       "Ven.": [
         "21,00"
       ],
       "Sab.": [
+        "18,40",
         "21,00"
       ],
       "Dom": [
+        "16,15",
         "18,40",
         "21,00"
       ],
@@ -122,23 +67,28 @@
         "closed"
       ]
     },
-    "poster": "image8631.png",
-    "description": null,
+    "poster": "image5761.png",
+    "description": "In the seventeenth century in Tuscany: a friar manages to speak of God by making the masses laugh. But his attitude attracts the hostility of the Church.",
     "wikipedia": {
-      "title": "Mai dire...",
-      "url": "https://it.wikipedia.org/wiki/Mai%20dire..."
+      "title": "Dio ride",
+      "url": "https://it.wikipedia.org/wiki/Dio%20ride"
     },
-    "omdb": null,
+    "omdb": {
+      "imdbID": "tt37601990",
+      "imdbRating": null,
+      "year": "2026",
+      "plot": "In the seventeenth century in Tuscany: a friar manages to speak of God by making the masses laugh. But his attitude attracts the hostility of the Church."
+    },
     "confidence": {
-      "omdbScore": 0,
+      "omdbScore": 90,
       "wikipediaFound": true
     }
   },
   {
-    "id": "rentalfamily",
-    "url": "https://cinemabristol.it/rentalfamily.htm",
-    "title": "RENTAL FAMILY - NELLE VITE DEGLI ALTRI",
-    "director": "Hikari",
+    "id": "delitto3piano",
+    "url": "https://cinemabristol.it/delitto3piano.htm",
+    "title": "IL DELITTO DEL 3� PIANO",
+    "director": "Remi Bezan�on",
     "schedule": {
       "Gio.": [
         "21,00"
@@ -150,15 +100,100 @@
         "21,00"
       ]
     },
-    "poster": "image8681.png",
+    "poster": "image5831.png",
     "description": null,
-    "wikipedia": {
-      "title": "Rental Family - Nelle vite degli altri",
-      "url": "https://it.wikipedia.org/wiki/Rental%20Family%20-%20Nelle%20vite%20degli%20altri"
-    },
+    "wikipedia": null,
     "omdb": null,
     "confidence": {
       "omdbScore": 0,
+      "wikipediaFound": false
+    }
+  },
+  {
+    "id": "ragionesentimento",
+    "url": "https://cinemabristol.it/ragionesentimento.htm",
+    "title": "RAGIONE E SENTIMENTO",
+    "director": "Georgia Oakley",
+    "schedule": {
+      "Gio.": [],
+      "Ven.": [
+        "18,40",
+        "21,15"
+      ],
+      "Sab.": [
+        "18,40",
+        "21,15"
+      ],
+      "Dom": [
+        "18,40",
+        "21,15"
+      ],
+      "Lun.": [
+        "21,15"
+      ],
+      "Mar.": [
+        "18,40"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "image8311.png",
+    "description": null,
+    "wikipedia": null,
+    "omdb": null,
+    "confidence": {
+      "omdbScore": 0,
+      "wikipediaFound": false
+    }
+  },
+  {
+    "id": "tranquillofunerale",
+    "url": "https://cinemabristol.it/tranquillofunerale.htm",
+    "title": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
+    "director": "Massimiliano Bruno�",
+    "schedule": {
+      "Gio.": [
+        "18,40"
+      ],
+      "Ven.": [
+        "18,40",
+        "21,00"
+      ],
+      "Sab.": [
+        "18,40",
+        "21,00"
+      ],
+      "Dom": [
+        "16,30",
+        "18,40",
+        "21,00"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "18,40",
+        "21,00"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "image8721.png",
+    "description": "The day of the funeral of the patriarch of the Mancuso family, long-repressed grudges re-emerge between his children Daria and Riccardo. A solemn ceremony reveals the frailties and contradictions of a family that is anything but p...",
+    "wikipedia": {
+      "title": "Un tranquillo funerale di famiglia",
+      "url": "https://it.wikipedia.org/wiki/Un%20tranquillo%20funerale%20di%20famiglia"
+    },
+    "omdb": {
+      "imdbID": "tt41973396",
+      "imdbRating": null,
+      "year": "2026",
+      "plot": "The day of the funeral of the patriarch of the Mancuso family, long-repressed grudges re-emerge between his children Daria and Riccardo. A solemn ceremony reveals the frailties and contradictions of a family that is anything but p..."
+    },
+    "confidence": {
+      "omdbScore": 90,
       "wikipediaFound": true
     }
   },
@@ -166,15 +201,11 @@
     "id": "taddeo",
     "url": "https://cinemabristol.it/taddeo.htm",
     "title": "TADDEO L�ESPLORATORE E LA LAMPADA MAGICA",
-    "director": "Enrique Gar",
+    "director": "Enrique Gato",
     "schedule": {
       "Gio.": [],
-      "Ven.": [
-        "18,40"
-      ],
-      "Sab.": [
-        "18,40"
-      ],
+      "Ven.": [],
+      "Sab.": [],
       "Dom": [
         "16,30"
       ],
@@ -184,43 +215,11 @@
         "closed"
       ]
     },
-    "poster": "image8941.png",
+    "poster": "image9031.png",
     "description": null,
     "wikipedia": {
       "title": "Taddeo l'esploratore e il segreto di re Mida",
       "url": "https://it.wikipedia.org/wiki/Taddeo%20l'esploratore%20e%20il%20segreto%20di%20re%20Mida"
-    },
-    "omdb": null,
-    "confidence": {
-      "omdbScore": 0,
-      "wikipediaFound": true
-    }
-  },
-  {
-    "id": "seamiqualcunodillo",
-    "url": "https://cinemabristol.it/seamiqualcunodillo.htm",
-    "title": "SE AMI QUALCUNO DILLO",
-    "director": "Marco Bonini",
-    "schedule": {
-      "Gio.": [],
-      "Ven.": [],
-      "Sab.": [
-        "18,40"
-      ],
-      "Dom": [
-        "16,15"
-      ],
-      "Lun.": [],
-      "Mar.": [],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "image7681.png",
-    "description": null,
-    "wikipedia": {
-      "title": "Marco Bonini",
-      "url": "https://it.wikipedia.org/wiki/Marco%20Bonini"
     },
     "omdb": null,
     "confidence": {
