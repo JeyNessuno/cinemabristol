@@ -1,40 +1,5 @@
 [
   {
-    "id": "clayface",
-    "url": "https://cinemabristol.it/clayface.htm",
-    "title": "CLAYFACE",
-    "director": "James Watkins",
-    "schedule": {
-      "Gio.": [],
-      "Ven.": [],
-      "Sab.": [
-        "22,45"
-      ],
-      "Dom": [],
-      "Lun.": [],
-      "Mar.": [],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "image6511.png",
-    "description": "A silent stage actor slowly realises how empty and lonely his life choices are.",
-    "wikipedia": {
-      "title": "Clayface (film)",
-      "url": "https://it.wikipedia.org/wiki/Clayface%20(film)"
-    },
-    "omdb": {
-      "imdbID": "tt6492922",
-      "imdbRating": null,
-      "year": "2017",
-      "plot": "A silent stage actor slowly realises how empty and lonely his life choices are."
-    },
-    "confidence": {
-      "omdbScore": 75,
-      "wikipediaFound": true
-    }
-  },
-  {
     "id": "dioride",
     "url": "https://cinemabristol.it/dioride.htm",
     "title": "DIO RIDE",
@@ -48,120 +13,6 @@
         "21,00"
       ],
       "Sab.": [
-        "18,40",
-        "21,00"
-      ],
-      "Dom": [
-        "16,15",
-        "18,40",
-        "21,00"
-      ],
-      "Lun.": [
-        "21,00"
-      ],
-      "Mar.": [
-        "18,40",
-        "21,00"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "image5761.png",
-    "description": "In the seventeenth century in Tuscany: a friar manages to speak of God by making the masses laugh. But his attitude attracts the hostility of the Church.",
-    "wikipedia": {
-      "title": "Dio ride",
-      "url": "https://it.wikipedia.org/wiki/Dio%20ride"
-    },
-    "omdb": {
-      "imdbID": "tt37601990",
-      "imdbRating": null,
-      "year": "2026",
-      "plot": "In the seventeenth century in Tuscany: a friar manages to speak of God by making the masses laugh. But his attitude attracts the hostility of the Church."
-    },
-    "confidence": {
-      "omdbScore": 90,
-      "wikipediaFound": true
-    }
-  },
-  {
-    "id": "delitto3piano",
-    "url": "https://cinemabristol.it/delitto3piano.htm",
-    "title": "IL DELITTO DEL 3� PIANO",
-    "director": "Remi Bezan�on",
-    "schedule": {
-      "Gio.": [
-        "21,00"
-      ],
-      "Ven.": [
-        "18,30"
-      ],
-      "Mar.": [
-        "21,00"
-      ]
-    },
-    "poster": "image5831.png",
-    "description": null,
-    "wikipedia": null,
-    "omdb": null,
-    "confidence": {
-      "omdbScore": 0,
-      "wikipediaFound": false
-    }
-  },
-  {
-    "id": "ragionesentimento",
-    "url": "https://cinemabristol.it/ragionesentimento.htm",
-    "title": "RAGIONE E SENTIMENTO",
-    "director": "Georgia Oakley",
-    "schedule": {
-      "Gio.": [],
-      "Ven.": [
-        "18,40",
-        "21,15"
-      ],
-      "Sab.": [
-        "18,40",
-        "21,15"
-      ],
-      "Dom": [
-        "18,40",
-        "21,15"
-      ],
-      "Lun.": [
-        "21,15"
-      ],
-      "Mar.": [
-        "18,40"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "image8311.png",
-    "description": null,
-    "wikipedia": null,
-    "omdb": null,
-    "confidence": {
-      "omdbScore": 0,
-      "wikipediaFound": false
-    }
-  },
-  {
-    "id": "tranquillofunerale",
-    "url": "https://cinemabristol.it/tranquillofunerale.htm",
-    "title": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
-    "director": "Massimiliano Bruno�",
-    "schedule": {
-      "Gio.": [
-        "18,40"
-      ],
-      "Ven.": [
-        "18,40",
-        "21,00"
-      ],
-      "Sab.": [
-        "18,40",
         "21,00"
       ],
       "Dom": [
@@ -180,7 +31,142 @@
         "closed"
       ]
     },
-    "poster": "image8721.png",
+    "poster": "image8941.png",
+    "description": "In the seventeenth century in Tuscany: a friar manages to speak of God by making the masses laugh. But his attitude attracts the hostility of the Church.",
+    "wikipedia": {
+      "title": "Dio ride",
+      "url": "https://it.wikipedia.org/wiki/Dio%20ride"
+    },
+    "omdb": {
+      "imdbID": "tt37601990",
+      "imdbRating": null,
+      "year": "2026",
+      "plot": "In the seventeenth century in Tuscany: a friar manages to speak of God by making the masses laugh. But his attitude attracts the hostility of the Church."
+    },
+    "confidence": {
+      "omdbScore": 90,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "sedomaninontorno",
+    "url": "https://cinemabristol.it/sedomaninontorno.htm",
+    "title": "SE DOMANI NON TORNO",
+    "director": "Paola Randi",
+    "schedule": {
+      "Gio.": [
+        "18,40",
+        "21,00"
+      ],
+      "Ven.": [
+        "18,40",
+        "21,00"
+      ],
+      "Sab.": [
+        "18,40",
+        "21,00"
+      ],
+      "Dom": [
+        "14,30",
+        "16,30",
+        "18,40",
+        "21,00"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "18,40",
+        "21,00"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "image5421.png",
+    "description": "It follows the tragic story of Giulia Cecchettin, starting from the private pain of her father, Gino Cecchettin, and culminating in a cinematic story that stems from the book of the victim's father, entitled: Dear Giulia.",
+    "wikipedia": {
+      "title": "Se domani non torno",
+      "url": "https://it.wikipedia.org/wiki/Se%20domani%20non%20torno"
+    },
+    "omdb": {
+      "imdbID": "tt38984314",
+      "imdbRating": null,
+      "year": "2026",
+      "plot": "It follows the tragic story of Giulia Cecchettin, starting from the private pain of her father, Gino Cecchettin, and culminating in a cinematic story that stems from the book of the victim's father, entitled: Dear Giulia."
+    },
+    "confidence": {
+      "omdbScore": 90,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "gattocappello",
+    "url": "https://cinemabristol.it/gattocappello.htm",
+    "title": "IL GATTO COL CAPPELLO",
+    "director": "Alessandro Carloni e Erica Rivinoja",
+    "schedule": {
+      "Gio.": [],
+      "Ven.": [
+        "18,40"
+      ],
+      "Sab.": [
+        "18,40"
+      ],
+      "Dom": [
+        "14,30",
+        "16,30"
+      ],
+      "Lun.": [],
+      "Mar.": [],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "image4521.png",
+    "description": null,
+    "wikipedia": {
+      "title": "Il gatto col cappello",
+      "url": "https://it.wikipedia.org/wiki/Il%20gatto%20col%20cappello"
+    },
+    "omdb": null,
+    "confidence": {
+      "omdbScore": 0,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "tranquillofunerale",
+    "url": "https://cinemabristol.it/tranquillofunerale.htm",
+    "title": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
+    "director": "Massimiliano Bruno�",
+    "schedule": {
+      "Gio.": [
+        "18,40"
+      ],
+      "Ven.": [
+        "21,00"
+      ],
+      "Sab.": [
+        "18,40",
+        "21,00"
+      ],
+      "Dom": [
+        "14,30",
+        "18,40",
+        "21,00"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "18,40"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "image8561.png",
     "description": "The day of the funeral of the patriarch of the Mancuso family, long-repressed grudges re-emerge between his children Daria and Riccardo. A solemn ceremony reveals the frailties and contradictions of a family that is anything but p...",
     "wikipedia": {
       "title": "Un tranquillo funerale di famiglia",
@@ -198,28 +184,26 @@
     }
   },
   {
-    "id": "taddeo",
-    "url": "https://cinemabristol.it/taddeo.htm",
-    "title": "TADDEO L�ESPLORATORE E LA LAMPADA MAGICA",
-    "director": "Enrique Gato",
+    "id": "tuneraccordatore",
+    "url": "https://cinemabristol.it/tuneraccordatore.htm",
+    "title": "TUNER L�ACCORDATORE",
+    "director": "Daniel Roher",
     "schedule": {
-      "Gio.": [],
-      "Ven.": [],
-      "Sab.": [],
-      "Dom": [
-        "16,30"
+      "Gio.": [
+        "21,00"
       ],
-      "Lun.": [],
-      "Mar.": [],
-      "Mer.": [
-        "closed"
+      "Ven.": [
+        "18,30"
+      ],
+      "Mar.": [
+        "21,00"
       ]
     },
-    "poster": "image9031.png",
+    "poster": "image6631.png",
     "description": null,
     "wikipedia": {
-      "title": "Taddeo l'esploratore e il segreto di re Mida",
-      "url": "https://it.wikipedia.org/wiki/Taddeo%20l'esploratore%20e%20il%20segreto%20di%20re%20Mida"
+      "title": "Tuner - L'accordatore",
+      "url": "https://it.wikipedia.org/wiki/Tuner%20-%20L'accordatore"
     },
     "omdb": null,
     "confidence": {
