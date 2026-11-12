@@ -1,99 +1,45 @@
 [
   {
+    "id": "acutis",
+    "url": "https://cinemabristol.it/acutis.htm",
+    "title": "CARLO ACUTIS - IL GIOVANE SANTO",
+    "director": "Luca Salmaso�",
+    "schedule": {
+      "Dom": [
+        "15,00"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image5961.png"
+  },
+  {
     "id": "dioride",
     "url": "https://cinemabristol.it/dioride.htm",
     "title": "DIO RIDE",
     "director": "Giovanni Veronesi�",
     "schedule": {
       "Gio.": [
-        "18,40",
         "21,00"
       ],
-      "Ven.": [
-        "21,00"
-      ],
-      "Sab.": [
-        "21,00"
-      ],
-      "Dom": [
-        "16,30",
-        "18,40",
-        "21,00"
-      ],
-      "Lun.": [
-        "21,00"
-      ],
-      "Mar.": [
-        "18,40",
-        "21,00"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image8941.png"
-  },
-  {
-    "id": "sedomaninontorno",
-    "url": "https://cinemabristol.it/sedomaninontorno.htm",
-    "title": "SE DOMANI NON TORNO",
-    "director": "Paola Randi",
-    "schedule": {
-      "Gio.": [
-        "18,40",
-        "21,00"
-      ],
-      "Ven.": [
-        "18,40",
-        "21,00"
-      ],
-      "Sab.": [
-        "18,40",
-        "21,00"
-      ],
-      "Dom": [
-        "14,30",
-        "16,30",
-        "18,40",
-        "21,00"
-      ],
-      "Lun.": [
-        "21,00"
-      ],
-      "Mar.": [
-        "18,40",
-        "21,00"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image5421.png"
-  },
-  {
-    "id": "gattocappello",
-    "url": "https://cinemabristol.it/gattocappello.htm",
-    "title": "IL GATTO COL CAPPELLO",
-    "director": "Alessandro Carloni e Erica Rivinoja",
-    "schedule": {
-      "Gio.": [],
       "Ven.": [
         "18,40"
       ],
       "Sab.": [
-        "18,40"
-      ],
-      "Dom": [
-        "14,30",
         "16,30"
       ],
-      "Lun.": [],
-      "Mar.": [],
+      "Dom": [
+        "18,40"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "18,40"
+      ],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image4521.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image10901.png"
   },
   {
     "id": "tranquillofunerale",
@@ -108,11 +54,40 @@
         "21,00"
       ],
       "Sab.": [
+        "21,00"
+      ],
+      "Dom": [
+        "21,00"
+      ],
+      "Lun.": [],
+      "Mar.": [
+        "21,00"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image9421.png"
+  },
+  {
+    "id": "weekendartificiale",
+    "url": "https://cinemabristol.it/weekendartificiale.htm",
+    "title": "UN WEEKEND ARTIFICIALE",
+    "director": "Leonardo Pieraccioni",
+    "schedule": {
+      "Gio.": [
+        "18,40",
+        "21,00"
+      ],
+      "Ven.": [
+        "21,00"
+      ],
+      "Sab.": [
         "18,40",
         "21,00"
       ],
       "Dom": [
-        "14,30",
+        "16,30",
         "18,40",
         "21,00"
       ],
@@ -126,13 +101,72 @@
         "closed"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image8561.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image4511.png"
   },
   {
-    "id": "tuneraccordatore",
-    "url": "https://cinemabristol.it/tuneraccordatore.htm",
-    "title": "TUNER L�ACCORDATORE",
-    "director": "Daniel Roher",
+    "id": "sedomaninontorno",
+    "url": "https://cinemabristol.it/sedomaninontorno.htm",
+    "title": "SE DOMANI NON TORNO",
+    "director": "Paola Randi",
+    "schedule": {
+      "Gio.": [
+        "18,40"
+      ],
+      "Ven.": [
+        "18,40",
+        "21,00"
+      ],
+      "Sab.": [
+        "16,30",
+        "18,40",
+        "21,00"
+      ],
+      "Dom": [
+        "16,30",
+        "18,40",
+        "21,00"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "18,40",
+        "21,00"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image5831.png"
+  },
+  {
+    "id": "gattocappello",
+    "url": "https://cinemabristol.it/gattocappello.htm",
+    "title": "IL GATTO COL CAPPELLO",
+    "director": "Alessandro Carloni e Erica Rivinoja",
+    "schedule": {
+      "Gio.": [],
+      "Ven.": [],
+      "Sab.": [
+        "16,30",
+        "18,40"
+      ],
+      "Dom": [
+        "16,30"
+      ],
+      "Lun.": [],
+      "Mar.": [],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image6511.png"
+  },
+  {
+    "id": "santiago",
+    "url": "https://cinemabristol.it/santiago.htm",
+    "title": "SANTIAGO - UN CAMMINO PER RICOMINCIARE",
+    "director": "Yann Samuell",
     "schedule": {
       "Gio.": [
         "21,00"
@@ -144,6 +178,6 @@
         "21,00"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image6631.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image8621.png"
   }
 ]

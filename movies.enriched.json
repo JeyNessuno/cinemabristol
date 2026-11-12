@@ -1,37 +1,55 @@
 [
   {
+    "id": "acutis",
+    "url": "https://cinemabristol.it/acutis.htm",
+    "title": "CARLO ACUTIS - IL GIOVANE SANTO",
+    "director": "Luca Salmaso�",
+    "schedule": {
+      "Dom": [
+        "15,00"
+      ]
+    },
+    "poster": "image5961.png",
+    "description": null,
+    "wikipedia": {
+      "title": "Carlo Acutis",
+      "url": "https://it.wikipedia.org/wiki/Carlo%20Acutis"
+    },
+    "omdb": null,
+    "confidence": {
+      "omdbScore": 0,
+      "wikipediaFound": true
+    }
+  },
+  {
     "id": "dioride",
     "url": "https://cinemabristol.it/dioride.htm",
     "title": "DIO RIDE",
     "director": "Giovanni Veronesi�",
     "schedule": {
       "Gio.": [
-        "18,40",
         "21,00"
       ],
       "Ven.": [
-        "21,00"
+        "18,40"
       ],
       "Sab.": [
-        "21,00"
+        "16,30"
       ],
       "Dom": [
-        "16,30",
-        "18,40",
-        "21,00"
+        "18,40"
       ],
       "Lun.": [
         "21,00"
       ],
       "Mar.": [
-        "18,40",
-        "21,00"
+        "18,40"
       ],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "image8941.png",
+    "poster": "image10901.png",
     "description": "In the seventeenth century in Tuscany: a friar manages to speak of God by making the masses laugh. But his attitude attracts the hostility of the Church.",
     "wikipedia": {
       "title": "Dio ride",
@@ -49,17 +67,59 @@
     }
   },
   {
-    "id": "sedomaninontorno",
-    "url": "https://cinemabristol.it/sedomaninontorno.htm",
-    "title": "SE DOMANI NON TORNO",
-    "director": "Paola Randi",
+    "id": "tranquillofunerale",
+    "url": "https://cinemabristol.it/tranquillofunerale.htm",
+    "title": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
+    "director": "Massimiliano Bruno�",
+    "schedule": {
+      "Gio.": [
+        "18,40"
+      ],
+      "Ven.": [
+        "21,00"
+      ],
+      "Sab.": [
+        "21,00"
+      ],
+      "Dom": [
+        "21,00"
+      ],
+      "Lun.": [],
+      "Mar.": [
+        "21,00"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "image9421.png",
+    "description": "The day of the funeral of the patriarch of the Mancuso family, long-repressed grudges re-emerge between his children Daria and Riccardo. A solemn ceremony reveals the frailties and contradictions of a family that is anything but p...",
+    "wikipedia": {
+      "title": "Un tranquillo funerale di famiglia",
+      "url": "https://it.wikipedia.org/wiki/Un%20tranquillo%20funerale%20di%20famiglia"
+    },
+    "omdb": {
+      "imdbID": "tt41973396",
+      "imdbRating": null,
+      "year": "2026",
+      "plot": "The day of the funeral of the patriarch of the Mancuso family, long-repressed grudges re-emerge between his children Daria and Riccardo. A solemn ceremony reveals the frailties and contradictions of a family that is anything but p..."
+    },
+    "confidence": {
+      "omdbScore": 90,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "weekendartificiale",
+    "url": "https://cinemabristol.it/weekendartificiale.htm",
+    "title": "UN WEEKEND ARTIFICIALE",
+    "director": "Leonardo Pieraccioni",
     "schedule": {
       "Gio.": [
         "18,40",
         "21,00"
       ],
       "Ven.": [
-        "18,40",
         "21,00"
       ],
       "Sab.": [
@@ -67,7 +127,56 @@
         "21,00"
       ],
       "Dom": [
-        "14,30",
+        "16,30",
+        "18,40",
+        "21,00"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "18,40"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "image4511.png",
+    "description": "Follows a very messy weekend of suspicion, emotions and twists, before feelings and real life send everyone into a tailspin.",
+    "wikipedia": {
+      "title": "Un weekend artificiale",
+      "url": "https://it.wikipedia.org/wiki/Un%20weekend%20artificiale"
+    },
+    "omdb": {
+      "imdbID": "tt43441451",
+      "imdbRating": null,
+      "year": "2026",
+      "plot": "Follows a very messy weekend of suspicion, emotions and twists, before feelings and real life send everyone into a tailspin."
+    },
+    "confidence": {
+      "omdbScore": 90,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "sedomaninontorno",
+    "url": "https://cinemabristol.it/sedomaninontorno.htm",
+    "title": "SE DOMANI NON TORNO",
+    "director": "Paola Randi",
+    "schedule": {
+      "Gio.": [
+        "18,40"
+      ],
+      "Ven.": [
+        "18,40",
+        "21,00"
+      ],
+      "Sab.": [
+        "16,30",
+        "18,40",
+        "21,00"
+      ],
+      "Dom": [
         "16,30",
         "18,40",
         "21,00"
@@ -83,7 +192,7 @@
         "closed"
       ]
     },
-    "poster": "image5421.png",
+    "poster": "image5831.png",
     "description": "It follows the tragic story of Giulia Cecchettin, starting from the private pain of her father, Gino Cecchettin, and culminating in a cinematic story that stems from the book of the victim's father, entitled: Dear Giulia.",
     "wikipedia": {
       "title": "Se domani non torno",
@@ -107,14 +216,12 @@
     "director": "Alessandro Carloni e Erica Rivinoja",
     "schedule": {
       "Gio.": [],
-      "Ven.": [
-        "18,40"
-      ],
+      "Ven.": [],
       "Sab.": [
+        "16,30",
         "18,40"
       ],
       "Dom": [
-        "14,30",
         "16,30"
       ],
       "Lun.": [],
@@ -123,11 +230,11 @@
         "closed"
       ]
     },
-    "poster": "image4521.png",
+    "poster": "image6511.png",
     "description": null,
     "wikipedia": {
-      "title": "Il gatto col cappello",
-      "url": "https://it.wikipedia.org/wiki/Il%20gatto%20col%20cappello"
+      "title": "Il gatto col cappello (film)",
+      "url": "https://it.wikipedia.org/wiki/Il%20gatto%20col%20cappello%20(film)"
     },
     "omdb": null,
     "confidence": {
@@ -136,58 +243,10 @@
     }
   },
   {
-    "id": "tranquillofunerale",
-    "url": "https://cinemabristol.it/tranquillofunerale.htm",
-    "title": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
-    "director": "Massimiliano Bruno�",
-    "schedule": {
-      "Gio.": [
-        "18,40"
-      ],
-      "Ven.": [
-        "21,00"
-      ],
-      "Sab.": [
-        "18,40",
-        "21,00"
-      ],
-      "Dom": [
-        "14,30",
-        "18,40",
-        "21,00"
-      ],
-      "Lun.": [
-        "21,00"
-      ],
-      "Mar.": [
-        "18,40"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "image8561.png",
-    "description": "The day of the funeral of the patriarch of the Mancuso family, long-repressed grudges re-emerge between his children Daria and Riccardo. A solemn ceremony reveals the frailties and contradictions of a family that is anything but p...",
-    "wikipedia": {
-      "title": "Un tranquillo funerale di famiglia",
-      "url": "https://it.wikipedia.org/wiki/Un%20tranquillo%20funerale%20di%20famiglia"
-    },
-    "omdb": {
-      "imdbID": "tt41973396",
-      "imdbRating": null,
-      "year": "2026",
-      "plot": "The day of the funeral of the patriarch of the Mancuso family, long-repressed grudges re-emerge between his children Daria and Riccardo. A solemn ceremony reveals the frailties and contradictions of a family that is anything but p..."
-    },
-    "confidence": {
-      "omdbScore": 90,
-      "wikipediaFound": true
-    }
-  },
-  {
-    "id": "tuneraccordatore",
-    "url": "https://cinemabristol.it/tuneraccordatore.htm",
-    "title": "TUNER L�ACCORDATORE",
-    "director": "Daniel Roher",
+    "id": "santiago",
+    "url": "https://cinemabristol.it/santiago.htm",
+    "title": "SANTIAGO - UN CAMMINO PER RICOMINCIARE",
+    "director": "Yann Samuell",
     "schedule": {
       "Gio.": [
         "21,00"
@@ -199,11 +258,11 @@
         "21,00"
       ]
     },
-    "poster": "image6631.png",
+    "poster": "image8621.png",
     "description": null,
     "wikipedia": {
-      "title": "Tuner - L'accordatore",
-      "url": "https://it.wikipedia.org/wiki/Tuner%20-%20L'accordatore"
+      "title": "Santiago",
+      "url": "https://it.wikipedia.org/wiki/Santiago"
     },
     "omdb": null,
     "confidence": {
