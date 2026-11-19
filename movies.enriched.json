@@ -1,147 +1,25 @@
 [
   {
-    "id": "acutis",
-    "url": "https://cinemabristol.it/acutis.htm",
-    "title": "CARLO ACUTIS - IL GIOVANE SANTO",
-    "director": "Luca Salmaso�",
-    "schedule": {
-      "Dom": [
-        "15,00"
-      ]
-    },
-    "poster": "image5961.png",
-    "description": null,
-    "wikipedia": {
-      "title": "Carlo Acutis",
-      "url": "https://it.wikipedia.org/wiki/Carlo%20Acutis"
-    },
-    "omdb": null,
-    "confidence": {
-      "omdbScore": 0,
-      "wikipediaFound": true
-    }
-  },
-  {
-    "id": "dioride",
-    "url": "https://cinemabristol.it/dioride.htm",
-    "title": "DIO RIDE",
-    "director": "Giovanni Veronesi�",
-    "schedule": {
-      "Gio.": [
-        "21,00"
-      ],
-      "Ven.": [
-        "18,40"
-      ],
-      "Sab.": [
-        "16,30"
-      ],
-      "Dom": [
-        "18,40"
-      ],
-      "Lun.": [
-        "21,00"
-      ],
-      "Mar.": [
-        "18,40"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "image10901.png",
-    "description": "In the seventeenth century in Tuscany: a friar manages to speak of God by making the masses laugh. But his attitude attracts the hostility of the Church.",
-    "wikipedia": {
-      "title": "Dio ride",
-      "url": "https://it.wikipedia.org/wiki/Dio%20ride"
-    },
-    "omdb": {
-      "imdbID": "tt37601990",
-      "imdbRating": null,
-      "year": "2026",
-      "plot": "In the seventeenth century in Tuscany: a friar manages to speak of God by making the masses laugh. But his attitude attracts the hostility of the Church."
-    },
-    "confidence": {
-      "omdbScore": 90,
-      "wikipediaFound": true
-    }
-  },
-  {
-    "id": "tranquillofunerale",
-    "url": "https://cinemabristol.it/tranquillofunerale.htm",
-    "title": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
-    "director": "Massimiliano Bruno�",
-    "schedule": {
-      "Gio.": [
-        "18,40"
-      ],
-      "Ven.": [
-        "21,00"
-      ],
-      "Sab.": [
-        "21,00"
-      ],
-      "Dom": [
-        "21,00"
-      ],
-      "Lun.": [],
-      "Mar.": [
-        "21,00"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "image9421.png",
-    "description": "The day of the funeral of the patriarch of the Mancuso family, long-repressed grudges re-emerge between his children Daria and Riccardo. A solemn ceremony reveals the frailties and contradictions of a family that is anything but p...",
-    "wikipedia": {
-      "title": "Un tranquillo funerale di famiglia",
-      "url": "https://it.wikipedia.org/wiki/Un%20tranquillo%20funerale%20di%20famiglia"
-    },
-    "omdb": {
-      "imdbID": "tt41973396",
-      "imdbRating": null,
-      "year": "2026",
-      "plot": "The day of the funeral of the patriarch of the Mancuso family, long-repressed grudges re-emerge between his children Daria and Riccardo. A solemn ceremony reveals the frailties and contradictions of a family that is anything but p..."
-    },
-    "confidence": {
-      "omdbScore": 90,
-      "wikipediaFound": true
-    }
-  },
-  {
     "id": "weekendartificiale",
     "url": "https://cinemabristol.it/weekendartificiale.htm",
     "title": "UN WEEKEND ARTIFICIALE",
     "director": "Leonardo Pieraccioni",
     "schedule": {
-      "Gio.": [
-        "18,40",
-        "21,00"
-      ],
-      "Ven.": [
-        "21,00"
-      ],
+      "Gio.": [],
+      "Ven.": [],
       "Sab.": [
-        "18,40",
-        "21,00"
+        "16,30"
       ],
       "Dom": [
-        "16,30",
-        "18,40",
-        "21,00"
+        "14,45"
       ],
-      "Lun.": [
-        "21,00"
-      ],
-      "Mar.": [
-        "18,40"
-      ],
+      "Lun.": [],
+      "Mar.": [],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "image4511.png",
+    "poster": "image10461.png",
     "description": "Follows a very messy weekend of suspicion, emotions and twists, before feelings and real life send everyone into a tailspin.",
     "wikipedia": {
       "title": "Un weekend artificiale",
@@ -159,20 +37,18 @@
     }
   },
   {
-    "id": "sedomaninontorno",
-    "url": "https://cinemabristol.it/sedomaninontorno.htm",
-    "title": "SE DOMANI NON TORNO",
-    "director": "Paola Randi",
+    "id": "rumorecosenuove",
+    "url": "https://cinemabristol.it/rumorecosenuove.htm",
+    "title": "IL RUMORE DELLE COSE NUOVE",
+    "director": "Paolo Genovese�",
     "schedule": {
       "Gio.": [
-        "18,40"
+        "21,00"
       ],
       "Ven.": [
-        "18,40",
         "21,00"
       ],
       "Sab.": [
-        "16,30",
         "18,40",
         "21,00"
       ],
@@ -192,7 +68,55 @@
         "closed"
       ]
     },
-    "poster": "image5831.png",
+    "poster": "image8701.png",
+    "description": "The illicit satisfaction of curiosity drags the lives of seven people into a vortex that envelops, traps and brings them into conflict with one another. Every remnant of normality is eroded by the disruptive force of secrets, some...",
+    "wikipedia": {
+      "title": "Il rumore delle cose nuove",
+      "url": "https://it.wikipedia.org/wiki/Il%20rumore%20delle%20cose%20nuove"
+    },
+    "omdb": {
+      "imdbID": "tt38281377",
+      "imdbRating": null,
+      "year": "2026",
+      "plot": "The illicit satisfaction of curiosity drags the lives of seven people into a vortex that envelops, traps and brings them into conflict with one another. Every remnant of normality is eroded by the disruptive force of secrets, some..."
+    },
+    "confidence": {
+      "omdbScore": 90,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "sedomaninontorno",
+    "url": "https://cinemabristol.it/sedomaninontorno.htm",
+    "title": "SE DOMANI NON TORNO",
+    "director": "Paola Randi",
+    "schedule": {
+      "Gio.": [],
+      "Ven.": [
+        "18,40",
+        "21,00"
+      ],
+      "Sab.": [
+        "18,40",
+        "21,00"
+      ],
+      "Dom": [
+        "16,30",
+        "18,40",
+        "21,00"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "18,40",
+        "21,00"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "image8931.png",
     "description": "It follows the tragic story of Giulia Cecchettin, starting from the private pain of her father, Gino Cecchettin, and culminating in a cinematic story that stems from the book of the victim's father, entitled: Dear Giulia.",
     "wikipedia": {
       "title": "Se domani non torno",
@@ -218,11 +142,10 @@
       "Gio.": [],
       "Ven.": [],
       "Sab.": [
-        "16,30",
-        "18,40"
+        "16,30"
       ],
       "Dom": [
-        "16,30"
+        "14,30"
       ],
       "Lun.": [],
       "Mar.": [],
@@ -230,7 +153,7 @@
         "closed"
       ]
     },
-    "poster": "image6511.png",
+    "poster": "image9641.png",
     "description": null,
     "wikipedia": {
       "title": "Il gatto col cappello (film)",
@@ -243,10 +166,56 @@
     }
   },
   {
-    "id": "santiago",
-    "url": "https://cinemabristol.it/santiago.htm",
-    "title": "SANTIAGO - UN CAMMINO PER RICOMINCIARE",
-    "director": "Yann Samuell",
+    "id": "scrooge",
+    "url": "https://cinemabristol.it/scrooge.htm",
+    "title": "SCROOGE E GLI SPIRITI DEL NATALE",
+    "director": "Ti West�",
+    "schedule": {
+      "Gio.": [
+        "21,00"
+      ],
+      "Ven.": [
+        "18,40",
+        "21,00"
+      ],
+      "Sab.": [
+        "16,30",
+        "18,40",
+        "21,00"
+      ],
+      "Dom": [
+        "14,30",
+        "16,30",
+        "18,40",
+        "21,00"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "18,40"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "image8621.png",
+    "description": null,
+    "wikipedia": {
+      "title": "Scrooge e gli spiriti del Natale",
+      "url": "https://it.wikipedia.org/wiki/Scrooge%20e%20gli%20spiriti%20del%20Natale"
+    },
+    "omdb": null,
+    "confidence": {
+      "omdbScore": 0,
+      "wikipediaFound": true
+    }
+  },
+  {
+    "id": "palestina36",
+    "url": "https://cinemabristol.it/palestina36.htm",
+    "title": "PALESTINA 36 - QUANDO TUTTO EBBE INIZIO",
+    "director": "Annemarie Jacir",
     "schedule": {
       "Gio.": [
         "21,00"
@@ -258,11 +227,11 @@
         "21,00"
       ]
     },
-    "poster": "image8621.png",
+    "poster": "image5031.png",
     "description": null,
     "wikipedia": {
-      "title": "Santiago",
-      "url": "https://it.wikipedia.org/wiki/Santiago"
+      "title": "Palestina 36 - Quando tutto ebbe inizio",
+      "url": "https://it.wikipedia.org/wiki/Palestina%2036%20-%20Quando%20tutto%20ebbe%20inizio"
     },
     "omdb": null,
     "confidence": {

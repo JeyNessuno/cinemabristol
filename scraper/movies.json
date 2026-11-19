@@ -1,82 +1,33 @@
 [
   {
-    "id": "acutis",
-    "url": "https://cinemabristol.it/acutis.htm",
-    "title": "CARLO ACUTIS - IL GIOVANE SANTO",
-    "director": "Luca Salmaso�",
-    "schedule": {
-      "Dom": [
-        "15,00"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image5961.png"
-  },
-  {
-    "id": "dioride",
-    "url": "https://cinemabristol.it/dioride.htm",
-    "title": "DIO RIDE",
-    "director": "Giovanni Veronesi�",
-    "schedule": {
-      "Gio.": [
-        "21,00"
-      ],
-      "Ven.": [
-        "18,40"
-      ],
-      "Sab.": [
-        "16,30"
-      ],
-      "Dom": [
-        "18,40"
-      ],
-      "Lun.": [
-        "21,00"
-      ],
-      "Mar.": [
-        "18,40"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image10901.png"
-  },
-  {
-    "id": "tranquillofunerale",
-    "url": "https://cinemabristol.it/tranquillofunerale.htm",
-    "title": "UN TRANQUILLO FUNERALE DI FAMIGLIA",
-    "director": "Massimiliano Bruno�",
-    "schedule": {
-      "Gio.": [
-        "18,40"
-      ],
-      "Ven.": [
-        "21,00"
-      ],
-      "Sab.": [
-        "21,00"
-      ],
-      "Dom": [
-        "21,00"
-      ],
-      "Lun.": [],
-      "Mar.": [
-        "21,00"
-      ],
-      "Mer.": [
-        "closed"
-      ]
-    },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image9421.png"
-  },
-  {
     "id": "weekendartificiale",
     "url": "https://cinemabristol.it/weekendartificiale.htm",
     "title": "UN WEEKEND ARTIFICIALE",
     "director": "Leonardo Pieraccioni",
     "schedule": {
+      "Gio.": [],
+      "Ven.": [],
+      "Sab.": [
+        "16,30"
+      ],
+      "Dom": [
+        "14,45"
+      ],
+      "Lun.": [],
+      "Mar.": [],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image10461.png"
+  },
+  {
+    "id": "rumorecosenuove",
+    "url": "https://cinemabristol.it/rumorecosenuove.htm",
+    "title": "IL RUMORE DELLE COSE NUOVE",
+    "director": "Paolo Genovese�",
+    "schedule": {
       "Gio.": [
-        "18,40",
         "21,00"
       ],
       "Ven.": [
@@ -95,13 +46,14 @@
         "21,00"
       ],
       "Mar.": [
-        "18,40"
+        "18,40",
+        "21,00"
       ],
       "Mer.": [
         "closed"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image4511.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image8701.png"
   },
   {
     "id": "sedomaninontorno",
@@ -109,15 +61,12 @@
     "title": "SE DOMANI NON TORNO",
     "director": "Paola Randi",
     "schedule": {
-      "Gio.": [
-        "18,40"
-      ],
+      "Gio.": [],
       "Ven.": [
         "18,40",
         "21,00"
       ],
       "Sab.": [
-        "16,30",
         "18,40",
         "21,00"
       ],
@@ -137,7 +86,7 @@
         "closed"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image5831.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image8931.png"
   },
   {
     "id": "gattocappello",
@@ -148,11 +97,10 @@
       "Gio.": [],
       "Ven.": [],
       "Sab.": [
-        "16,30",
-        "18,40"
+        "16,30"
       ],
       "Dom": [
-        "16,30"
+        "14,30"
       ],
       "Lun.": [],
       "Mar.": [],
@@ -160,13 +108,49 @@
         "closed"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image6511.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image9641.png"
   },
   {
-    "id": "santiago",
-    "url": "https://cinemabristol.it/santiago.htm",
-    "title": "SANTIAGO - UN CAMMINO PER RICOMINCIARE",
-    "director": "Yann Samuell",
+    "id": "scrooge",
+    "url": "https://cinemabristol.it/scrooge.htm",
+    "title": "SCROOGE E GLI SPIRITI DEL NATALE",
+    "director": "Ti West�",
+    "schedule": {
+      "Gio.": [
+        "21,00"
+      ],
+      "Ven.": [
+        "18,40",
+        "21,00"
+      ],
+      "Sab.": [
+        "16,30",
+        "18,40",
+        "21,00"
+      ],
+      "Dom": [
+        "14,30",
+        "16,30",
+        "18,40",
+        "21,00"
+      ],
+      "Lun.": [
+        "21,00"
+      ],
+      "Mar.": [
+        "18,40"
+      ],
+      "Mer.": [
+        "closed"
+      ]
+    },
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image8621.png"
+  },
+  {
+    "id": "palestina36",
+    "url": "https://cinemabristol.it/palestina36.htm",
+    "title": "PALESTINA 36 - QUANDO TUTTO EBBE INIZIO",
+    "director": "Annemarie Jacir",
     "schedule": {
       "Gio.": [
         "21,00"
@@ -178,6 +162,6 @@
         "21,00"
       ]
     },
-    "poster": "http://www.cinemabristol.it/inproiezione_file/image8621.png"
+    "poster": "http://www.cinemabristol.it/inproiezione_file/image5031.png"
   }
 ]
